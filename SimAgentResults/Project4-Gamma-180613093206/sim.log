@@ -1,0 +1,70 @@
+18-06-13 09:32:37 > 
+18-06-13 09:32:37 > Job created
+18-06-13 09:32:40 > Run initiated
+18-06-13 09:32:40 > Creating directory snapshot
+18-06-13 09:32:42 > Project4-Gamma-180613093206.zip created
+18-06-13 09:32:42 > Creating NSG parameter files: param.properties,input.properties
+18-06-13 09:32:42 > Validating job build with NSG...
+18-06-13 09:32:44 > Connecting to :22 over SSH
+18-06-13 09:32:45 > NSG template validation success
+18-06-13 09:32:48 > NSG template submit success
+18-06-13 09:32:53 > SimDirectory.update_all_jobs() Caught exception: <class 'paramiko.ssh_exception.NoValidConnectionsError'>: [Errno None] Unable to connect to port 22 on 128.206.20.218, 192.168.10.1, 192.168.56.1, 192.168.6.1, fe80::6116:fe3d:6e8e:e2df%6, fe80::dcae:b113:f582:7bb1%12, fe80::e1f9:dfe4:e307:1f30%10 or fe80::f9d9:a416:211d:fbf9%3
+18-06-13 09:32:53 > Updating NSG information on job...
+18-06-13 09:32:56 > 2018-06-13T07:32:49-07:00: Added to NSG run queue.
+18-06-13 09:32:56 > 2018-06-13T07:32:49-07:00: Added to NSG run queue.
+18-06-13 09:32:56 > Updating NSG information on job...
+18-06-13 09:32:57 > 2018-06-13T07:32:49-07:00: Added to NSG run queue.
+18-06-13 09:32:57 > 2018-06-13T07:32:57-07:00: Command rendered successfully: inputfile /projects/ps-nsg/home/nsguser/applications/neuron7.5/installdir/x86_64/bin/nrniv
+18-06-13 09:32:57 > 2018-06-13T07:32:57-07:00: Staging input files to comet
+18-06-13 09:32:57 > 2018-06-13T07:32:49-07:00: Added to NSG run queue.
+18-06-13 09:32:57 > 2018-06-13T07:32:57-07:00: Command rendered successfully: inputfile /projects/ps-nsg/home/nsguser/applications/neuron7.5/installdir/x86_64/bin/nrniv
+18-06-13 09:32:57 > 2018-06-13T07:32:57-07:00: Staging input files to comet
+18-06-13 09:33:58 > Updating NSG information on job...
+18-06-13 09:33:59 > 2018-06-13T07:32:49-07:00: Added to NSG run queue.
+18-06-13 09:33:59 > 2018-06-13T07:32:57-07:00: Command rendered successfully: inputfile /projects/ps-nsg/home/nsguser/applications/neuron7.5/installdir/x86_64/bin/nrniv
+18-06-13 09:33:59 > 2018-06-13T07:32:57-07:00: Staging input files to comet
+18-06-13 09:33:59 > 2018-06-13T07:33:01-07:00: Input files staged successfully to /projects/ps-nsg/home/nsguser/ngbwr/workspace/NGBW-JOB-NEURON75_TG-35EB07124FEC42B2983F86AF82DFC85C/
+18-06-13 09:33:59 > 2018-06-13T07:33:35-07:00: Submitted to comet as job '16945910'.
+18-06-13 09:33:59 > 2018-06-13T07:32:49-07:00: Added to NSG run queue.
+18-06-13 09:33:59 > 2018-06-13T07:32:57-07:00: Command rendered successfully: inputfile /projects/ps-nsg/home/nsguser/applications/neuron7.5/installdir/x86_64/bin/nrniv
+18-06-13 09:33:59 > 2018-06-13T07:32:57-07:00: Staging input files to comet
+18-06-13 09:33:59 > 2018-06-13T07:33:01-07:00: Input files staged successfully to /projects/ps-nsg/home/nsguser/ngbwr/workspace/NGBW-JOB-NEURON75_TG-35EB07124FEC42B2983F86AF82DFC85C/
+18-06-13 09:33:59 > 2018-06-13T07:33:35-07:00: Submitted to comet as job '16945910'.
+18-06-13 09:35:36 > *** Caught exception: <class 'SimAgentMPI.nsg.nsgclient.CipresError'>: HTTP Code: 404, File: stdout.txt not found in job's working directory.
+18-06-13 09:36:37 > Updating NSG information on job...
+18-06-13 09:36:38 > 2018-06-13T07:32:49-07:00: Added to NSG run queue.
+18-06-13 09:36:38 > 2018-06-13T07:32:57-07:00: Command rendered successfully: inputfile /projects/ps-nsg/home/nsguser/applications/neuron7.5/installdir/x86_64/bin/nrniv
+18-06-13 09:36:38 > 2018-06-13T07:32:57-07:00: Staging input files to comet
+18-06-13 09:36:38 > 2018-06-13T07:33:01-07:00: Input files staged successfully to /projects/ps-nsg/home/nsguser/ngbwr/workspace/NGBW-JOB-NEURON75_TG-35EB07124FEC42B2983F86AF82DFC85C/
+18-06-13 09:36:38 > 2018-06-13T07:33:35-07:00: Submitted to comet as job '16945910'.
+18-06-13 09:36:38 > 2018-06-13T07:34:51-07:00: Trying to transfer results.
+18-06-13 09:36:38 > 2018-06-13T07:35:36-07:00: Output files retrieved.  Task is finished.
+18-06-13 09:36:38 > 2018-06-13T07:32:49-07:00: Added to NSG run queue.
+18-06-13 09:36:38 > 2018-06-13T07:32:57-07:00: Command rendered successfully: inputfile /projects/ps-nsg/home/nsguser/applications/neuron7.5/installdir/x86_64/bin/nrniv
+18-06-13 09:36:38 > 2018-06-13T07:32:57-07:00: Staging input files to comet
+18-06-13 09:36:38 > 2018-06-13T07:33:01-07:00: Input files staged successfully to /projects/ps-nsg/home/nsguser/ngbwr/workspace/NGBW-JOB-NEURON75_TG-35EB07124FEC42B2983F86AF82DFC85C/
+18-06-13 09:36:39 > 2018-06-13T07:33:35-07:00: Submitted to comet as job '16945910'.
+18-06-13 09:36:39 > 2018-06-13T07:34:51-07:00: Trying to transfer results.
+18-06-13 09:36:39 > 2018-06-13T07:35:36-07:00: Output files retrieved.  Task is finished.
+18-06-13 09:36:39 > NSG Job found in finished state
+18-06-13 09:36:42 > 2018-06-13T07:32:49-07:00: Added to NSG run queue.
+18-06-13 09:36:42 > 2018-06-13T07:32:57-07:00: Command rendered successfully: inputfile /projects/ps-nsg/home/nsguser/applications/neuron7.5/installdir/x86_64/bin/nrniv
+18-06-13 09:36:42 > 2018-06-13T07:32:57-07:00: Staging input files to comet
+18-06-13 09:36:42 > 2018-06-13T07:33:01-07:00: Input files staged successfully to /projects/ps-nsg/home/nsguser/ngbwr/workspace/NGBW-JOB-NEURON75_TG-35EB07124FEC42B2983F86AF82DFC85C/
+18-06-13 09:36:42 > 2018-06-13T07:33:35-07:00: Submitted to comet as job '16945910'.
+18-06-13 09:36:42 > 2018-06-13T07:34:51-07:00: Trying to transfer results.
+18-06-13 09:36:42 > 2018-06-13T07:35:36-07:00: Output files retrieved.  Task is finished.
+18-06-13 09:36:42 > 2018-06-13T07:32:49-07:00: Added to NSG run queue.
+18-06-13 09:36:42 > 2018-06-13T07:32:57-07:00: Command rendered successfully: inputfile /projects/ps-nsg/home/nsguser/applications/neuron7.5/installdir/x86_64/bin/nrniv
+18-06-13 09:36:42 > 2018-06-13T07:32:57-07:00: Staging input files to comet
+18-06-13 09:36:42 > 2018-06-13T07:33:01-07:00: Input files staged successfully to /projects/ps-nsg/home/nsguser/ngbwr/workspace/NGBW-JOB-NEURON75_TG-35EB07124FEC42B2983F86AF82DFC85C/
+18-06-13 09:36:42 > 2018-06-13T07:33:35-07:00: Submitted to comet as job '16945910'.
+18-06-13 09:36:42 > 2018-06-13T07:34:51-07:00: Trying to transfer results.
+18-06-13 09:36:42 > 2018-06-13T07:35:36-07:00: Output files retrieved.  Task is finished.
+18-06-13 09:36:42 > Downloading: STDOUT
+18-06-13 09:36:42 > Downloading: STDERR
+18-06-13 09:36:42 > Downloading: Project4-Gamma-180613093206-nsg-return.tar.gz
+18-06-13 09:36:56 > Extracting results
+18-06-13 09:37:42 > Extracted results to C:/Users/latimerb/Desktop/Project4/Project4-Gamma\SimAgentResults\Project4-Gamma-180613093206\Project4-Gamma-180613093206-nsg-return
+18-06-13 09:37:50 > NSG Job Deleted on remote server
+18-06-13 09:38:01 > Executed cd "C:/Users/latimerb/Desktop/Project4/Project4-Gamma\SimAgentResults\Project4-Gamma-180613093206\Project4-Gamma-180613093206-nsg-return\Project4-Gamma-180613093206" && start matlab -nodsplay -nosplash -r \"run('results.m')\" && exit

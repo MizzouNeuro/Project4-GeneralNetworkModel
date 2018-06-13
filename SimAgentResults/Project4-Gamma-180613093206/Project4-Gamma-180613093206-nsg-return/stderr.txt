@@ -1,0 +1,19 @@
+NEURON -- VERSION 7.5 master (6b4c19f) 2017-09-25
+Duke, Yale, and the BlueBrain Project -- Copyright 1984-2016
+See http://neuron.yale.edu/neuron/credits
+
+Additional mechanisms from files
+ mod_nsgportal/BG_ALL.mod mod_nsgportal/Chn_Pyr.mod mod_nsgportal/ExpGABAab.mod mod_nsgportal/ITN_Pyr.mod mod_nsgportal/MyExp2Sid.mod mod_nsgportal/MyExp2Sidnw.mod mod_nsgportal/Pyr_ITN.mod mod_nsgportal/SIN.mod mod_nsgportal/bg2pyr.mod mod_nsgportal/ca.mod mod_nsgportal/cadyn.mod mod_nsgportal/cal2.mod mod_nsgportal/capool.mod mod_nsgportal/ch_CavL.mod mod_nsgportal/ch_CavN.mod mod_nsgportal/ch_HCN.mod mod_nsgportal/ch_HCNolm.mod mod_nsgportal/ch_HCNp.mod mod_nsgportal/ch_KCaS.mod mod_nsgportal/ch_Kdrfast.mod mod_nsgportal/ch_Kdrfastngf.mod mod_nsgportal/ch_Kdrp.mod mod_nsgportal/ch_Kdrslow.mod mod_nsgportal/ch_KvA.mod mod_nsgportal/ch_KvAdistp.mod mod_nsgportal/ch_KvAngf.mod mod_nsgportal/ch_KvAolm.mod mod_nsgportal/ch_KvAproxp.mod mod_nsgportal/ch_KvCaB.mod mod_nsgportal/ch_KvGroup.mod mod_nsgportal/ch_KvM.mod mod_nsgportal/ch_Nav.mod mod_nsgportal/ch_Navaxonp.mod mod_nsgportal/ch_Navbis.mod mod_nsgportal/ch_Navcck.mod mod_nsgportal/ch_Navngf.mod mod_nsgportal/ch_Navp.mod mod_nsgportal/ch_leak.mod mod_nsgportal/currentclamp.mod mod_nsgportal/fastconn.mod mod_nsgportal/function_TMonitor.mod mod_nsgportal/h.mod mod_nsgportal/iconc_Ca.mod mod_nsgportal/im.mod mod_nsgportal/kaprox.mod mod_nsgportal/kca.mod mod_nsgportal/kdrca1.mod mod_nsgportal/kdrinter.mod mod_nsgportal/km.mod mod_nsgportal/kv.mod mod_nsgportal/leak.mod mod_nsgportal/leakinter.mod mod_nsgportal/mynetstim.mod mod_nsgportal/na12.mod mod_nsgportal/na16.mod mod_nsgportal/na3.mod mod_nsgportal/na3DA.mod mod_nsgportal/nainter.mod mod_nsgportal/nap.mod mod_nsgportal/nat.mod mod_nsgportal/positionfcns.mod mod_nsgportal/repeatconn.mod mod_nsgportal/sahp.mod mod_nsgportal/sgate.mod mod_nsgportal/xtra.mod
+cp: cannot stat `../hg_status.out': No such file or directory
+cp: cannot stat `../hg_diff.out': No such file or directory
+ls: cannot access vercomment.txt: No such file or directory
+ls: cannot access version.txt: No such file or directory
+sh: topcmd.sh: No such file or directory
+sh: topcmd.sh: No such file or directory
+sh: topcmd.sh: No such file or directory
+sh: topcmd.sh: No such file or directory
+sh: topcmd.sh: No such file or directory
+sh: topcmd.sh: No such file or directory
+[comet-22-12.sdsc.edu:14340] 1 more process has sent help message help-mpi-runtime.txt / mpi_init:warn-fork
+[comet-22-12.sdsc.edu:14340] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[comet-22-12.sdsc.edu:14340] 78 more processes have sent help message help-mpi-runtime.txt / mpi_init:warn-fork

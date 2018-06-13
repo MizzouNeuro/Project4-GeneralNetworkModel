@@ -1,0 +1,1997 @@
+Starting model at Wed Jun 13 01:20:10 CEST 2018
+numprocs=160
+NEURON -- VERSION 7.5 master (6b4c19f) 2017-09-25
+Duke, Yale, and the BlueBrain Project -- Copyright 1984-2016
+See http://neuron.yale.edu/neuron/credits
+
+Additional mechanisms from files
+ cadyn.mod capool.mod ch_CavL.mod ch_CavN.mod ch_HCN.mod ch_HCNolm.mod ch_HCNp.mod ch_KCaS.mod ch_Kdrfast.mod ch_Kdrfastngf.mod ch_Kdrp.mod ch_Kdrslow.mod ch_KvAdistp.mod ch_KvA.mod ch_KvAngf.mod ch_KvAolm.mod ch_KvAproxp.mod ch_KvCaB.mod ch_KvGroup.mod ch_KvM.mod ch_leak.mod ch_Navaxonp.mod ch_Navbis.mod ch_Navcck.mod ch_Nav.mod ch_Navngf.mod ch_Navp.mod ExpGABAab.mod fastconn.mod h.mod iconc_Ca.mod im.mod kaprox.mod kdrca1.mod kv.mod leak.mod MyExp2Sid.mod MyExp2Sidnw.mod mynetstim.mod na12.mod na16.mod na3DA.mod na3.mod nainter.mod nap.mod nat.mod positionfcns.mod repeatconn.mod sahp.mod sgate.mod SIN.mod xtra.mod
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for Note, there was no axonal distribution file for BG
+BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for InterneuronNote, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for 
+Note, there was no axonal distribution file for BG
+BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+sh: git: command not found
+sh: git: command not found
+sh: git: command not found
+Host 46  created cells.
+153 nrniv: connect_pre : can't push that type onto stack
+153  in create_cells_pos.hoc near line 140
+153  {{cellType[1].CellList[0]=new pvbasketcell(953,5,1)}}
+                                                   Host 60  created cells.
+   ^
+        153 pcitr()
+      153 pcitr(..., ..., ..., 900, 999)
+    153 createCells()
+  153 xopen("create_cel...")
+and others
+18 nrniv: connect_pre : can't push that type onto stack
+18  in create_cells_pos.hoc near line 140
+18  {{cellType[1].CellList[0]=new pvbasketcell(978,6,1)}}
+                                               159 nrniv: connect_pre : can't push that type onto stack
+159  in create_cells_pos.hoc near line 140
+159  {{cellType[1].CellList[0]=new pvbasketcell(959,5,1)}}
+                 21 nrniv: connect_pre : can't push that type onto stack
+21  in create_cells_pos.hoc near line 140
+21  {{cellType[1].CellList[0]=new pvbasketcell(981,6,1)}}
+                                                      ^
+        21 pcitr()
+      21 pcitr(..., ..., ..., 900, Host 47  created cells.
+125 nrniv: connect_pre : can't push that type onto stack
+125  in create_cells_pos.hoc near line 140
+125  {{cellType[1].CellList[0]=new pvbasketcell(925,5,1)}}
+                    Host 95  created cells.
+35 nrniv: connect_pre : can't push that type onto stack
+35  in create_cells_pos.hoc near line 140
+35  {{cellType[1].CellList[0]=new pvbasketcell(995,6,1)}}
+                                                      ^
+        35 pcitr()
+      35 pcitr(..., ..., ..., 900, Host 48  created cells.
+                                     ^
+        159 pcitr()
+      Host 80  created cells.
+36 nrniv: connect_pre : can't push that type onto stack
+36  in create_cells_pos.hoc near line 140
+36  {{cellType[1].CellList[0]=new pvbasketcell(996,6,1)}}
+                                                      ^
+        36 pcitr()
+      36 pcitr(..., ..., ..., 900, 999)
+    36 createCells()
+  36 xopen("create_cel...")
+and others
+Host 73  created cells.
+                                  ^
+        125 pcitr()
+  101 nrniv: connect_pre : can't push that type onto stack
+101  in create_cells_pos.hoc near line 140
+101  {{cellType[1].CellList[0]=new pvbasketcell(901,5,1)}}
+                                                      ^
+        101 pcitr(4 nrniv: connect_pre : can't push that type onto stack
+4  in create_cells_pos.hoc near line 140
+4  {{cellType[1].CellList[0]=new pvbasketcell(964,6,1)}}
+                                                      ^
+Host 40  created cells.
+159 pcitr(..., ..., ..., 900, 999)
+    159 createCells()
+  159 xopen("create_cel...")
+and others
+)
+      101 pcitr(..., ..., ..., 900, 999)
+    101 createCells()
+  101 xopen("create_cel...")
+and others
+       ^
+        18 pcitr()
+      18 pcitr(..., ..., ..., 900, 999)
+    18 createCells()
+  18 xopen("create_cel...")
+and others
+Host 42  created cells.
+    125 pcitr(..., ..., ..., 900, 999)
+    125 createCells()
+  125 xopen("create_cel...")
+and others
+100 nrniv: connect_pre : can't push that type onto stack
+100  in create_cells_pos.hoc near line 140
+100  {{cellType[1].CellList[0]=new pvbasketcell(900,5,1)}}
+                                                      20 nrniv: connect_pre : can't push that type onto stack
+20  in create_cells_pos.hoc near line 140
+20  {{cellType[1].CellList[0]=new pvbasketcell(980,6,1)}}
+                                                      ^
+        20 pcitr()
+      20 pcitr(..., ..., ..., 900, 999)
+    20 createCells()
+  20 xopen("create_cel...")
+and others
+Host 43  created cells.
+129 nrniv: connect_pre : can't push that type onto stack
+129  in create_cells_pos.hoc near line 140
+129  {{cellType[1].CellList[0]=new pvbasketcell(929,5,1)}}
+                                          ^
+        100 pcitr()
+      100 pcitr(..., ..., ..., 900, 999)
+    100 createCells()
+  100 xopen("create_cel...")
+and others
+999)
+    21 createCells()
+  21 xopen("create_cel...")
+and others
+Host 76  created cells.
+140 nrniv: connect_pre : can't push that type onto stack
+140  in create_cells_pos.hoc near line 140
+140  {{cellType[1].CellList[0]=new pvbasketcell(940,5,1)}}
+                                                      26 nrniv: connect_pre : can't push that type onto stack
+26  in create_cells_pos.hoc near line 140
+26  {{cellType[1].CellList[0]=new pvbasketcell(986,6,1)}}
+                                                      ^
+        26 pcitr()
+      26 pcitr(..., ..., ..., 900, 999)
+    26 createCells()
+  26 xopen("create_cel...")
+and others
+155 nrniv: connect_pre : can't push that type onto stack
+155  in create_cells_pos.hoc near line 140
+155  {{cellType[1].CellList[0]=new pvbasketcell(955,5,1)}}
+                                                      ^
+        155 pcitr()
+Host 83  created cells.
+999)
+    35 createCells()
+  35 xopen("create_cel...")
+and others
+Host 65  created cells.
+            ^
+        129 pcitr()
+      129 pcitr(..., ..., ..., 900, 999)
+    129 createCells()
+  129 xopen("create_cel...")
+and others
+114 nrniv: connect_pre : can't push that type onto stack
+114  in create_cells_pos.hoc near line 140
+114  {{cellType[1].CellList[0]=new pvbasketcell(914,5,1)}}
+                                                 4 pcitr()
+      4 pcitr(..., ..., ..., 900, 999)
+    4 createCells()
+  4 xopen("create_cel...")
+and others
+Host 66  created cells.
+138 nrniv: connect_pre : can't push that type onto stack
+138  in create_cells_pos.hoc near line 140
+138  {{cellType[1].CellList[0]=new pvbasketcell(938,5,1)}}
+                                                      ^
+        138 pcitr()
+      138 pcitr(..., ..., Host 93  created cells.
+14 nrniv: connect_pre : can't push that type onto stack
+14  in create_cells_pos.hoc near line 140
+14  {{cellType[1].CellList[0]=new pvbasketcell(974,6,1)}}
+                                                      ^
+        14 pcitr()
+      14 pcitr(..., ..., ..., 900, 999)
+    14 createCells()
+Host 79  created cells.
+^
+        140 pcitr()
+      140 pcitr(..., ..., ..., 900, 999)
+    140 createCells()
+  140 xopen("create_cel...")
+and others
+Host 98  created cells.
+6 nrniv: connect_pre : can't push that type onto stack
+6  in create_cells_pos.hoc near line 140
+6  {{cellType[1].CellList[0]=new pvbasketcell(966,6,1)}}
+    Host 45  created cells.
+147 nrniv: connect_pre : can't push that type onto stack
+147  in create_cells_pos.hoc near line 140
+147  {{cellType[1].CellList[0]=new pvbasketcell(947,5,1)}}
+                                                ^
+        114 pcitr()
+      114 pcitr(...  14 xopen("create_cel...")
+and others
+Host 50  created cells.
+      155 pcitr(..., ..., ..., 900, 999)
+    155 createCells()
+  155 xopen("create_cel...")
+and others
+Host 97  created cells.
+                                             Host 78  created cells.
+124 nrniv: connect_pre : can't push that type onto stack
+124  in create_cells_pos.hoc near line 140
+124  {{cellType[1].CellList[0]=new pvbasketcell(924,5,1)}}
+                                                104 nrniv: connect_pre : can't push that type onto stack
+104  in create_cells_pos.hoc near line 140
+104  {{cellType[1].CellList[0]=new pvbasketcell(904,5,1)}}
+                                  ^
+        6 pcitr()
+      6 pcitr(..., ..., ..., Host 44  created cells.
+135 nrniv: connect_pre : can't push that type onto stack
+135  in create_cells_pos.hoc near line 140
+135  {{cellType[1].CellList[0]=new pvbasketcell(935,5,1)}}
+                                                      ^
+  108 nrniv: connect_pre : can't push that type onto stack
+108  in create_cells_pos.hoc near line 140
+108  {{cellType[1].CellList[0]=new pvbasketcell(908,5,1)}}
+                                    900, 999)
+    6 createCells()
+  6 xopen("create_cel...")
+and others
+Host 53  created cells.
+..., 900, 999)
+    138 createCells()
+  138 xopen("create_cel...")
+and others
+, ..., ..., 900, 999)
+    114 createCells()
+  114 xopen("create_cel...")
+and others
+22 nrniv: connect_pre : can't push that type onto stack
+22  in create_cells_pos.hoc near line 140
+22  {{cellType[1].CellList[0]=new pvbasketcell(982,6,1)}}
+                          Host 61  created cells.
+                   ^
+        147 pcitr()
+      147 pcitr(..., ..., ..., 900, 999)
+    Host 81  created cells.
+                            ^
+    Host 49  created cells.
+      ^
+        124 pcitr()
+      124 pcitr(..., ..., ..., 900, 999)
+    124 createCells()
+  124 xopen("create_cel...")
+and others
+Host 82  created cells.
+    22 pcitr()
+      22 pcitr(..., ..., ..., 900, 999)
+    22 createCells()
+  22 xopen(Host 59  created cells.
+130 nrniv: connect_pre : can't push that type onto stack
+130  in create_cells_pos.hoc near line 140
+130  {{cellType[1].CellList[0]=new pvbasketcell(930,5,1)}}
+                                                     Host 90  created cells.
+"create_cel...")
+and others
+Host 52  created cells.
+      135 pcitr()
+      135 pcitr(..., ..., ..., 900, 999)
+    135 createCells()
+  135 xopen("create_cel...")
+and others
+                         ^
+        104 pcitr()
+      104 pcitr(..., ..., ..., 900, 999)
+    104 createCells()
+  17 nrniv: connect_pre : can't push that type onto stack
+17  in create_cells_pos.hoc near line 140
+17  {{cellType[1].CellList[0]=new pvbasketcell(977,6,1)}}
+                                            Host 57  created cells.
+136 nrniv: connect_pre : can't push that type onto stack
+136  in create_cells_pos.hoc near line 140
+136  {{cellType[1].CellList[0]=new pvbasketcell(936,5,1)}}
+                                                         ^
+        108 pcitr()
+      108 pcitr(..., ..., ..., 900, 999)
+    108 createCells()
+  108 xopen("create_cel...")
+and others
+          ^
+        17 pcitr()
+      17 pcitr(..., ..., ..., Host 62  created cells.
+147 createCells()
+  147 xopen("create_cel...")
+and others
+104 xopen("create_cel...")
+and others
+30 nrniv: connect_pre : can't push that type onto stack
+30  in create_cells_pos.hoc near line 140
+30  {{cellType[1].CellList[0]=new pvbasketcell(990,6,1)}}
+                                                   Host 41  created cells.
+ ^
+        130 pcitr()
+      130 pcitr(..., ..., ..., 900, 999)
+    130 createCells()
+  130 xopen(106 nrniv: connect_pre : can't push that type onto stack
+106  in create_cells_pos.hoc near line 140
+106  {{cellType[1].CellList[0]=new pvbasketcell(906,5,1)}}
+                                                      ^
+        106 pcitr()
+      106 pcitr(..., ..., ..., 900, 999)
+    900, 999)
+    17 createCells()
+  17 xopen("create_cel...")
+and others
+Host 54  created cells.
+               ^
+        136 pcitr()
+      136 pcitr(118 nrniv: connect_pre : can't push that type onto stack
+118  in create_cells_pos.hoc near line 140
+118  {{cellType[1].CellList[0]=new pvbasketcell(918,5,1)}}
+                                                      ^
+        118 pcitr()
+      118 pcitr(..., ..., ..., 900, 999)
+    118 createCells()
+  118 xopen("create_cel...")
+and others
+   ^
+        30 pcitr()
+      30 pcitr(..., ..., ..., Host 56  created cells.
+"create_cel...")
+and others
+106 createCells()
+  106 xopen("create_cel...")
+and others
+27 nrniv: connect_pre : can't push that type onto stack
+27  in create_cells_pos.hoc near line 140
+27  {{cellType[1].CellList[0]=new pvbasketcell(987,6,1)}}
+Host 51  created cells.
+..., ..., ..., 900, 999)
+    136 createCells()
+  136 xopen("create_cel...")
+and others
+Host 86  created cells.
+900, 999)
+    30 createCells()
+  30 xopen("create_cel...")
+and others
+Host 67  created cells.
+120 nrniv: connect_pre : can't push that type onto stack
+120  in create_cells_pos.hoc near line 140
+120  {{cellType[1].CellList[0]=new pvbasketcell(920,5,1)}}
+                                                      ^
+        120 pcitr()
+      120 pcitr(..., ..., ..., 900, 999)
+    120 createCells()
+  120 xopen("create_cel...")
+and others
+109 nrniv: connect_pre : can't push that type onto stack
+109  in create_cells_pos.hoc near line 140
+109  {{cellType[1].CellList[0]=new pvbasketcell(909,5,1)}}
+                                                                                     Host 74  created cells.
+123 nrniv: connect_pre : can't push that type onto stack
+123  in create_cells_pos.hoc near line 140
+123  {{cellType[1].CellList[0]=new pvbasketcell(923,5,1)}}
+                                                      ^
+        123 pcitr()
+      123 pcitr(..., ..., ..., 900, 999)
+    123 createCells()
+  123 xopen("create_cel...")
+and others
+  ^
+        109 pcitr()
+      109 pcitr(..., ..., ..., 900, 999)
+    109 createCells()
+  109 xopen("create_cel..."                     ^
+Host 75  created cells.
+126 nrniv: connect_pre : can't push that type onto stack
+126  in create_cells_pos.hoc near line 140
+126  {{cellType[1].CellList[0]=new pvbasketcell(926,5,1)}}
+                                                      ^
+        126 pcitr()
+      126 pcitr(..., ..., ..., 900, 999)
+    126 createCells()
+  126 xopen("create_cel...")
+and others
+113 nrniv: connect_pre : can't push that type onto stack
+113  in create_cells_pos.hoc near line 140
+113  {{cellType[1].CellList[0]=new pvbasketcell(913,5,1)}}
+                                                      ^
+        27 pcitr()
+      27 pcitr(..., ..., ..., 900, Host 71  created cells.
+131 nrniv: connect_pre : can't push that type onto stack
+131  in create_cells_pos.hoc near line 140
+131  {{cellType[1].CellList[0]=new pvbasketcell(931,5,1)}}
+                                                      ^
+        131 pcitr()
+      131 pcitr(..., ..., ..., 900, 999)
+    131 createCells()
+  131 xopen("create_cel...")
+and others
+)
+and others
+999)
+    27 createCells()
+  27 xopen("create_cel...")
+and others
+Host 72  created cells.
+132 nrniv: connect_pre : can't push that type onto stack
+132  in create_cells_pos.hoc near line 140
+132  {{cellType[1].CellList[0]=new pvbasketcell(932,5,1)}}
+                                                      ^
+        132 pcitr()
+      132 pcitr(..., ..., ..., 900, 999)
+    132 createCells()
+  132 xopen("create_cel...")
+and others
+        113 pcitr()
+      113 pcitr(..., ..., ..., 900, 999)
+    113 createCells()
+  113 xopen("create_cel...")
+and others
+25 nrniv: connect_pre : can't push that type onto stack
+25  in create_cells_pos.hoc near line 140
+25  {{cellType[1].CellList[0]=new pvbasketcell(985,6,1)}}
+                                                Host 55  created cells.
+133 nrniv: connect_pre : can't push that type onto stack
+133  in create_cells_pos.hoc near line 140
+133  {{cellType[1].CellList[0]=new pvbasketcell(933,5,1)}}
+                                                      ^
+        133 pcitr()
+      133 pcitr(..., ..., ..., 900, 999)
+    133 createCells()
+  133 xopen("create_cel...")
+and others
+117 nrniv: connect_pre : can't push that type onto stack
+117  in create_cells_pos.hoc near line 140
+117  {{cellType[1].CellList[0]=new pvbasketcell(917,5,1)}}
+           ^
+        25 pcitr()
+      25 pcitr(..., ..., ..., Host 58  created cells.
+139 nrniv: connect_pre : can't push that type onto stack
+139  in create_cells_pos.hoc near line 140
+139  {{cellType[1].CellList[0]=new pvbasketcell(939,5,1)}}
+                                                      ^
+        139 pcitr()
+      139 pcitr(..., ..., ..., 900, 999)
+    139 createCells()
+  139 xopen("create_cel...")
+and others
+105 nrniv: connect_pre : can't push that type onto stack
+105  in create_cells_pos.hoc near line 140
+105  {{cellType[1].CellList[0]=new pvbasketcell(905,5,1)}}
+                                        900, 999)
+    25 createCells()
+  25 xopen("create_cel...")
+and others
+Host 70  created cells.
+142 nrniv: connect_pre : can't push that type onto stack
+142  in create_cells_pos.hoc near line 140
+142  {{cellType[1].CellList[0]=new pvbasketcell(942,5,1)}}
+                                                      ^
+        142 pcitr()
+      142 pcitr(..., ..., ..., 900, 999)
+    142 createCells()
+  142 xopen("create_cel...")
+and others
+107 nrniv: connect_pre : can't push that type onto stack
+107  in create_cells_pos.hoc near line 140
+107  {{cellType[1].CellList[0]=new pvbasketcell(907,5,1)}}
+                                                      ^
+    3 nrniv: connect_pre : can't push that type onto stack
+3  in create_cells_pos.hoc near line 140
+3  {{cellType[1].CellList[0]=new pvbasketcell(963,6,1)}}
+                    144 nrniv: connect_pre : can't push that type onto stack
+144  in create_cells_pos.hoc near line 140
+144  {{cellType[1].CellList[0]=new pvbasketcell(944,5,1)}}
+                                                      ^
+        144 pcitr()
+      144 pcitr(..., ..., ..., 900, 999)
+    144 createCells()
+  144 xopen("create_cel...")
+and others
+                                                 ^
+        117 pcitr()
+      117 pcitr(..., ..., ..., 900, 999)
+    117 createCells()
+  117 xopen("create_cel...")
+and others
+32 nrniv: connect_pre : can't push that type onto stack
+32  in create_cells_pos.hoc near line 140
+32  {{cellType[1].CellList[0]=new pvbasketcell(992,6,1)}}
+                                                     145 nrniv: connect_pre : can't push that type onto stack
+145  in create_cells_pos.hoc near line 140
+145  {{cellType[1].CellList[0]=new pvbasketcell(945,5,1)}}
+                                                      ^
+        145 pcitr()
+      145 pcitr(..., ..., ..., 900, 999)
+    145 createCells()
+  145 xopen("create_cel...")
+and others
+Host 85  created cells.
+38 nrniv: connect_pre : can't push that type onto stack
+38  in create_cells_pos.hoc near line 140
+38  {{cellType[1].CellList[0]=new pvbasketcell(998,6,1)}}
+                                                      ^
+Host 63  created cells.
+146 nrniv: connect_pre : can't push that type onto stack
+146  in create_cells_pos.hoc near line 140
+146  {{cellType[1].CellList[0]=new pvbasketcell(946,5,1)}}
+                                                      ^
+        146 pcitr()
+      146 pcitr(..., ..., ..., 900, 999)
+    146 createCells()
+  146 xopen("create_cel...")
+and others
+Host 87  created cells.
+                                  ^
+  Host 64  created cells.
+151 nrniv: connect_pre : can't push that type onto stack
+151  in create_cells_pos.hoc near line 140
+151  {{cellType[1].CellList[0]=new pvbasketcell(951,5,1)}}
+                                                      ^
+        151 pcitr()
+      151 pcitr(..., ..., ..., 900, 999)
+    151 createCells()
+  151 xopen("create_cel...")
+and others
+              ^
+        105 pcitr()
+      105 pcitr(..., ..., ..., 900, 999)
+    105 createCells()
+  105 xopen("create_cel...")
+and others
+ ^
+        32 pcitr()
+      32 pcitr(..., ..., ..., Host 77  created cells.
+154 nrniv: connect_pre : can't push that type onto stack
+154  in create_cells_pos.hoc near line 140
+154  {{cellType[1].CellList[0]=new pvbasketcell(954,5,1)}}
+                                                      ^
+        154 pcitr()
+      154 pcitr(..., ..., ..., 900, 999)
+    154 createCells()
+  154 xopen("create_cel...")
+and others
+    107 pcitr()
+      107 pcitr(..., ..., ..., 900, 999)
+    107 createCells()
+  107 xopen("create_cel...")
+and others
+        38 pcitr()
+      38 pcitr(..., ..., ..., 900, 999)
+  Host 68  created cells.
+121 nrniv: connect_pre : can't push that type onto stack
+121  in create_cells_pos.hoc near line 140
+121  {{cellType[1].CellList[0]=new pvbasketcell(921,5,1)}}
+                                                      ^
+        121 pcitr()
+Host 89  created cells.
+      3 pcitr()
+      3 pcitr(..., ..., ..., 900, 999)
+    Host 69  created cells.
+143 nrniv: connect_pre : can't push that type onto stack
+143  in create_cells_pos.hoc near line 140
+143  {{cellType[1].CellList[0]=new pvbasketcell(943,5,1)}}
+             Host 94  created cells.
+24 nrniv: connect_pre : can't push that type onto stack
+24  in create_cells_pos.hoc near line 140
+24  {{cellType[1].CellList[0]=new pvbasketcell(984,6,1)}}
+          158 nrniv: connect_pre : can't push that type onto stack
+158  in create_cells_pos.hoc near line 140
+158  {{cellType[1].CellList[0]=new pvbasketcell(958,5,1)}}
+                                                      ^
+        158 pcitr()
+      158 pcitr(..., ..., ...112 nrniv: connect_pre : can't push that type onto stack
+112  in create_cells_pos.hoc near line 140
+112  {{cellType[1].CellList[0]=new pvbasketcell(912,5,1)}}
+                                                      900, 999)
+    32 createCells()
+  32 xopen("create_cel...")
+and others
+      121 pcitr(..., ..., ..., 900, 999)
+    121 createCells()
+  121 xopen("create_cel...")
+and others
+Host 88  created cells.
+  38 createCells()
+  38 xopen("create_cel...")
+and others
+122 nrniv: connect_pre : can't push that type onto stack
+122  in create_cells_pos.hoc near line 140
+122  {{cellType[1].CellList[0]=new pvbasketcell(922,5,1)}}
+                         Host 99  created cells.
+3 createCells()
+  3 xopen("create_cel...")
+and others
+128 nrniv: connect_pre : can't push that type onto stack
+128  in create_cells_pos.hoc near line 140
+128  {{cellType[1].CellList[0]=new pvbasketcell(928,5,1)}}
+       ^
+        112 pcitr()
+      112 pcitr(..., ..., ..., 900, 9997 nrniv: connect_pre : can't push that type onto stack
+7  in create_cells_pos.hoc near line 140
+7  {{cellType[1].CellList[0]=new pvbasketcell(967,6,1)}}
+                                                      ^
+        7 pcitr()
+      7 pcitr(..., ..., ..., 900, 999)
+    7 createCells()
+  7 xopen("create_cel...")
+and others
+                                         ^
+    )
+    112 createCells()
+  112 xopen("create_cel...")
+and others
+                                            ^
+        24 pcitr()
+      24 pcitr(..., ..., ..., 900, 999)
+    24 createCells()
+  24 xopen("create_cel...")
+and others
+148 nrniv: connect_pre : can't push that type onto stack
+148  in create_cells_pos.hoc near line 140
+148  {{cellType[1].CellList[0]=new pvbasketcell(948,5,1)}}
+                                                      ^
+        148 pcitr()
+      148 pcitr(..., ..., ..., 102 nrniv: connect_pre : can't push that type onto stack
+102  in create_cells_pos.hoc near line 140
+102  {{cellType[1].CellList[0]=new pvbasketcell(902,5,1)}}
+                        39 nrniv: connect_pre : can't push that type onto stack
+39  in create_cells_pos.hoc near line 140
+39  {{cellType[1].CellList[0]=new pvbasketcell(999,6,1)}}
+                                       149 nrniv: connect_pre : can't push that type onto stack
+149  in create_cells_pos.hoc near line 140
+149  {{cellType[1].CellList[0]=new pvbasketcell(949,5,1)}}
+                                                      ^
+        149 pcitr()
+      149 pcitr(..., ..., ..., 900, 999103 nrniv: connect_pre : can't push that type onto stack
+103  in create_cells_pos.hoc near line 140
+103  {{cellType[1].CellList[0]=new pvbasketcell(903,5,1)}}
+                                                  12 nrniv: connect_pre : can't push that type onto stack
+12  in create_cells_pos.hoc near line 140
+12  {{cellType[1].CellList[0]=new pvbasketcell(972,6,1)}}
+                                         , 900, 999)
+    158 createCells()
+  158 xopen("create_cel...")
+and others
+                              ^
+        102 pcitr()
+      102 pcitr(..., ..., ..., 15 nrniv: connect_pre : can't push that type onto stack
+15  in create_cells_pos.hoc near line 140
+15  {{cellType[1].CellList[0]=new pvbasketcell(975,6,1)}}
+                                                      ^
+        15 pcitr()
+      15 pcitr(..., ...                             ^
+        122 pcitr()
+      122 pcitr(..., ..., ..., 900, 999)
+    122 createCells(    ^
+        103 pcitr()
+      103 pcitr(..., ..., ..., 900, 999)
+    103 createCells()
+  103 xopen("create_cel...")
+and others
+               ^
+        39 pcitr()
+      39 pcitr(..., ..., ..., 900, 999)
+    39 createCells()
+  39 xopen("create_cel...")
+and others
+                                               ^
+  Host 96  created cells.
+             ^
+        12 pcitr()
+      12 pcitr(..., ..., ..., 900, 999)
+    12 createCells()
+  12 xopen("create_cel...")
+and others
+    143 pcitr()
+      143 pcitr(..., ..., ..., 900, 999)
+    143 createCells()
+  143 xopen("create_cel...")
+and others
+900, 999)
+    102 createCells()
+  102 xopen("create_cel...")
+and others
+, ..., 900, 999)
+    15 createCells()
+  15 xopen("create_cel...")
+and others
+900, 999)
+    148 createCells()
+  148 xopen("create_cel...")
+and others
+116 nrniv: connect_pre : can't push that type onto stack
+116  in create_cells_pos.hoc near line 140
+116  {{cellType[1].CellList[0]=new pvbasketcell(916,5,1)}}
+                                    16 nrniv: connect_pre : can't push that type onto stack
+16  in create_cells_pos.hoc near line 140
+16  {{cellType[1].CellList[0]=new pvbasketcell(976,6,1)}}
+                                                      ^
+        16 pcitr()
+      16 pcitr(..., ..., ..., 900, 999)
+    16 createCells()
+  16 xopen("create_cel...")
+and others
+)
+    149 createCells()
+  149 xopen("create_cel...")
+and others
+119 nrniv: connect_pre : can't push that type onto stack
+119  in create_cells_pos.hoc near line 140
+119  {{cellType[1].CellList[0]=new pvbasketcell(919,5,1)}}
+                                                      2 nrniv: connect_pre : can't push that type onto stack
+2  in create_cells_pos.hoc near line 140
+2  {{cellType[1].CellList[0]=new pvbasketcell(962,6,1)}}
+                             )
+  122 xopen("create_cel...")
+and others
+                  ^
+        116 pcitr()
+      116 pcitr(...13 nrniv: connect_pre : can't push that type onto stack
+13  in create_cells_pos.hoc near line 140
+13  {{cellType[1].CellList[0]=new pvbasketcell(973,6,1)}}
+                                                           128 pcitr()
+      128 pcitr(..., ..., ..., 900, 999)
+    128 createCells()
+  128 xopen("create_cel...")
+and others
+^
+        119 pcitr()
+      119 pcitr(..., ..., ..., 900, 999)
+    119 createCells()
+  119 xopen(28 nrniv: connect_pre : can't push that type onto stack
+28  in create_cells_pos.hoc near line 140
+28  {{cellType[1].CellList[0]=new pvbasketcell(988,6,1)}}
+                                                      ^
+127 nrniv: connect_pre : can't push that type onto stack
+127  in create_cells_pos.hoc near line 140
+127  {{cellType[1].CellList[0]=new pvbasketcell(927,5,1)}}
+                                            , ..., ..., 900, 999)
+    116 createCells()
+  116 xopen("create_cel...")
+and others
+1 nrniv: connect_pre : can't push that type onto stack
+1  in create_cells_pos.hoc near line 140
+1  {{cellType[1].CellList[0]=new pvbasketcell(961,6,1)}}
+                                                      ^
+        1 pcitr()
+      1 pcitr(..., ..., ..., 900, 999)
+    1 createCells()
+  1 xopen("create_cel...")
+and others
+          ^
+        127 pcitr()
+      127 pcitr(..., ..., ..., 900, 999)
+    127 createCells()
+  127 xopen("create_cel...")
+and others
+"create_cel...")
+and others
+                         ^
+        2 pcitr()
+      2 pcitr(..., ..., ..., 900, 999)
+    2 createCells()
+  2 xopen("create_cel...")
+and others
+137 nrniv: connect_pre : can't push that type onto stack
+137  in create_cells_pos.hoc near line 140
+137  {{cellType[1].CellList[0]=new pvbasketcell(937,5,1)}}
+                            111 nrniv: connect_pre : can't push that type onto stack
+111  in create_cells_pos.hoc near line 140
+111  {{cellType[1].CellList[0]=new pvbasketcell(911,5,1)}}
+                                            8 nrniv: connect_pre : can't push that type onto stack
+8  in create_cells_pos.hoc near line 140
+8  {{cellType[1].CellList[0]=new pvbasketcell(968,6,1)}}
+                                                      ^
+        8 pcitr()
+      8 pcitr(..., ..., ..., 900, 999)
+    8 createCells()
+  8 xopen("create_cel...")
+and others
+150 nrniv: connect_pre : can't push that type onto stack
+150  in create_cells_pos.hoc near line 140
+150  {{cellType[1].CellList[0]=new pvbasketcell(950,5,1)}}
+                                                          ^
+        111 pcitr()
+      111 pcitr(..., ..., 9 nrniv: connect_pre : can't push that type onto stack
+9  in create_cells_pos.hoc near line 140
+9  {{cellType[1].CellList[0]=new pvbasketcell(969,6,1)}}
+                                                      ^
+        9 pcitr()
+      9 pcitr(..., ..., ..., 900, 999)
+    9 createCells()
+  9 xopen("create_cel...")
+and others
+156 nrniv: connect_pre : can't push that type onto stack
+156  in create_cells_pos.hoc near line 140
+156  {{cellType[1].CellList[0]=new pvbasketcell(956,5,1)}}
+                                                      Host 92  created cells.
+11 nrniv: connect_pre : can't push that type onto stack
+11  in create_cells_pos.hoc near line 140
+11  {{cellType[1].CellList[0]=new pvbasketcell(971,6,1)}}
+                                                      ^
+        11 pcitr()
+      11 pcitr(..., ..., ..., 900, 999)
+    11 createCells()
+  11 xopen("create_cel...")
+and others
+                          ^
+        137 pcitr()
+      137 pcitr(..., 900, 999)
+    111 createCells()
+  111 xopen("create_cel...")
+and others
+ ^
+        13 pcitr()
+      13 pcitr(..., ..., ..., 900, 999)
+    13 createCells()
+  13 xopen("create_cel...")
+and others
+      ^
+        150 pcitr()
+      150 pcitr(..., ..., ..., Host 84  created cells.
+23 nrniv: connect_pre : can't push that type onto stack
+23  in create_cells_pos.hoc near line 140
+23  {{cellType[1].CellList[0]=new pvbasketcell(983,6,1)}}
+                                                      ^
+        23 pcitr()
+      23 pcitr(..., ..., ..., 900, 999)
+    23 createCells()
+  23 xopen("create_cel...")
+and others
+152 nrniv: connect_pre : can't push that type onto stack
+152  in create_cells_pos.hoc near line 140
+152  {{cellType[1].CellList[0]=new pvbasketcell(952,5,1)}}
+                                                      ^
+        Host 91  created cells.
+        28 pcitr()
+      28 pcitr(..., ..., ..., 900, 999)
+    28 createCells()
+  28 xopen("create_cel...")
+and others
+^
+        156 pcitr()
+      156 pcitr(..., ..., ..., 900, 999)
+    156 createCells()
+  156 xopen("create_cel...")
+110 nrniv: connect_pre : can't push that type onto stack
+110  in create_cells_pos.hoc near line 140
+110  {{cellType[1].CellList[0]=new pvbasketcell(910,5,1)}}
+                             29 nrniv: connect_pre : can't push that type onto stack
+29  in create_cells_pos.hoc near line 140
+29  {{cellType[1].CellList[0]=new pvbasketcell(989,6,1)}}
+                                                      ^
+        29 pcitr()
+      29 pcitr(..., ..., ..., 900, 999)
+    29 createCells()
+  29 xopen("create_cel...")
+and others
+134 nrniv: connect_pre : can't push that type onto stack
+134  in create_cells_pos.hoc near line 140
+134  {{cellType[1].CellList[0]=new pvbasketcell(934,5,1)}}
+                                                      ^
+        134 pcitr()
+115 nrniv: connect_pre : can't push that type onto stack
+115  in create_cells_pos.hoc near line 140
+115  {{cellType[1].CellList[0]=new pvbasketcell(915,5,1)}}
+                                    31 nrniv: connect_pre : can't push that type onto stack
+31  in create_cells_pos.hoc near line 140
+31  {{cellType[1].CellList[0]=new pvbasketcell(991,6,1)}}
+                                                      ^
+        31 pcitr()
+      31 pcitr(..., ..., ..., ..., 900, 999)
+    137 createCells()
+  137 xopen("create_cel...")
+and others
+                         34 nrniv: connect_pre : can't push that type onto stack
+34  in create_cells_pos.hoc near line 140
+34  {{cellType[1].CellList[0]=new pvbasketcell(994,6,1)}}
+                                                      ^
+        34 pcitr()
+      34 pcitr(..., ..., ..., 900, 999)
+    34 createCells()
+  34 xopen("create_cel...")
+and others
+900, 999)
+    150 createCells()
+  150 xopen("create_cel...")
+and others
+                  ^
+        115 pcitr()
+    37 nrniv: connect_pre : can't push that type onto stack
+37  in create_cells_pos.hoc near line 140
+37  {{cellType[1].CellList[0]=new pvbasketcell(997,6,1)}}
+                                                      ^
+        37 pcitr()
+      37 pcitr(..., ..., ..., 900, 999)
+    37 createCells()
+  37 xopen("create_cel...")
+and others
+152 pcitr()
+      152 pcitr(..., ..., ..., 900, 999)
+    152 createCells()
+  152 xopen("create_cel...")
+and others
+^
+        110 pcitr()
+      110 pcitr(..., ..., ..., 900, 999)
+10 nrniv: connect_pre : can't push that type onto stack
+10  in create_cells_pos.hoc near line 140
+10  {{cellType[1].CellList[0]=new pvbasketcell(970,6,1)}}
+                                                      ^
+and others
+  115 pcitr(..., ..., ..., 900, 999)
+    ..., ..., 900, 999)
+    31 createCells()
+  31 xopen("create_cel...")
+and others
+      134 pcitr(..., ..., ..., 900, 999)
+    134 createCells()
+  134 xopen("create_cel...")
+and others
+    110 createCells()
+  110 xopen("create_cel...")
+and others
+        10 pcitr()
+      10 pcitr(..., ..., ..., 900, 999)
+    10 createCells()
+  10 xopen("create_cel...")
+and others
+141 nrniv: connect_pre : can't push that type onto stack
+141  in create_cells_pos.hoc near line 140
+141  {{cellType[1].CellList[0]=new pvbasketcell(941,5,1)}}
+                                                      ^
+        141 pcitr()
+      141 pcitr(..., ..., ..., 900, 999)
+    141 createCells()
+  141 xopen("create_cel...")
+and others
+115 createCells()
+  115 xopen("create_cel...")
+and others
+19 nrniv: connect_pre : can't push that type onto stack
+19  in create_cells_pos.hoc near line 140
+19  {{cellType[1].CellList[0]=new pvbasketcell(979,6,1)}}
+                                      157 nrniv: connect_pre : can't push that type onto stack
+157  in create_cells_pos.hoc near line 140
+157  {{cellType[1].CellList[0]=new pvbasketcell(957,5,1)}}
+                                                      ^
+        157 pcitr()
+      157 pcitr(..., ..., ..., 900, 999)
+    157 createCells()
+  157 xopen("create_cel...")
+and others
+                ^
+        19 pcitr()
+  33 nrniv: connect_pre : can't push that type onto stack
+33  in create_cells_pos.hoc near line 140
+33  {{cellType[1].CellList[0]=new pvbasketcell(993,6,1)}}
+                                                         19 pcitr(..., ..., ..., 900, 999)
+    19 createCells()
+  19 xopen("create_cel...")
+and others
+ ^
+        33 pcitr()
+      33 pcitr(..., ..., ..., 900, 999)
+    33 createCells()
+  33 xopen("create_cel...")
+and others
+5 nrniv: connect_pre : can't push that type onto stack
+5  in create_cells_pos.hoc near line 140
+5  {{cellType[1].CellList[0]=new pvbasketcell(965,6,1)}}
+                                                      ^
+        5 pcitr()
+      5 pcitr(..., ..., ..., 900, 999)
+    5 createCells()
+  5 xopen("create_cel...")
+and others
+
+TIME HOST 0: 1.5 seconds (set up)
+************
+0 nrniv: connect_pre : can't push that type onto stack
+0  in create_cells_pos.hoc near line 140
+0  {{cellType[1].CellList[0]=new pvbasketcell(960,6,1)}}
+                                                      ^
+        0 pcitr()
+      0 pcitr(..., ..., ..., 900, 999)
+    0 createCells()
+  0 xopen("create_cel...")
+and others
+nrniv: netpar.cpp:1132: Object** BBS::gid2cell(int): Assertion `ps' failed.
+Fatal error in PMPI_Barrier: Unknown error class, error stack:
+PMPI_Barrier(425).....................: MPI_Barrier(comm=0x84000007) failed
+MPIR_Barrier_impl(332)................: Failure during collective
+MPIR_Barrier_impl(327)................: 
+MPIR_Barrier(292).....................: 
+MPIR_Barrier_intra(150)...............: 
+barrier_smp_intra(96).................: 
+MPIR_Barrier_impl(332)................: Failure during collective
+MPIR_Barrier_impl(327)................: 
+MPIR_Barrier(292).....................: 
+MPIR_Barrier_intra(169)...............: 
+MPIDU_Complete_posted_with_error(1137): Process failed
+barrier_smp_intra(111)................: 
+MPIR_Bcast_impl(1452).................: 
+MPIR_Bcast(1476)......................: 
+MPIR_Bcast_intra(1287)................: 
+MPIR_Bcast_binomial(310)..............: Failure during collective
+Fatal error in PMPI_Barrier: Unknown error class, error stack:
+PMPI_Barrier(425).......: MPI_Barrier(comm=0x84000007) failed
+MPIR_Barrier_impl(332)..: Failure during collective
+MPIR_Barrier_impl(327)..: 
+MPIR_Barrier(292).......: 
+MPIR_Barrier_intra(150).: 
+barrier_smp_intra(96)...: 
+MPIR_Barrier_impl(332)..: Failure during collective
+MPIR_Barrier_impl(327)..: 
+MPIR_Barrier(292).......: 
+MPIR_Barrier_intra(180).: Failure during collective
+barrier_smp_intra(111)..: 
+MPIR_Bcast_impl(1452)...: 
+MPIR_Bcast(1476)........: 
+MPIR_Bcast_intra(1287)..: 
+MPIR_Bcast_binomial(310): Failure during collective
+Fatal error in PMPI_Barrier: Unknown error class, error stack:
+PMPI_Barrier(425).......: MPI_Barrier(comm=0x84000004) failed
+MPIR_Barrier_impl(332)..: Failure during collective
+MPIR_Barrier_impl(327)..: 
+MPIR_Barrier(292).......: 
+MPIR_Barrier_intra(150).: 
+barrier_smp_intra(111)..: 
+MPIR_Bcast_impl(1452)...: 
+MPIR_Bcast(1476)........: 
+MPIR_Bcast_intra(1287)..: 
+MPIR_Bcast_binomial(310): Failure during collective
+Fatal error in PMPI_Barrier: Unknown error class, error stack:
+PMPI_Barrier(425).......: MPI_Barrier(comm=0x84000004) failed
+MPIR_Barrier_impl(332)..: Failure during collective
+MPIR_Barrier_impl(327)..: 
+MPIR_Barrier(292).......: 
+MPIR_Barrier_intra(150).: 
+barrier_smp_intra(111)..: 
+MPIR_Bcast_impl(1452)...: 
+MPIR_Bcast(1476)........: 
+MPIR_Bcast_intra(1287)..: 
+MPIR_Bcast_binomial(310): Failure during collective
+Fatal error in PMPI_Barrier: Unknown error class, error stack:
+PMPI_Barrier(425).....................: MPI_Barrier(comm=0x84000007) failed
+MPIR_Barrier_impl(332)................: Failure during collective
+MPIR_Barrier_impl(327)................: 
+MPIR_Barrier(292).....................: 
+MPIR_Barrier_intra(150)...............: 
+barrier_smp_intra(96).................: 
+MPIR_Barrier_impl(332)................: Failure during collective
+MPIR_Barrier_impl(327)................: 
+MPIR_Barrier(292).....................: 
+MPIR_Barrier_intra(169)...............: 
+MPIDU_Complete_posted_with_error(1137): Process failed
+barrier_smp_intra(111)................: 
+MPIR_Bcast_impl(1452).................: 
+MPIR_Bcast(1476)......................: 
+MPIR_Bcast_intra(1287)................: 
+MPIR_Bcast_binomial(310)..............: Failure during collective
+Fatal error in PMPI_Barrier: Unknown error class, error stack:
+PMPI_Barrier(425).......: MPI_Barrier(comm=0x84000004) failed
+MPIR_Barrier_impl(332)..: Failure during collective
+MPIR_Barrier_impl(327)..: 
+MPIR_Barrier(292).......: 
+MPIR_Barrier_intra(150).: 
+barrier_smp_intra(111)..: 
+MPIR_Bcast_impl(1452)...: 
+MPIR_Bcast(1476)........: 
+MPIR_Bcast_intra(1287)..: 
+MPIR_Bcast_binomial(310): Failure during collective
+Fatal error in PMPI_Barrier: Unknown error class, error stack:
+PMPI_Barrier(425).......: MPI_Barrier(comm=0x84000004) failed
+MPIR_Barrier_impl(332)..: Failure during collective
+MPIR_Barrier_impl(327)..: 
+MPIR_Barrier(292).......: 
+MPIR_Barrier_intra(150).: 
+barrier_smp_intra(111)..: 
+MPIR_Bcast_impl(1452)...: 
+MPIR_Bcast(1476)........: 
+MPIR_Bcast_intra(1287)..: 
+MPIR_Bcast_binomial(310): Failure during collective
+Fatal error in PMPI_Barrier: Unknown error class, error stack:
+PMPI_Barrier(425).......: MPI_Barrier(comm=0x84000004) failed
+MPIR_Barrier_impl(332)..: Failure during collective
+MPIR_Barrier_impl(327)..: 
+MPIR_Barrier(292).......: 
+MPIR_Barrier_intra(150).: 
+barrier_smp_intra(111)..: 
+MPIR_Bcast_impl(1452)...: 
+MPIR_Bcast(1476)........: 
+MPIR_Bcast_intra(1287)..: 
+MPIR_Bcast_binomial(310): Failure during collective
+Fatal error in PMPI_Barrier: Unknown error class, error stack:
+PMPI_Barrier(425).......: MPI_Barrier(comm=0x84000004) failed
+MPIR_Barrier_impl(332)..: Failure during collective
+MPIR_Barrier_impl(327)..: 
+MPIR_Barrier(292).......: 
+MPIR_Barrier_intra(150).: 
+barrier_smp_intra(111)..: 
+MPIR_Bcast_impl(1452)...: 
+MPIR_Bcast(1476)........: 
+MPIR_Bcast_intra(1287)..: 
+MPIR_Bcast_binomial(310): Failure during collective
+Fatal error in PMPI_Barrier: Unknown error class, error stack:
+PMPI_Barrier(425).......: MPI_Barrier(comm=0x84000004) failed
+MPIR_Barrier_impl(332)..: Failure during collective
+MPIR_Barrier_impl(327)..: 
+MPIR_Barrier(292).......: 
+MPIR_Barrier_intra(150).: 
+barrier_smp_intra(111)..: 
+MPIR_Bcast_impl(1452)...: 
+MPIR_Bcast(1476)........: 
+MPIR_Bcast_intra(1287)..: 
+MPIR_Bcast_binomial(310): Failure during collective
+Fatal error in PMPI_Barrier: Unknown error class, error stack:
+PMPI_Barrier(425).......: MPI_Barrier(comm=0x84000004) failed
+MPIR_Barrier_impl(332)..: Failure during collective
+MPIR_Barrier_impl(327)..: 
+MPIR_Barrier(292).......: 
+MPIR_Barrier_intra(150).: 
+barrier_smp_intra(111)..: 
+MPIR_Bcast_impl(1452)...: 
+MPIR_Bcast(1476)........: 
+MPIR_Bcast_intra(1287)..: 
+MPIR_Bcast_binomial(310): Failure during collective
+Fatal error in PMPI_Barrier: Unknown error class, error stack:
+PMPI_Barrier(425).......: MPI_Barrier(comm=0x84000004) failed
+MPIR_Barrier_impl(332)..: Failure during collective
+MPIR_Barrier_impl(327)..: 
+MPIR_Barrier(292).......: 
+MPIR_Barrier_intra(150).: 
+barrier_smp_intra(111)..: 
+MPIR_Bcast_impl(1452)...: 
+MPIR_Bcast(1476)........: 
+MPIR_Bcast_intra(1287)..: 
+MPIR_Bcast_binomial(310): Failure during collective
+Fatal error in PMPI_Barrier: Unknown error class, error stack:
+PMPI_Barrier(425).......: MPI_Barrier(comm=0x84000004) failed
+MPIR_Barrier_impl(332)..: Failure during collective
+MPIR_Barrier_impl(327)..: 
+MPIR_Barrier(292).......: 
+MPIR_Barrier_intra(150).: 
+barrier_smp_intra(111)..: 
+MPIR_Bcast_impl(1452)...: 
+MPIR_Bcast(1476)........: 
+MPIR_Bcast_intra(1287)..: 
+MPIR_Bcast_binomial(310): Failure during collective
+Fatal error in PMPI_Barrier: Unknown error class, error stack:
+PMPI_Barrier(425).......: MPI_Barrier(comm=0x84000004) failed
+MPIR_Barrier_impl(332)..: Failure during collective
+MPIR_Barrier_impl(327)..: 
+MPIR_Barrier(292).......: 
+MPIR_Barrier_intra(150).: 
+barrier_smp_intra(111)..: 
+MPIR_Bcast_impl(1452)...: 
+MPIR_Bcast(1476)........: 
+MPIR_Bcast_intra(1287)..: 
+MPIR_Bcast_binomial(310): Failure during collective
+Fatal error in PMPI_Barrier: Unknown error class, error stack:
+PMPI_Barrier(425).......: MPI_Barrier(comm=0x84000004) failed
+MPIR_Barrier_impl(332)..: Failure during collective
+MPIR_Barrier_impl(327)..: 
+MPIR_Barrier(292).......: 
+MPIR_Barrier_intra(150).: 
+barrier_smp_intra(111)..: 
+MPIR_Bcast_impl(1452)...: 
+MPIR_Bcast(1476)........: 
+MPIR_Bcast_intra(1287)..: 
+MPIR_Bcast_binomial(310): Failure during collective
+Fatal error in PMPI_Barrier: Unknown error class, error stack:
+PMPI_Barrier(425).......: MPI_Barrier(comm=0x84000004) failed
+MPIR_Barrier_impl(332)..: Failure during collective
+MPIR_Barrier_impl(327)..: 
+MPIR_Barrier(292).......: 
+MPIR_Barrier_intra(150).: 
+barrier_smp_intra(111)..: 
+MPIR_Bcast_impl(1452)...: 
+MPIR_Bcast(1476)........: 
+MPIR_Bcast_intra(1287)..: 
+MPIR_Bcast_binomial(310): Failure during collective
+Fatal error in PMPI_Barrier: Unknown error class, error stack:
+PMPI_Barrier(425).......: MPI_Barrier(comm=0x84000004) failed
+MPIR_Barrier_impl(332)..: Failure during collective
+MPIR_Barrier_impl(327)..: 
+MPIR_Barrier(292).......: 
+MPIR_Barrier_intra(150).: 
+barrier_smp_intra(111)..: 
+MPIR_Bcast_impl(1452)...: 
+MPIR_Bcast(1476)........: 
+MPIR_Bcast_intra(1287)..: 
+MPIR_Bcast_binomial(310): Failure during collective
+Fatal error in PMPI_Barrier: Unknown error class, error stack:
+PMPI_Barrier(425).......: MPI_Barrier(comm=0x84000004) failed
+MPIR_Barrier_impl(332)..: Failure during collective
+MPIR_Barrier_impl(327)..: 
+MPIR_Barrier(292).......: 
+MPIR_Barrier_intra(150).: 
+barrier_smp_intra(111)..: 
+MPIR_Bcast_impl(1452)...: 
+MPIR_Bcast(1476)........: 
+MPIR_Bcast_intra(1287)..: 
+MPIR_Bcast_binomial(310): Failure during collective
+Fatal error in PMPI_Barrier: Unknown error class, error stack:
+PMPI_Barrier(425).......: MPI_Barrier(comm=0x84000004) failed
+MPIR_Barrier_impl(332)..: Failure during collective
+MPIR_Barrier_impl(327)..: 
+MPIR_Barrier(292).......: 
+MPIR_Barrier_intra(150).: 
+barrier_smp_intra(111)..: 
+MPIR_Bcast_impl(1452)...: 
+MPIR_Bcast(1476)........: 
+MPIR_Bcast_intra(1287)..: 
+MPIR_Bcast_binomial(310): Failure during collective
+Fatal error in PMPI_Barrier: Unknown error class, error stack:
+PMPI_Barrier(425).......: MPI_Barrier(comm=0x84000004) failed
+MPIR_Barrier_impl(332)..: Failure during collective
+MPIR_Barrier_impl(327)..: 
+MPIR_Barrier(292).......: 
+MPIR_Barrier_intra(150).: 
+barrier_smp_intra(111)..: 
+MPIR_Bcast_impl(1452)...: 
+MPIR_Bcast(1476)........: 
+MPIR_Bcast_intra(1287)..: 
+MPIR_Bcast_binomial(310): Failure during collective
+Fatal error in PMPI_Barrier: Unknown error class, error stack:
+PMPI_Barrier(425).......: MPI_Barrier(comm=0x84000004) failed
+MPIR_Barrier_impl(332)..: Failure during collective
+MPIR_Barrier_impl(327)..: 
+MPIR_Barrier(292).......: 
+MPIR_Barrier_intra(150).: 
+barrier_smp_intra(111)..: 
+MPIR_Bcast_impl(1452)...: 
+MPIR_Bcast(1476)........: 
+MPIR_Bcast_intra(1287)..: 
+MPIR_Bcast_binomial(310): Failure during collective
+Fatal error in PMPI_Barrier: Unknown error class, error stack:
+PMPI_Barrier(425).......: MPI_Barrier(comm=0x84000004) failed
+MPIR_Barrier_impl(332)..: Failure during collective
+MPIR_Barrier_impl(327)..: 
+MPIR_Barrier(292).......: 
+MPIR_Barrier_intra(150).: 
+barrier_smp_intra(111)..: 
+MPIR_Bcast_impl(1452)...: 
+MPIR_Bcast(1476)........: 
+MPIR_Bcast_intra(1287)..: 
+MPIR_Bcast_binomial(310): Failure during collective
+Fatal error in PMPI_Barrier: Unknown error class, error stack:
+PMPI_Barrier(425).......: MPI_Barrier(comm=0x84000004) failed
+MPIR_Barrier_impl(332)..: Failure during collective
+MPIR_Barrier_impl(327)..: 
+MPIR_Barrier(292).......: 
+MPIR_Barrier_intra(150).: 
+barrier_smp_intra(111)..: 
+MPIR_Bcast_impl(1452)...: 
+MPIR_Bcast(1476)........: 
+MPIR_Bcast_intra(1287)..: 
+MPIR_Bcast_binomial(310): Failure during collective
+Fatal error in PMPI_Barrier: Unknown error class, error stack:
+PMPI_Barrier(425).......: MPI_Barrier(comm=0x84000004) failed
+MPIR_Barrier_impl(332)..: Failure during collective
+MPIR_Barrier_impl(327)..: 
+MPIR_Barrier(292).......: 
+MPIR_Barrier_intra(150).: 
+barrier_smp_intra(111)..: 
+MPIR_Bcast_impl(1452)...: 
+MPIR_Bcast(1476)........: 
+MPIR_Bcast_intra(1287)..: 
+MPIR_Bcast_binomial(310): Failure during collective
+Fatal error in PMPI_Barrier: Unknown error class, error stack:
+PMPI_Barrier(425).......: MPI_Barrier(comm=0x84000004) failed
+MPIR_Barrier_impl(332)..: Failure during collective
+MPIR_Barrier_impl(327)..: 
+MPIR_Barrier(292).......: 
+MPIR_Barrier_intra(150).: 
+barrier_smp_intra(111)..: 
+MPIR_Bcast_impl(1452)...: 
+MPIR_Bcast(1476)........: 
+MPIR_Bcast_intra(1287)..: 
+MPIR_Bcast_binomial(310): Failure during collective
+Fatal error in PMPI_Barrier: Unknown error class, error stack:
+PMPI_Barrier(425).......: MPI_Barrier(comm=0x84000004) failed
+MPIR_Barrier_impl(332)..: Failure during collective
+MPIR_Barrier_impl(327)..: 
+MPIR_Barrier(292).......: 
+MPIR_Barrier_intra(150).: 
+barrier_smp_intra(111)..: 
+MPIR_Bcast_impl(1452)...: 
+MPIR_Bcast(1476)........: 
+MPIR_Bcast_intra(1287)..: 
+MPIR_Bcast_binomial(310): Failure during collective
+Fatal error in PMPI_Barrier: Unknown error class, error stack:
+PMPI_Barrier(425).......: MPI_Barrier(comm=0x84000004) failed
+MPIR_Barrier_impl(332)..: Failure during collective
+MPIR_Barrier_impl(327)..: 
+MPIR_Barrier(292).......: 
+MPIR_Barrier_intra(150).: 
+barrier_smp_intra(111)..: 
+MPIR_Bcast_impl(1452)...: 
+MPIR_Bcast(1476)........: 
+MPIR_Bcast_intra(1287)..: 
+MPIR_Bcast_binomial(310): Failure during collective
+Fatal error in PMPI_Barrier: Unknown error class, error stack:
+PMPI_Barrier(425).......: MPI_Barrier(comm=0x84000004) failed
+MPIR_Barrier_impl(332)..: Failure during collective
+MPIR_Barrier_impl(327)..: 
+MPIR_Barrier(292).......: 
+MPIR_Barrier_intra(150).: 
+barrier_smp_intra(111)..: 
+MPIR_Bcast_impl(1452)...: 
+MPIR_Bcast(1476)........: 
+MPIR_Bcast_intra(1287)..: 
+MPIR_Bcast_binomial(310): Failure during collective
+Fatal error in PMPI_Barrier: Unknown error class, error stack:
+PMPI_Barrier(425).......: MPI_Barrier(comm=0x84000004) failed
+MPIR_Barrier_impl(332)..: Failure during collective
+MPIR_Barrier_impl(327)..: 
+MPIR_Barrier(292).......: 
+MPIR_Barrier_intra(150).: 
+barrier_smp_intra(111)..: 
+MPIR_Bcast_impl(1452)...: 
+MPIR_Bcast(1476)........: 
+MPIR_Bcast_intra(1287)..: 
+MPIR_Bcast_binomial(310): Failure during collective
+Fatal error in PMPI_Barrier: Unknown error class, error stack:
+PMPI_Barrier(425).......: MPI_Barrier(comm=0x84000004) failed
+MPIR_Barrier_impl(332)..: Failure during collective
+MPIR_Barrier_impl(327)..: 
+MPIR_Barrier(292).......: 
+MPIR_Barrier_intra(150).: 
+barrier_smp_intra(111)..: 
+MPIR_Bcast_impl(1452)...: 
+MPIR_Bcast(1476)........: 
+MPIR_Bcast_intra(1287)..: 
+MPIR_Bcast_binomial(310): Failure during collective
+Fatal error in PMPI_Barrier: Unknown error class, error stack:
+PMPI_Barrier(425).......: MPI_Barrier(comm=0x84000004) failed
+MPIR_Barrier_impl(332)..: Failure during collective
+MPIR_Barrier_impl(327)..: 
+MPIR_Barrier(292).......: 
+MPIR_Barrier_intra(150).: 
+barrier_smp_intra(111)..: 
+MPIR_Bcast_impl(1452)...: 
+MPIR_Bcast(1476)........: 
+MPIR_Bcast_intra(1287)..: 
+MPIR_Bcast_binomial(310): Failure during collective
+Fatal error in PMPI_Barrier: Unknown error class, error stack:
+PMPI_Barrier(425).......: MPI_Barrier(comm=0x84000004) failed
+MPIR_Barrier_impl(332)..: Failure during collective
+MPIR_Barrier_impl(327)..: 
+MPIR_Barrier(292).......: 
+MPIR_Barrier_intra(150).: 
+barrier_smp_intra(111)..: 
+MPIR_Bcast_impl(1452)...: 
+MPIR_Bcast(1476)........: 
+MPIR_Bcast_intra(1287)..: 
+MPIR_Bcast_binomial(310): Failure during collective
+Fatal error in PMPI_Barrier: Unknown error class, error stack:
+PMPI_Barrier(425).......: MPI_Barrier(comm=0x84000004) failed
+MPIR_Barrier_impl(332)..: Failure during collective
+MPIR_Barrier_impl(327)..: 
+MPIR_Barrier(292).......: 
+MPIR_Barrier_intra(150).: 
+barrier_smp_intra(111)..: 
+MPIR_Bcast_impl(1452)...: 
+MPIR_Bcast(1476)........: 
+MPIR_Bcast_intra(1287)..: 
+MPIR_Bcast_binomial(310): Failure during collective
+Fatal error in PMPI_Barrier: Unknown error class, error stack:
+PMPI_Barrier(425).......: MPI_Barrier(comm=0x84000004) failed
+MPIR_Barrier_impl(332)..: Failure during collective
+MPIR_Barrier_impl(327)..: 
+MPIR_Barrier(292).......: 
+MPIR_Barrier_intra(150).: 
+barrier_smp_intra(111)..: 
+MPIR_Bcast_impl(1452)...: 
+MPIR_Bcast(1476)........: 
+MPIR_Bcast_intra(1287)..: 
+MPIR_Bcast_binomial(310): Failure during collective
+Fatal error in PMPI_Barrier: Unknown error class, error stack:
+PMPI_Barrier(425).......: MPI_Barrier(comm=0x84000004) failed
+MPIR_Barrier_impl(332)..: Failure during collective
+MPIR_Barrier_impl(327)..: 
+MPIR_Barrier(292).......: 
+MPIR_Barrier_intra(150).: 
+barrier_smp_intra(111)..: 
+MPIR_Bcast_impl(1452)...: 
+MPIR_Bcast(1476)........: 
+MPIR_Bcast_intra(1287)..: 
+MPIR_Bcast_binomial(310): Failure during collective
+Fatal error in PMPI_Barrier: Unknown error class, error stack:
+PMPI_Barrier(425).......: MPI_Barrier(comm=0x84000004) failed
+MPIR_Barrier_impl(332)..: Failure during collective
+MPIR_Barrier_impl(327)..: 
+MPIR_Barrier(292).......: 
+MPIR_Barrier_intra(150).: 
+barrier_smp_intra(111)..: 
+MPIR_Bcast_impl(1452)...: 
+MPIR_Bcast(1476)........: 
+MPIR_Bcast_intra(1287)..: 
+MPIR_Bcast_binomial(310): Failure during collective
+Fatal error in PMPI_Barrier: Unknown error class, error stack:
+PMPI_Barrier(425).......: MPI_Barrier(comm=0x84000004) failed
+MPIR_Barrier_impl(332)..: Failure during collective
+MPIR_Barrier_impl(327)..: 
+MPIR_Barrier(292).......: 
+MPIR_Barrier_intra(150).: 
+barrier_smp_intra(111)..: 
+MPIR_Bcast_impl(1452)...: 
+MPIR_Bcast(1476)........: 
+MPIR_Bcast_intra(1287)..: 
+MPIR_Bcast_binomial(310): Failure during collective
+Fatal error in PMPI_Barrier: Unknown error class, error stack:
+PMPI_Barrier(425).......: MPI_Barrier(comm=0x84000004) failed
+MPIR_Barrier_impl(332)..: Failure during collective
+MPIR_Barrier_impl(327)..: 
+MPIR_Barrier(292).......: 
+MPIR_Barrier_intra(150).: 
+barrier_smp_intra(111)..: 
+MPIR_Bcast_impl(1452)...: 
+MPIR_Bcast(1476)........: 
+MPIR_Bcast_intra(1287)..: 
+MPIR_Bcast_binomial(310): Failure during collective
+Fatal error in PMPI_Barrier: Unknown error class, error stack:
+PMPI_Barrier(425).......: MPI_Barrier(comm=0x84000004) failed
+MPIR_Barrier_impl(332)..: Failure during collective
+MPIR_Barrier_impl(327)..: 
+MPIR_Barrier(292).......: 
+MPIR_Barrier_intra(150).: 
+barrier_smp_intra(111)..: 
+MPIR_Bcast_impl(1452)...: 
+MPIR_Bcast(1476)........: 
+MPIR_Bcast_intra(1287)..: 
+MPIR_Bcast_binomial(310): Failure during collective
+Fatal error in PMPI_Barrier: Unknown error class, error stack:
+PMPI_Barrier(425).......: MPI_Barrier(comm=0x84000004) failed
+MPIR_Barrier_impl(332)..: Failure during collective
+MPIR_Barrier_impl(327)..: 
+MPIR_Barrier(292).......: 
+MPIR_Barrier_intra(150).: 
+barrier_smp_intra(111)..: 
+MPIR_Bcast_impl(1452)...: 
+MPIR_Bcast(1476)........: 
+MPIR_Bcast_intra(1287)..: 
+MPIR_Bcast_binomial(310): Failure during collective
+Fatal error in PMPI_Barrier: Unknown error class, error stack:
+PMPI_Barrier(425).......: MPI_Barrier(comm=0x84000004) failed
+MPIR_Barrier_impl(332)..: Failure during collective
+MPIR_Barrier_impl(327)..: 
+MPIR_Barrier(292).......: 
+MPIR_Barrier_intra(150).: 
+barrier_smp_intra(111)..: 
+MPIR_Bcast_impl(1452)...: 
+MPIR_Bcast(1476)........: 
+MPIR_Bcast_intra(1287)..: 
+MPIR_Bcast_binomial(310): Failure during collective
+Fatal error in PMPI_Barrier: Unknown error class, error stack:
+PMPI_Barrier(425).......: MPI_Barrier(comm=0x84000004) failed
+MPIR_Barrier_impl(332)..: Failure during collective
+MPIR_Barrier_impl(327)..: 
+MPIR_Barrier(292).......: 
+MPIR_Barrier_intra(150).: 
+barrier_smp_intra(111)..: 
+MPIR_Bcast_impl(1452)...: 
+MPIR_Bcast(1476)........: 
+MPIR_Bcast_intra(1287)..: 
+MPIR_Bcast_binomial(310): Failure during collective
+Fatal error in PMPI_Barrier: Unknown error class, error stack:
+PMPI_Barrier(425).......: MPI_Barrier(comm=0x84000004) failed
+MPIR_Barrier_impl(332)..: Failure during collective
+MPIR_Barrier_impl(327)..: 
+MPIR_Barrier(292).......: 
+MPIR_Barrier_intra(150).: 
+barrier_smp_intra(111)..: 
+MPIR_Bcast_impl(1452)...: 
+MPIR_Bcast(1476)........: 
+MPIR_Bcast_intra(1287)..: 
+MPIR_Bcast_binomial(310): Failure during collective
+Fatal error in PMPI_Barrier: Unknown error class, error stack:
+PMPI_Barrier(425).......: MPI_Barrier(comm=0x84000004) failed
+MPIR_Barrier_impl(332)..: Failure during collective
+MPIR_Barrier_impl(327)..: 
+MPIR_Barrier(292).......: 
+MPIR_Barrier_intra(150).: 
+barrier_smp_intra(111)..: 
+MPIR_Bcast_impl(1452)...: 
+MPIR_Bcast(1476)........: 
+MPIR_Bcast_intra(1287)..: 
+MPIR_Bcast_binomial(310): Failure during collective
+Fatal error in PMPI_Barrier: Unknown error class, error stack:
+PMPI_Barrier(425).......: MPI_Barrier(comm=0x84000004) failed
+MPIR_Barrier_impl(332)..: Failure during collective
+MPIR_Barrier_impl(327)..: 
+MPIR_Barrier(292).......: 
+MPIR_Barrier_intra(150).: 
+barrier_smp_intra(111)..: 
+MPIR_Bcast_impl(1452)...: 
+MPIR_Bcast(1476)........: 
+MPIR_Bcast_intra(1287)..: 
+MPIR_Bcast_binomial(310): Failure during collective
+Fatal error in PMPI_Barrier: Unknown error class, error stack:
+PMPI_Barrier(425).......: MPI_Barrier(comm=0x84000004) failed
+MPIR_Barrier_impl(332)..: Failure during collective
+MPIR_Barrier_impl(327)..: 
+MPIR_Barrier(292).......: 
+MPIR_Barrier_intra(150).: 
+barrier_smp_intra(111)..: 
+MPIR_Bcast_impl(1452)...: 
+MPIR_Bcast(1476)........: 
+MPIR_Bcast_intra(1287)..: 
+MPIR_Bcast_binomial(310): Failure during collective
+Fatal error in PMPI_Barrier: Unknown error class, error stack:
+PMPI_Barrier(425).......: MPI_Barrier(comm=0x84000004) failed
+MPIR_Barrier_impl(332)..: Failure during collective
+MPIR_Barrier_impl(327)..: 
+MPIR_Barrier(292).......: 
+MPIR_Barrier_intra(150).: 
+barrier_smp_intra(111)..: 
+MPIR_Bcast_impl(1452)...: 
+MPIR_Bcast(1476)........: 
+MPIR_Bcast_intra(1287)..: 
+MPIR_Bcast_binomial(310): Failure during collective
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   PID 161610 RUNNING AT prod-0049
+=   EXIT CODE: 6
+=   CLEANING UP REMAINING PROCESSES
+=   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES
+===================================================================================

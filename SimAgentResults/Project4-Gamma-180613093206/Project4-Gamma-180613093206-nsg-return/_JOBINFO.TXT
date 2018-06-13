@@ -1,0 +1,21 @@
+Task label=REST v1
+Task ID=6000
+Tool=NEURON75_TG
+created on=2018-06-13 07:32:49.0
+JobHandle=NGBW-JOB-NEURON75_TG-35EB07124FEC42B2983F86AF82DFC85C
+resource=comet
+User ID=961
+User Name=latimerb
+email=latimerb@missouri.edu
+
+Output=(outputfile,*.tar.gz,UNKNOWN,UNKNOWN,UNKNOWN)
+JOBID=16945910
+
+job_properties ({'Task': 'ID=6000', 'resource': 'comet', 'created': 'on=2018-06-13 07:32:49.0', 'Tool': 'NEURON75_TG', 'JobHandle': 'NGBW-JOB-NEURON75_TG-35EB07124FEC42B2983F86AF82DFC85C', 'JOBID': '16945910', 'User': 'Name=latimerb', 'Output': '(outputfile,*.tar.gz,UNKNOWN,UNKNOWN,UNKNOWN)', 'email': 'latimerb@missouri.edu'})
+
+gatewayuser (latimerb)
+
+gateway_submit_attributes=/opt/ctss/gateway_submit_attributes/gateway_submit_attributes -gateway_user latimerb@nsgportal.org -submit_time "`date '+%F %T %:z'`" -jobid 16945910
+
+gateway_submit_attributes retval (0) output (Gateway attributes [ gateway_user = latimerb@nsgportal.org; submit_time = 2018-06-13 07:33:34 -0700; jobid = 16945910 ] from comet-ln2.sdsc.edu submitted successfully.
+)

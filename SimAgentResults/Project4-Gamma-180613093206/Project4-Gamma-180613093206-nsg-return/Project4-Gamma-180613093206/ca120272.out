@@ -1,0 +1,10850 @@
+Starting model at Wed Jun 13 01:29:14 CEST 2018
+numprocs=200
+NEURON -- VERSION 7.5 master (6b4c19f) 2017-09-25
+Duke, Yale, and the BlueBrain Project -- Copyright 1984-2016
+See http://neuron.yale.edu/neuron/credits
+
+Additional mechanisms from files
+ cadyn.mod capool.mod ch_CavL.mod ch_CavN.mod ch_HCN.mod ch_HCNolm.mod ch_HCNp.mod ch_KCaS.mod ch_Kdrfast.mod ch_Kdrfastngf.mod ch_Kdrp.mod ch_Kdrslow.mod ch_KvAdistp.mod ch_KvA.mod ch_KvAngf.mod ch_KvAolm.mod ch_KvAproxp.mod ch_KvCaB.mod ch_KvGroup.mod ch_KvM.mod ch_leak.mod ch_Navaxonp.mod ch_Navbis.mod ch_Navcck.mod ch_Nav.mod ch_Navngf.mod ch_Navp.mod ExpGABAab.mod fastconn.mod h.mod iconc_Ca.mod im.mod kaprox.mod kdrca1.mod kv.mod leak.mod MyExp2Sid.mod MyExp2Sidnw.mod mynetstim.mod na12.mod na16.mod na3DA.mod na3.mod nainter.mod nap.mod nat.mod positionfcns.mod repeatconn.mod sahp.mod sgate.mod SIN.mod xtra.mod
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for InterneuronNote, there was no axonal distribution file for BG
+
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Interneuron
+Note, there was no axonal distribution file for BGNote, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for InterneuronNote, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Note, there was no axonal distribution file for Interneuron
+Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for InterneuronNote, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for InterneuronNote, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for InterneuronNote, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BGNote, there was no axonal distribution file for Pyramidal
+
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+sh: git: command not found
+sh: git: command not found
+sh: git: command not found
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Note, there was no axonal distribution file for Pyramidal
+Note, there was no axonal distribution file for Interneuron
+Note, there was no axonal distribution file for BG
+Host 81  created cells.
+Host 93  created cells.
+Host 58  created cells.
+Host 98  created cells.
+Host 50  created cells.
+Host 91  created cells.
+Host 56  created cells.
+Host 85  created cells.
+Host 59  created cells.Host 21  created cells.
+Host 80  created cells.
+
+Host 137  created cells.
+Host 2  created cells.
+Host 84  created cells.
+Host 64  created cells.
+Host 136  created cells.
+Host 3  created cells.
+Host 86  created cells.
+Host 122  created cells.
+Host 16  created cells.
+Host 90  created cells.
+Host 40  created cells.
+Host 124  created cells.
+Host 22  created cells.
+Host 94  created cells.
+Host 41  created cells.
+Host 126  created cells.
+Host 27  created cells.
+Host 95  created cells.
+Host 48  created cells.
+Host 128  created cells.
+Host 39  created cells.
+Host 96  created cells.
+Host 60  created cells.
+Host 130  created cells.
+Host 20  created cells.
+Host 97  created cells.
+Host 63  created cells.
+Host 131  created cells.
+Host 18  created cells.
+Host 99  created cells.
+Host 71  created cells.
+Host 133  created cells.
+Host 19  created cells.
+Host 100  created cells.
+Host 75  created cells.
+Host 138  created cells.
+Host 32  created cells.
+Host 101  created cells.
+Host 76  created cells.
+Host 141  created cells.
+Host 26  created cells.
+Host 102  created cells.
+Host 78  created cells.
+Host 143  created cells.
+Host 5  created cells.
+Host 103  created cells.
+Host 62  created cells.
+Host 147  created cells.
+Host 29  created cells.
+Host 104  created cells.
+Host 72  created cells.
+Host 151  created cells.
+Host 36  created cells.
+Host 105  created cells.
+Host 42  created cells.
+Host 159  created cells.
+Host 7  created cells.
+Host 106  created cells.
+Host 74  created cells.
+Host 155  created cells.
+Host 35  created cells.
+Host 107  created cells.
+Host 47  created cells.
+Host 123  created cells.
+Host 12  created cells.
+Host 108  created cells.
+Host 68  created cells.
+Host 125  created cells.
+Host 8  created cells.
+Host 109  created cells.
+Host 70  created cells.
+Host 127  created cells.
+Host 1  created cells.
+Host 112  created cells.
+Host 73  created cells.
+Host 135  created cells.
+Host 4  created cells.
+Host 113  created cells.
+Host 54  created cells.
+Host 142  created cells.
+Host 10  created cells.
+Host 114  created cells.
+Host 49  created cells.
+Host 146  created cells.
+Host 11  created cells.
+Host 115  created cells.
+Host 55  created cells.
+Host 148  created cells.
+Host 13  created cells.
+Host 116  created cells.
+Host 44  created cells.
+Host 150  created cells.
+Host 14  created cells.
+Host 117  created cells.
+Host 53  created cells.
+Host 153  created cells.
+Host 15  created cells.
+Host 119  created cells.
+Host 66  created cells.
+Host 129  created cells.
+Host 23  created cells.
+Host 87  created cells.
+Host 67  created cells.
+Host 139  created cells.
+Host 28  created cells.
+Host 92  created cells.
+Host 52  created cells.
+Host 144  created cells.
+Host 33  created cells.
+Host 83  created cells.
+Host 69  created cells.
+Host 154  created cells.
+Host 37  created cells.
+Host 88  created cells.
+Host 51  created cells.
+Host 132  created cells.
+Host 38  created cells.
+Host 89  created cells.
+Host 43  created cells.
+Host 120  created cells.
+Host 6  created cells.
+Host 111  created cells.
+Host 61  created cells.
+Host 9  created cells.
+Host 82  created cells.
+Host 65  created cells.
+Host 149  created cells.
+Host 25  created cells.
+Host 110  created cells.
+Host 46  created cells.
+Host 152  created cells.
+Host 17  created cells.
+Host 118  created cells.
+Host 45  created cells.
+Host 156  created cells.
+Host 31  created cells.
+Host 79  created cells.
+Host 145  created cells.
+Host 24  created cells.
+Host 57  created cells.
+Host 157  created cells.
+Host 30  created cells.
+Host 77  created cells.
+Host 140  created cells.
+Host 34  created cells.
+Host 158  created cells.
+Host 134  created cells.
+Host 121  created cells.
+Host 194  created cells.
+Host 179  created cells.
+Host 175  created cells.
+Host 196  created cells.
+Host 177  created cells.
+Host 192  created cells.
+Host 166  created cells.
+Host 167  created cells.
+Host 197  created cells.
+Host 178  created cells.
+Host 199  created cells.
+Host 176  created cells.
+Host 174  created cells.
+Host 163  created cells.
+Host 169  created cells.
+Host 171  created cells.
+Host 198  created cells.
+Host 160  created cells.
+Host 162  created cells.
+Host 164  created cells.
+Host 170  created cells.
+Host 172  created cells.
+Host 173  created cells.
+Host 182  created cells.
+Host 184  created cells.
+Host 185  created cells.
+Host 186  created cells.
+Host 187  created cells.
+Host 188  created cells.
+Host 189  created cells.
+Host 195  created cells.
+Host 193  created cells.
+Host 168  created cells.
+Host 183  created cells.
+Host 161  created cells.
+Host 180  created cells.
+Host 191  created cells.
+Host 190  created cells.
+Host 165  created cells.
+Host 181  created cells.
+
+TIME HOST 0: 1.95 seconds (set up)
+************
+Host 0  created cells.
+
+TIME HOST 0: 0.31 seconds (created cells)
+************
+Host 85  is connecting: Pyramidals to Pyramidals.
+Host 90  is connecting: Pyramidals to Pyramidals.
+Host 91  is connecting: Pyramidals to Pyramidals.
+Host 93  is connecting: Pyramidals to Pyramidals.
+Host 98  is connecting: Pyramidals to Pyramidals.
+Host 86  is connecting: Pyramidals to Pyramidals.
+Host 94  is connecting: Pyramidals to Pyramidals.
+Host 97  is connecting: Pyramidals to Pyramidals.
+Host 100  is connecting: Pyramidals to Pyramidals.
+Host 58  is connecting: Pyramidals to Pyramidals.
+Host 112  is connecting: Pyramidals to Pyramidals.
+Host 64  is connecting: Pyramidals to Pyramidals.
+Host 113  is connecting: Pyramidals to Pyramidals.
+Host 81  is connecting: Pyramidals to Pyramidals.
+Host 56  is connecting: Pyramidals to Pyramidals.
+Host 16  is connecting: Pyramidals to Pyramidals.
+Host 74  is connecting: Pyramidals to Pyramidals.
+Host 137  is connecting: Pyramidals to Pyramidals.
+Host 27  is connecting: Pyramidals to Pyramidals.
+Host 109  is connecting: Pyramidals to Pyramidals.
+Host 76  is connecting: Pyramidals to Pyramidals.
+Host 128  is connecting: Pyramidals to Pyramidals.Host 29  is connecting: Pyramidals to Pyramidals.
+Host 88  is connecting: Pyramidals to Pyramidals.
+Host 54 
+Host 20  is connecting: Pyramidals to Pyramidals.
+Host 105  is connecting: Pyramidals to Pyramidals.
+Host 50  is connecting: Pyramidals to Pyramidals.
+Host 159  is connecting: Pyramidals to Pyramidals.
+Host 21  is connecting: Pyramidals to Pyramidals.
+Host 95  is connecting: Pyramidal is connecting: Pyramidals to Pyramidals.
+Host 151  is connecting: Pyramidals to Pyramidals.
+Host 38  is connecting: Pyramidals to Pyramidals.
+Host 104  is connecting: Pyramidals to Pyramidals.
+Host 41  is connecting: Pyramidals to Pyramidals.
+Host 126  is connecting: Pyramidals to Pyramidals.
+Host 3  is connecting: Pyramidals to Pyramidals.
+s to Pyramidals.
+Host 40  is connecting: Pyramidals to Pyramidals.
+Host 121  is connecting: Pyramidals to Pyramidals.
+Host 8  is connecting: Pyramidals to Pyramidals.
+Host 80  is connecting: Pyramidals to Pyramidals.
+Host 48  is connecting: Pyramidals to Pyramidals.
+Host 127  is connecting: Pyramidals to Pyramidals.
+Host 9  is connecting: Pyramidals to Pyramidals.
+Host 116  is connecting: Pyramidals to Pyramidals.
+Host 47  is connecting: Pyramidals to Pyramidals.
+Host 130  is connecting: Pyramidals to Pyramidals.
+Host 10  is connecting: Pyramidals to Pyramidals.
+Host 103 Host 42  is connecting: Pyramidals to Pyramidals.
+Host 129  is connecting: Pyramidals to PyramidalHost 5  is connecting: Pyramidal is connecting: Pyramidals to Pyramidals.
+Host 46  is connecting: Pyramidals to Pyramidals.
+s.
+Host 18  is connecting: Pyramidals to Pyramidals.
+Host 89  is connecting: Pyramidals to Pyramidals.Host 53  is connecting: Pyramidals to Pyramidals.
+Host 143  is connecting: Pyramidals to Pyramidals.
+Host 39  is connecting: Pyramidals to Pyramidals.
+Host 108  is connecting: Pyramidals to Pyramidals.
+Host 63  is connecting: Pyramidals to Pyramidals.
+Host 124  is connecting: Pyramidals to Pyramidals.
+s to Pyramidals.
+
+Host 45  is connecting: Pyramidals to Pyramidals.
+Host 125  is connecting: Pyramidals to Pyramidals.
+Host 26  is connecting: Pyramidals to Pyramidals.
+Host 96  is connecting: Pyramidals to Pyramidals.
+Host 79  is connecting: Pyramidals to Pyramidals.
+Host 132  is connecting: Pyramidals to Pyramidals.
+Host 19  is connecting: Pyramidals to Pyramidals.
+Host 99  is connecting: Pyramidals to Pyramidals.
+Host 44  is connecting: Pyramidals to Pyramidals.
+Host 152  is connecting: PyramidalHost 36  is connecting: Pyramidals to Pyramidals.
+Host 82  is connecting: Pyramidals to Pyramidals.
+Host 49  is connecting: Pyramidals to Pyramidals.
+Host 155  is connecting: Pyramidals to Pyramidals.
+Host 37  is connecting: Pyramidals to Pyramidals.
+Host 83  is connecting: Pyramidals to Pyramidals.
+Host 69  is connecting: Pyramidals to Pyramidals.
+Host 135  is connecting: Host 6  is connecting: Pyramidals to Pyramidals.
+Host 101  is connecting: Pyramidals to Pyramidals.
+Host 65  is connecting: Pyramidals to Pyramidals.
+s to Pyramidals.
+Host 12  is connecting: Pyramidals to Pyramidals.
+Host 100  is connecting: Interneurons to Pyramidals.
+Host 73  is connecting: Pyramidals to Pyramidals.
+Pyramidals to Pyramidals.
+Host 35  is connecting: Pyramidals to Pyramidals.
+Host 102  is connecting: Pyramidals to Pyramidals.
+Host 60  is connecting: Pyramidals to PyramidalHost 156  is connecting: Pyramidals to Pyramidals.
+Host 14  is connecting: Pyramidals to Pyramidals.
+Host 85  is connecting: Interneurons to Pyramidals.
+s.
+Host 131  is connecting: Pyramidals to Pyramidals.
+Host 24  is connecting: Pyramidals to Pyramidals.
+Host 90  is connecting: Interneurons to Pyramidals.
+Host 34  is connecting: Pyramidals to Pyramidals.
+Host 91  is connecting: Interneurons to Pyramidals.
+Host 58  is connecting: Interneurons to Pyramidals.
+Host 157  is connecting: Pyramidals to Pyramidals.
+Host 28  is connecting: Pyramidals to Pyramidals.
+Host 98  is connecting: Interneurons to Pyramidals.
+Host 64  is connecting: Interneurons to Pyramidals.
+Host 139  is connecting: Pyramidals to Pyramidals.
+Host 11  is connecting: Pyramidals to Pyramidals.
+Host 112  is connecting: Interneurons to Pyramidals.
+Host 72  is connecting: Pyramidals to Pyramidals.
+Host 141  is connecting: Pyramidals to Pyramidals.
+Host 30  is connecting: Pyramidals to Host 115  is connecting: Pyramidals to Pyramidals.
+Host 78  is connecting: Pyramidals to Pyramidals.
+Host 146  is connecting: Pyramidals to Pyramidals.
+Pyramidals.
+Host 117  is connecting: Pyramidals to Pyramidals.
+Host 43  is connecting: Pyramidals to Pyramidals.
+Host 159  is connecting: Interneurons to Pyramidals.
+Host 33  is connecting: Pyramidals to Pyramidals.
+Host 119  is connecting: Pyramidals to Pyramidals.
+Host 59  is connecting: Pyramidals to Pyramidals.
+Host 123  is connecting: Pyramidals to Pyramidals.
+Host 2  is connecting: Pyramidals to Pyramidals.
+Host 93  is connecting: Interneurons to Pyramidals.
+Host 74  is connecting: Interneurons to Pyramidals.
+Host 126  is connecting: Interneurons to Pyramidals.
+Host 3  is connecting: Interneurons to Pyramidals.
+Host 113  is connecting: Interneurons to Pyramidals.
+Host 67  is connecting: Pyramidals to Pyramidals.
+Host 128  is connecting: Interneurons to Pyramidals.
+Host 5  is connecting: Interneurons to Pyramidals.
+Host 86  is connecting: Interneurons to Pyramidals.
+Host 75  is connecting: Pyramidals to Pyramidals.
+Host 133  is connecting: Pyramidals to Pyramidals.
+Host 8  is connecting: Interneurons to Pyramidals.
+Host 94  is connecting: Interneurons to Pyramidals.
+Host 56  is connecting: Interneurons to Pyramidals.Host 136  is connecting: Pyramidals to Pyramidals.
+Host 9  is connecting: Interneurons to Pyramidals.
+Host 97  is connecting: Interneurons to Pyramidals.
+
+Host 137  is connecting: Interneurons to Pyramidals.
+Host 10  is connecting: Interneurons to Pyramidals.
+Host 84  is connecting: Pyramidals to Pyramidals.
+Host 68  is connecting: Pyramidals to Pyramidals.
+Host 138  is connecting: Pyramidals to Pyramidals.
+Host 13  is connecting: Pyramidals to Pyramidals.
+Host 87  is connecting: Pyramidals to Pyramidals.
+Host 50  is connecting: Interneurons to Pyramidals.
+Host 142  is connecting: Pyramidals to Pyramidals.
+Host 15  is connecting: Pyramidals to Pyramidals.
+Host 92  is connecting: Pyramidals to Pyramidals.
+Host 54  is connecting: Interneurons to Pyramidals.
+Host 144  is connecting: Pyramidals to Pyramidals.
+Host 16  is connecting: Interneurons to Pyramidals.
+Host 80  is connecting: Interneurons to Pyramidals.
+Host 40  is connecting: Interneurons to Pyramidals.
+Host 145  is connecting: Pyramidals to Pyramidals.
+Host 17  is connecting: Pyramidals to Pyramidals.
+Host 81  is connecting: Interneurons to Pyramidals.
+Host 41  is connecting: Interneurons to Pyramidals.
+Host 149  is connecting: Pyramidals to Pyramidals.
+Host 18  is connecting: Interneurons to Pyramidals.
+Host 88  is connecting: Interneurons to Pyramidals.
+Host 66  is connecting: Pyramidals to Pyramidals.
+Host 150  is connecting: Pyramidals to Pyramidals.
+Host 20  is connecting: Interneurons to Pyramidals.
+Host 95  is connecting: Interneurons to Pyramidals.
+Host 52  is connecting: Pyramidals to Pyramidals.
+Host 151  is connecting: Interneurons to Pyramidals.
+Host 21  is connecting: Interneurons to Pyramidals.
+Host 103  is connecting: Interneurons to Pyramidals.
+Host 70  is connecting: Pyramidals to Pyramidals.
+Host 127  is connecting: Interneurons to Pyramidals.
+Host 22  is connecting: Pyramidals to Pyramidals.
+Host 104  is connecting: Interneurons to Pyramidals.
+Host 42  is connecting: Interneurons to Pyramidals.
+Host 130  is connecting: Interneurons to Pyramidals.
+Host 23  is connecting: Pyramidals to Pyramidals.
+Host 105  is connecting: Interneurons to Pyramidals.
+Host 47  is connecting: Interneurons to Pyramidals.
+Host 121  is connecting: Interneurons to Pyramidals.
+Host 25  is connecting: Pyramidals to Pyramidals.
+Host 106  is connecting: Pyramidals to Pyramidals.
+Host 48  is connecting: Interneurons to Pyramidals.
+Host 124  is connecting: Interneurons to Pyramidals.
+Host 26  is connecting: Interneurons to Pyramidals.
+Host 107  is connecting: Pyramidals to Pyramidals.
+Host 76  is connecting: Interneurons to Pyramidals.
+Host 143  is connecting: Interneurons to Pyramidals.
+Host 27  is connecting: Interneurons to Pyramidals.
+Host 108  is connecting: Interneurons to Pyramidals.
+Host 51  is connecting: Pyramidals to Pyramidals.Host 125  is connecting: Interneurons to Pyramidals.
+Host 29  is connecting: Interneurons to Pyramidals.
+Host 109  is connecting: Interneurons to Pyramidals.
+Host 61  is connecting: PyramidalHost 129  is connecting: Interneurons to Pyramidals.
+Host 31  is connecting: Pyramidals to Pyramidals.
+Host 110  is connecting: Pyramidals to Pyramidals.
+
+Host 132  is connecting: Interneurons to Pyramidals.
+Host 38  is connecting: Interneurons to Pyramidals.
+Host 111  is connecting: Pyramidals to Pyramidals.
+s to Pyramidals.
+Host 134  is connecting: Pyramidals to Pyramidals.Host 1  is connecting: Pyramidals to Pyramidals.
+Host 114  is connecting: Pyramidals to Pyramidals.
+Host 77  is connecting: Pyramidals to Pyramidals.
+Host 155  is connecting: Interneurons to Pyramidals.
+Host 4  is connecting: Pyramidals to Pyramidals.
+Host 118  is connecting: Pyramidals to Pyramidals.
+Host 57  is connecting: Pyramidals to Pyramidals.
+
+Host 19  is connecting: Interneurons to Pyramidals.
+Host 89  is connecting: Interneurons to Pyramidals.
+Host 55  is connecting: Pyramidals to Pyramidals.
+Host 122  is connecting: Pyramidals to Pyramidals.
+Host 36  is connecting: Interneurons to Pyramidals.
+Host 101  is connecting: Interneurons to Pyramidals.
+Host 62  is connecting: Pyramidals to Pyramidals.
+Host 135  is connecting: Interneurons to Pyramidals.
+Host 37  is connecting: Interneurons to Pyramidals.
+Host 102  is connecting: Interneurons to Pyramidals.
+Host 71  is connecting: Pyramidals to Pyramidals.
+Host 131  is connecting: Interneurons to Pyramidals.
+Host 39  is connecting: Interneurons to Pyramidals.
+Host 115  is connecting: Interneurons to Pyramidals.
+Host Host 146  is connecting: Interneurons to Pyramidals.
+Host 6  is connecting: Interneurons to Pyramidals.
+Host 117  is connecting: Interneurons to Pyramidals.
+Host 46  is connecting: Interneurons to Pyramidals.Host 120  is connecting: Pyramidals to Pyramidals.
+Host 7  is connecting: Pyramidals to Pyramidals.
+Host 119  is connecting: Interneurons to Pyramidals.
+53  is connecting: Interneurons to Pyramidals.
+Host 139  is connecting: Interneurons to Pyramidals.
+Host 12  is connecting: Interneurons to Pyramidals.
+Host 96  is connecting: Interneurons to Pyramidals.
+
+Host 141  is connecting: Interneurons to Pyramidals.
+Host 32  is connecting: Pyramidals to Pyramidals.
+Host 83 Host 44  is connecting: Interneurons to Pyramidals.
+Host 147  is connecting: Pyramidals to Pyramidals.
+Host 35  is connecting: Interneurons to Pyramidals.
+Host 99  is connecting: Interneurons to Pyramidals.
+Host 43  is connecting: Interneurons to Pyramidals.
+Host 150  is connecting: Interneurons to Pyramidals.
+Host 14  is connecting: Interneurons to Pyramidals.
+Host 116  is connecting: Interneurons to Pyramidals.
+Host 49  is connecting: Interneurons to Pyramidals.
+Host 152  is connecting: Interneurons to Pyramidals.
+Host 24  is connecting: Interneurons to Pyramidals.
+Host 82  is connecting: Interneurons to Pyramidals.
+Host 60  is connecting: Interneurons to Pyramidals.
+Host 140  is connecting: Pyramidals to Pyramidals.
+Host 30  is connecting: Interneurons to Pyramidals.
+ is connecting: Interneurons to Pyramidals.
+Host 63  is connecting: Interneurons to Pyramidals.
+Host 156  is connecting: Interneurons to Pyramidals.
+Host 33  is connecting: Interneurons to Pyramidals.
+Host 110  is connecting: Interneurons to Pyramidals.
+Host 67  is connecting: Interneurons to Pyramidals.
+Host 154  is connecting: PyramidalHost 2  is connecting: Interneurons to Pyramidals.
+Host 111  is connecting: Interneurons to Pyramidals.
+Host 68  is connecting: Interneurons to Pyramidals.
+Host 158  is connecting: Pyramidals to Pyramidals.
+Host 34  is connecting: InterneuronHost 118  is connecting: Interneurons to Pyramidals.
+Host 69  is connecting: Interneurons to Pyramidals.
+Host 144  is connecting: Interneurons to PyramidalHost 28  is connecting: Interneurons to Pyramidals.
+Host 92  is connecting: Interneurons to Pyramidals.
+Host 73  is connecting: Interneurons to Pyramidals.
+s to Pyramidals.
+s to Pyramidals.
+Host 84  is connecting: Interneurons to Pyramidals.
+Host 75  is connecting: Interneurons to Pyramidals.
+Host 157  is connecting: Interneurons to Pyramidals.
+Host 22  is connecting: Interneurons to Pyramidals.
+Host 87  is connecting: Interneurons to Pyramidals.
+Host 78  is connecting: Interneurons to Pyramidals.
+Host 123  is connecting: Interneurons to Pyramidals.
+Host 23  is connecting: Interneurons to Pyramidals.
+Host 106  is connecting: Interneurons to Pyramidals.
+Host 65 Host 138  is connecting: Interneurons to Pyramidals.
+Host 11  is connecting: Interneurons to Pyramidals.
+Host 100  is connecting: BGs to Pyramidals.
+ is connecting: Interneurons to Pyramidals.
+s.
+Host 31  is connecting: Interneurons to Pyramidals.
+Host 112  is connecting: BGs to Pyramidals.
+Host 79  is connecting: InterneuronHost 133  is connecting: Interneurons to Pyramidals.
+Host 25  is connecting: Interneurons to Pyramidals.
+Host 113  is connecting: BGs to Pyramidals.
+Host 45  is connecting: Interneurons to Pyramidals.
+Host 148  is connecting: Pyramidals to Pyramidals.
+Host 13  is connecting: Interneurons to PyramidalHost 114  is connecting: Interneurons to Pyramidals.
+s to Pyramidals.
+Host 149  is connecting: Interneurons to Pyramidals.
+s.
+Host 100  is connecting: Pyramidals to Interneurons.
+Host 72  is connecting: Interneurons to Pyramidals.
+Host 153  is connecting: Pyramidals to Pyramidals.
+Host 15  is connecting: Interneurons to Pyramidals.
+Host 112  is connecting: Pyramidals to Interneurons.
+Host 52  is connecting: Interneurons to Pyramidals.
+Host 136  is connecting: Interneurons to Pyramidals.
+Host 1  is connecting: Interneurons to Pyramidals.
+Host 113  is connecting: Pyramidals to Interneurons.
+Host 59  is connecting: Interneurons to Pyramidals.
+Host 142  is connecting: Interneurons to Pyramidals.
+Host 17  is connecting: Interneurons to Pyramidals.
+Host 107  is connecting: Interneurons to Pyramidals.
+Host 66  is connecting: Interneurons to Pyramidals.
+Host 145  is connecting: Interneurons to Pyramidals.
+Host 3  is connecting: BGs to Pyramidals.
+Host 3  is connecting: Pyramidals to Interneurons.
+Host 3  is connecting: Interneurons to Interneurons.
+Host 3  is connecting: BGs to Interneurons.
+Host 3  is connecting: Pyramidals to BGs.
+Host 3  is connecting: Interneurons to BGs.
+Host 3  is connecting: BGs to BGs.
+Host 3  connected cells.
+Host 109  is connecting: BGs to PyramidalHost 70  is connecting: Interneurons to Pyramidals.
+Host 137  is connecting: BGs to Pyramidals.
+Host 4  is connecting: Interneurons to Pyramidals.
+s.
+Host 58  is connecting: BGs to Pyramidals.
+Host 128  is connecting: BGs to PyramidalHost 5  is connecting: BGs to Pyramidals.
+Host 5  is connecting: Pyramidals to Interneurons.
+Host 5  is connecting: Interneurons to Interneurons.
+Host 5  is connecting: BGs to Interneurons.
+Host 5  is connecting: Pyramidals to BGs.
+Host 5  is connecting: Interneurons to BGs.
+Host 5  is connecting: BGs to BGs.
+Host 5  connected cells.
+Host 90  is connecting: BGs to Pyramidals.
+Host 64  is connecting: BGs to Pyramidals.
+s.
+Host 7  is connecting: Interneurons to Pyramidals.
+Host 91  is connecting: BGs to Pyramidals.
+Host 64  is connecting: Pyramidals to Interneurons.
+Host 134  is connecting: InterneuronHost 8  is connecting: BGs to Pyramidals.
+Host 8  is connecting: Pyramidals to Interneurons.
+Host 8  is connecting: Interneurons to Interneurons.
+Host 8  is connecting: BGs to Interneurons.
+Host 8  is connecting: Pyramidals to BGs.
+Host 8  is connecting: Interneurons to BGs.
+Host 8  is connecting: BGs to BGs.
+Host 8  connected cells.
+Host 98  is connecting: BGs to Pyramidals.
+Host 58  is connecting: Pyramidals to Interneurons.
+Host 58  is connecting: Interneurons to Pyramidals.
+Host 9  is connecting: BGs to Pyramidals.
+Host 9  is connecting: Pyramidals to Interneurons.
+Host 9  is connecting: Interneurons to Interneurons.
+Host 9  is connecting: BGs to Interneurons.
+Host 9  is connecting: Pyramidals to BGs.
+Host 9  is connecting: Interneurons to BGs.
+Host 9  is connecting: BGs to BGs.
+Host 9  connected cells.
+Host 85  is connecting: BGs to Pyramidals.
+Host 64  is connecting: Interneurons to Interneurons.
+Host Host 137  is connecting: Pyramidals to Interneurons.
+Host 10  is connecting: BGs to Pyramidals.
+Host 10  is connecting: Pyramidals to Interneurons.
+Host 10  is connecting: Interneurons to Interneurons.
+Host 10  is connecting: BGs to Interneurons.
+Host 10  is connecting: Pyramidals to BGs.
+Host 10  is connecting: Interneurons to BGs.
+Host 10  is connecting: BGs to BGs.
+Host 10  connected cells.
+Host 93  is connecting: BGs to Pyramidals.
+Host 51  is connecting: Interneurons to Host 122  is connecting: Interneurons to Pyramidals.
+Host 16  is connecting: BGs to Pyramidals.
+Host 16  is connecting: Pyramidals to Interneurons.
+Host 16  is connecting: Interneurons to Interneurons.
+Host 16  is connecting: BGs to Interneurons.
+Host 16  is connecting: Pyramidals to BGs.
+Host 16  is connecting: Interneurons to BGs.
+Host 16  is connecting: BGs to BGs.
+Host 16  connected cells.
+Host 105  is connecting: BGs to Pyramidals.
+s to Interneurons.
+Host 58  is connecting: BGs to Interneurons.
+Host 128  is connecting: Pyramidals to Interneurons.
+Host 18  is connecting: BGs to Pyramidals.
+Host 18  is connecting: Pyramidals to Interneurons.
+Host 18  is connecting: Interneurons to Interneurons.
+Host 18  is connecting: BGs to Interneurons.
+Host 18  is connecting: Pyramidals to BGs.
+Host 18  is connecting: Interneurons to BGs.
+Host 18  is connecting: BGs to BGs.
+Host 18  connected cells.
+Host 109  is connecting: Pyramidals to Interneurons.
+64  is connecting: BGs to Interneurons.
+Host Host 159  is connecting: BGs to Pyramidals.
+Host 19  is connecting: BGs to Pyramidals.
+Host 19  is connecting: Pyramidals to Interneurons.
+Host 19  is connecting: Interneurons to Interneurons.
+Host 19  is connecting: BGs to Interneurons.
+Host 19  is connecting: Pyramidals to BGs.
+Host 19  is connecting: Interneurons to BGs.
+Host 19  is connecting: BGs to BGs.
+Host 19  connected cells.
+Host 104  is connecting: BGs to Pyramidals.
+Pyramidals.
+Host 126  is connecting: BGs to Pyramidals.
+Host 20  is connecting: BGs to Pyramidals.
+Host 20  is connecting: Pyramidals to Interneurons.
+Host 20  is connecting: Interneurons to Interneurons.
+Host 20  is connecting: BGs to Interneurons.
+Host 20  is connecting: Pyramidals to BGs.
+Host 20  is connecting: Interneurons to BGs.
+Host 20  is connecting: BGs to BGs.
+Host 20  connected cells.
+Host 85  is connecting: Pyramidals to Interneurons.
+Host 58  is connecting: Pyramidals to BGs.Host 120  is connecting: Interneurons to Pyramidals.
+Host 21  is connecting: BGs to Pyramidals.
+Host 21  is connecting: Pyramidals to Interneurons.
+Host 21  is connecting: Interneurons to Interneurons.
+Host 21  is connecting: BGs to Interneurons.
+Host 21  is connecting: Pyramidals to BGs.
+Host 21  is connecting: Interneurons to BGs.
+Host 21  is connecting: BGs to BGs.
+Host 21  connected cells.
+Host 90  is connecting: Pyramidals to Interneurons.
+Host 90  is connecting: Interneurons to Interneurons.
+Host 90  is connecting: BGs to Interneurons.
+Host 61  is connecting: Interneurons to Pyramidals.
+Host 121  is connecting: BGs to Pyramidals.
+Host 121  is connecting: Pyramidals to Interneurons.
+Host 26  is connecting: BGs to Pyramidals.
+Host 26  is connecting: Pyramidals to Interneurons.
+Host 26  is connecting: Interneurons to Interneurons.
+Host 26  is connecting: BGs to Interneurons.
+Host 26  is connecting: Pyramidals to BGs.
+Host 26  is connecting: Interneurons to BGs.
+Host 26  is connecting: BGs to BGs.
+Host 26  connected cells.
+Host 91  is connecting: Pyramidals to Interneurons.
+Host 91  is connecting: Interneurons to Interneurons.
+Host 91  is connecting: BGs to Interneurons.
+Host 64  is connecting: Pyramidals to BGs.
+Host 64  is connecting: Interneurons to BGs.Host 124  is connecting: BGs to Pyramidals.
+Host 124  is connecting: Pyramidals to Interneurons.
+Host 27  is connecting: BGs to Pyramidals.
+Host 27  is connecting: Pyramidals to Interneurons.
+Host 27  is connecting: Interneurons to Interneurons.
+Host 27  is connecting: BGs to Interneurons.
+Host 27  is connecting: Pyramidals to BGs.
+Host 27  is connecting: Interneurons to BGs.
+Host 27  is connecting: BGs to BGs.
+Host 27  connected cells.
+Host 93  is connecting: Pyramidals to Interneurons.
+Host 93  is connecting: Interneurons to Interneurons.
+Host 58  is connecting: Interneurons to BGs.
+Host 125  is connecting: BGs to Pyramidals.
+Host 125  is connecting: Pyramidals to Interneurons.
+Host 29  is connecting: BGs to Pyramidals.
+Host 29  is connecting: Pyramidals to Interneurons.
+Host 29  is connecting: Interneurons to Interneurons.
+Host 29  is connecting: BGs to Interneurons.
+Host 29  is connecting: Pyramidals to BGs.
+Host 29  is connecting: Interneurons to BGs.
+Host 29  is connecting: BGs to BGs.
+Host 29  connected cells.
+Host 94  is connecting: BGs to Pyramidals.
+
+Host 64  is connecting: BGs to BGs.
+Host 126  is connecting: Pyramidals to Interneurons.
+Host 32  is connecting: Interneurons to Pyramidals.
+Host 97  is connecting: BGs to Pyramidals.
+Host 74  is connecting: BGs to Pyramidals.
+Host 127  is connecting: BGs to Pyramidals.
+Host 127  is connecting: Pyramidals to Interneurons.
+Host 36  is connecting: BGs to Pyramidals.
+Host 36  is connecting: Pyramidals to Interneurons.
+Host 36  is connecting: Interneurons to Interneurons.
+Host 36  is connecting: BGs to Interneurons.
+Host 36  is connecting: Pyramidals to BGs.
+Host 36  is connecting: Interneurons to BGs.
+Host 36  is connecting: BGs to BGs.
+Host 36  connected cells.
+Host 98  is connecting: Pyramidals to Interneurons.
+Host 98  is connecting: Interneurons to Interneurons.
+Host 98  is connecting: BGs to Interneurons.
+Host 98  is connecting: Pyramidals to BGs.
+Host 77  is connecting: Interneurons to PyramidalHost 129  is connecting: BGs to Pyramidals.
+Host 129  is connecting: Pyramidals to Interneurons.
+Host 37  is connecting: BGs to Pyramidals.
+Host 37  is connecting: Pyramidals to Interneurons.
+Host 37  is connecting: Interneurons to Interneurons.
+Host 37  is connecting: BGs to Interneurons.
+Host 37  is connecting: Pyramidals to BGs.
+Host 37  is connecting: Interneurons to BGs.
+Host 37  is connecting: BGs to BGs.
+Host 37  connected cells.
+Host 105  is connecting: Pyramidals to Interneurons.
+Host 57  is connecting: Interneurons to Pyramidals.
+Host 130  is connecting: BGs to Pyramidals.
+Host 130  is connecting: Pyramidals to Interneurons.
+Host 38  is connecting: BGs to Pyramidals.
+Host 38  is connecting: Pyramidals to Interneurons.
+Host 38  is connecting: Interneurons to Interneurons.
+Host 38  is connecting: BGs to Interneurons.
+Host 38  is connecting: Pyramidals to BGs.
+Host 38  is connecting: Interneurons to BGs.
+Host 38  is connecting: BGs to BGs.
+Host 38  connected cells.
+Host 85  is connecting: Interneurons to Interneurons.
+Host 85  is connecting: BGs to Interneurons.
+Host 85  is connecting: Pyramidals to BGs.
+Host 58  is connecting: BGs to BGs.
+Host 58  connected cells.
+Host 132  is connecting: BGs to Pyramidals.
+Host 132  is connecting: Pyramidals to Interneurons.
+Host 39  is connecting: BGs to Pyramidals.
+Host 39  is connecting: Pyramidals to Interneurons.
+Host 39  is connecting: Interneurons to Interneurons.
+Host 39  is connecting: BGs to Interneurons.
+Host 39  is connecting: Pyramidals to BGs.
+Host 39  is connecting: Interneurons to BGs.
+Host 39  is connecting: BGs to BGs.
+Host 39  connected cells.
+Host 86  is connecting: BGs to Pyramidals.
+Host 64  connected cells.
+Host 135  is connecting: BGs to Pyramidals.
+Host 135  is connecting: Pyramidals to Interneurons.
+Host 6  is connecting: BGs to Pyramidals.
+Host 6  is connecting: Pyramidals to Interneurons.
+Host 6  is connecting: Interneurons to Interneurons.
+Host 6  is connecting: BGs to Interneurons.
+Host 6  is connecting: Pyramidals to BGs.
+Host 6  is connecting: Interneurons to BGs.
+Host 6  is connecting: BGs to BGs.
+Host 6  connected cells.
+Host 90  is connecting: Pyramidals to BGs.
+Host 90  is connecting: Interneurons to BGs.
+Host 90  is connecting: BGs to BGs.
+Host 90  connected cells.s.
+Host 140  is connecting: Interneurons to Pyramidals.
+Host 12  is connecting: BGs to Pyramidals.
+Host 12  is connecting: Pyramidals to Interneurons.
+Host 12  is connecting: Interneurons to Interneurons.
+Host 12  is connecting: BGs to Interneurons.
+Host 12  is connecting: Pyramidals to BGs.
+Host 12  is connecting: Interneurons to BGs.
+Host 12  is connecting: BGs to BGs.
+Host 12  connected cells.
+91  is connecting: Pyramidals to BGs.
+Host 91  is connecting: Interneurons to BGs.
+Host 91  is connecting: BGs to BGs.
+Host 91  connected cells.
+Host 50 Host 143  is connecting: BGs to Pyramidals.
+Host 143  is connecting: Pyramidals to Interneurons.
+Host 35  is connecting: BGs to Pyramidals.
+Host 35  is connecting: Pyramidals to Interneurons.
+Host 35  is connecting: Interneurons to Interneurons.
+Host 35  is connecting: BGs to Interneurons.
+Host 35  is connecting: Pyramidals to BGs.
+Host 35 
+Host 93  is connecting: BGs to Interneurons.
+Host 93  is connecting: Pyramidals to BGs.
+Host 93  is connecting: Interneurons to BGs.
+Host 93  is connecting: BGs to Pyramidals.
+Host 146  is connecting: BGs to Pyramidals.
+Host 14  is connecting: BGs to Pyramidals.
+Host 98  is connecting: Interneurons to BGs.
+Host 98  is connecting: BGs to BGs.
+Host 98  connected cells.
+Host 55  is connecting: Interneurons to Pyramidals.
+Host 147  is connecting: Interneurons to Pyramidals.
+ is connecting: Interneurons to BGs.
+Host 35  is connecting: BGs to BGs.
+Host 35  connected cells.
+Host 85  is connecting: Interneurons to BGs.
+Host 85  is connecting: BGs to BGs.
+Host 85  connected cells.
+Host 56  is connecting: BGs to Pyramidals.
+Host 148  is connecting: Interneurons to Pyramidals.
+Host 14  is connecting: Pyramidals to Interneurons.
+Host 14  is connecting: Interneurons to Interneurons.
+Host 
+Host 62  is connecting: Interneurons to Pyramidals.
+Host 151  is connecting: BGs to Pyramidals.
+Host 151  is connecting: Pyramidals to Interneurons.
+14  is connecting: BGs to Interneurons.
+Host  is connecting: BGs to BGs.
+Host 93  connected cells.
+Host 71  is connecting: Interneurons to Pyramidals.
+Host 153  is connecting: Interneurons to Pyramidals.
+14  is connecting: Pyramidals to BGs.
+Host 14 Host 103  is connecting: BGs to Pyramidals.
+Host 74  is connecting: Pyramidals to Interneurons.
+Host 74  is connecting: Interneurons to Interneurons.
+Host Host 154  is connecting: Interneurons to Pyramidals.
+ is connecting: Interneurons to BGs.
+Host 14 Host 94  is connecting: Pyramidals to Interneurons.Host 41  is connecting: BGs to Pyramidals.
+Host 155  is connecting: BGs to Pyramidals.
+Host 155  is connecting: Pyramidals to Interneurons.
+ is connecting: BGs to BGs.
+Host 14 Host 97  is connecting: Pyramidals to Interneurons.
+74  is connecting: BGs to Interneurons.
+Host Host 158  is connecting: Interneurons to Pyramidals.
+ connected cells.
+Host 108  is connecting: BGs to Pyramidals.
+Host 50  is connecting: Pyramidals to Interneurons.
+Host 50  is connecting: Interneurons to Interneurons.Host 159  is connecting: Pyramidals to Interneurons.
+Host 24  is connecting: BGs to Pyramidals.
+Host 86  is connecting: Pyramidals to Interneurons.
+Host 86 74  is connecting: Pyramidals to BGs.
+Host 74  is connecting: Interneurons to BGs.
+Host 139  is connecting: BGs to Pyramidals.
+Host 2  is connecting: BGs to Pyramidals.
+
+Host 94  is connecting: Interneurons to Interneurons.
+Host 94  is connecting: BGs to Interneurons.
+Host 40  is connecting: BGs to Pyramidals.
+Host 141  is connecting: BGs to Pyramidals.
+Host 24  is connecting: Pyramidals to Interneurons.
+Host 97  is connecting: Interneurons to Interneurons.
+Host 97  is connecting: BGs to Interneurons.
+
+Host 50  is connecting: BGs to Interneurons.
+Host 150  is connecting: BGs to Pyramidals.
+Host 24  is connecting: Interneurons to Interneurons.
+Host 104  is connecting: Pyramidals to Interneurons.
+Host 54  is connecting: BGs to Pyramidals.
+Host 141  is connecting: Host 24  is connecting: BGs to Host 81  is connecting: BGs to Pyramidals.
+Host 56  is connecting: Pyramidals to Interneurons.
+Host 56  is connecting: Interneurons to Interneurons.
+Host Host 146  is connecting: Pyramidals to Interneurons.
+Interneurons.
+ is connecting: Interneurons to Interneurons.
+Host 86  is connecting: BGs to Interneurons.
+Host 86  is connecting: Pyramidals to BGs.
+Host 86  is connecting: Interneurons to BGs.
+Host 86  is connecting: BGs to BGs.
+Host 86  connected cells.
+Host 74  is connecting: BGs to BGs.
+Host 74  connected cells.
+Host 131  is connecting: BGs to Pyramidals.
+Host 24  is connecting: Pyramidals to Host 94  is connecting: Pyramidals to BGs.
+Host 94  is connecting: Interneurons to BGs.
+Host 94  is connecting: BGs to BGs.
+Host 94  connected cells.
+Host 50  is connecting: Pyramidals to BGs.
+Host Host 139  is connecting: Pyramidals to Interneurons.
+Host 30  is connecting: BGs to Pyramidals.
+Host 97  is connecting: Pyramidals to BGs.
+Host 97  is connecting: Interneurons to BGs.
+Host 97  is connecting: BGs to BGs.
+Host 97  connected cells.
+56  is connecting: BGs to Interneurons.
+Host Pyramidals to Interneurons.
+Host 2  is connecting: Pyramidals to InterneuronHost 81  is connecting: Pyramidals to Interneurons.
+Host 81  is connecting: Interneurons to Interneurons.
+Host 81  is connecting: BGs to Interneurons.
+Host 81  is connecting: Pyramidals to BGs.
+Host 81  is connecting: Interneurons to BGs.
+Host 81  is connecting: BGs to BGs.
+Host 81  connected cells.
+50  is connecting: Interneurons to BGs.
+Host 50  is connecting: Host 150  is connecting: Pyramidals to Interneurons.
+BGs.
+Host 24  is connecting: Host 95  is connecting: BGs to Pyramidals.
+56  is connecting: Pyramidals to BGs.
+Host Host 138  is connecting: BGs to Pyramidals.
+s.
+Host 2  is connecting: Interneurons to Host 101  is connecting: BGs to Pyramidals.
+Host 101  is connecting: Pyramidals to Interneurons.
+BGs to BGs.
+Host 50  connected cells.
+Host 133  is connecting: BGs to Pyramidals.
+Host 133  is connecting: Pyramidals to Interneurons.
+Interneurons to BGs.
+Host Host 102  is connecting: BGs to Pyramidals.
+Host 102  is connecting: Pyramidals to Interneurons.
+56  is connecting: Interneurons to BGs.
+Host 56  is connecting: Host 144  is connecting: BGs to Pyramidals.
+Host 144  is connecting: Pyramidals to Interneurons.
+Interneurons.
+Host 2  is connecting: BGs to Host 103  is connecting: Pyramidals to Interneurons.
+Host 41  is connecting: PyramidalHost 157  is connecting: BGs to Pyramidals.
+Host 157  is connecting: Pyramidals to Interneurons.
+24  is connecting: BGs to BGs.
+Host 108  is connecting: Pyramidals to Interneurons.
+BGs to BGs.
+Host 56  connected cells.
+Host 123  is connecting: BGs to Pyramidals.
+Host 123  is connecting: Pyramidals to Interneurons.
+Interneurons.
+Host 115  is connecting: BGs to Pyramidals.
+Host 115  is connecting: Pyramidals to Interneurons.
+s to Interneurons.
+Host 41  is connecting: Interneurons to Host 131  is connecting: Pyramidals to Interneurons.
+Host 24  connected cells.
+Host 88  is connecting: BGs to PyramidalInterneurons.
+Host 41  is connecting: BGHost 138  is connecting: Pyramidals to Interneurons.
+Host 2  is connecting: Pyramidals to Host 95  is connecting: Pyramidals to Interneurons.
+Host s to Interneurons.
+Host Host 149  is connecting: BGs to Pyramidals.
+Host 149  is connecting: Pyramidals to Interneurons.
+BGs.
+Host s.
+Host 40  is connecting: Pyramidals to Interneurons.
+Host 152  is connecting: BGs to Pyramidals.
+Host 34  is connecting: BGs to Pyramidals.
+95  is connecting: Interneurons to Interneurons.
+Host 95  is connecting: BGs to Interneurons.
+41  is connecting: Pyramidals to BGs.
+Host Host 156  is connecting: BGs to Pyramidals.
+2  is connecting: Interneurons to BGs.
+Host 110  is connecting: BGs to Pyramidals.
+Host 40  is connecting: Interneurons to Interneurons.
+Host 152  is connecting: Pyramidals to Interneurons.
+Host 2  is connecting: BGs to Host 111  is connecting: BGs to Pyramidals.
+41  is connecting: Interneurons to BGs.
+Host 41 Host 156  is connecting: Pyramidals to Interneurons.
+BGs.
+Host 2 Host 80  is connecting: BGs to Host 54  is connecting: Pyramidals to Interneurons.
+Host Host 136  is connecting: BGs to Pyramidals.
+ connected cells.
+Host 95  is connecting: Pyramidals to BGs.
+Host 95  is connecting: Interneurons to BGs.Host 40  is connecting: BGs to Interneurons.
+Host 145  is connecting: BGs to Pyramidals.
+Host Host 11  is connecting: BGHost 118  is connecting: BGs to Pyramidals.
+ is connecting: BGs to BGs.
+Host 41  connected cells.
+145  is connecting: Pyramidals to Interneurons.
+s to Pyramidals.
+Pyramidals.
+54  is connecting: Interneurons to Interneurons.
+Host 54 Host 142  is connecting: BGs to Pyramidals.
+Host 30  is connecting: 
+Host 95  is connecting: BGs to BGs.
+Host 95  connected cells.
+Host 40  is connecting: Pyramidals to BGs.
+Host 134  is connecting: BGs to Pyramidals.
+Pyramidals to Interneurons.
+Host Host 110  is connecting: Pyramidals to Interneurons.
+ is connecting: BGs to Interneurons.
+Host Host 136  is connecting: Pyramidals to Interneurons.
+30  is connecting: Interneurons to Interneurons.
+Host 111  is connecting: Pyramidals to Interneurons.
+Host 40  is connecting: Interneurons to BGs.
+Host Host 142  is connecting: Pyramidals to Interneurons.
+Host 34  is connecting: Pyramidals to Interneurons.
+Host Host 118  is connecting: Pyramidals to Interneurons.
+54  is connecting: Pyramidals to BGs.
+Host Host 134  is connecting: Pyramidals to Interneurons.
+Host 30  is connecting: BGs to Interneurons.
+Host 80  is connecting: Pyramidals to Interneurons.
+Host 80  is connecting: Interneurons to Interneurons.
+Host 80  is connecting: BGs to Interneurons.
+Host 80  is connecting: Pyramidals to BGs.
+Host 80  is connecting: Interneurons to BGs.
+Host 80  is connecting: BGs to BGs.
+Host 80  connected cells.
+40  is connecting: BGs to BGs.
+Host Host 122  is connecting: BGs to Pyramidals.
+34  is connecting: Interneurons to Interneurons.
+Host 34  is connecting: BGHost 83  is connecting: BGs to Pyramidals.
+Host 83  is connecting: Pyramidals to Interneurons.
+Host 83  is connecting: Interneurons to Interneurons.
+Host 54  is connecting: Interneurons to BGs.
+Host Host 137  is connecting: Interneurons to Interneurons.
+Host 30  is connecting: Host 88  is connecting: Pyramidals to Interneurons.
+Host 88  is connecting: Interneurons to Interneurons.
+Host 88  is connecting: BGs to Interneurons.
+Host 88  is connecting: Pyramidals to BGs.
+Host 88  is connecting: Interneurons to BGs.
+Host 88  is connecting: BGs to BGs.
+Host 88  connected cells.
+40  connected cells.
+Host 154  is connecting: BGs to Pyramidals.
+s to Interneurons.
+Host 34 Host 89  is connecting: BGs to Pyramidals.
+Host 89  is connecting: Pyramidals to Interneurons.
+Host 89  is connecting: Interneurons to Interneurons.
+Host 89  is connecting: BGs to Interneurons.
+Host 89  is connecting: Pyramidals to BGs.
+Host 89  is connecting: Interneurons to BGs.
+Host 89  is connecting: BGs to BGs.
+Host 89  connected cells.
+Host 42  is connecting: BGs to Pyramidals.
+Host 158  is connecting: BGs to Pyramidals.
+Pyramidals to BGs.
+Host Host 96  is connecting: BGs to Pyramidals.
+Host 96  is connecting: Pyramidals to Interneurons.
+Host 96  is connecting: Interneurons to Interneurons.
+Host 96  is connecting: BGs to Interneurons.
+Host 96  is connecting: Pyramidals to BGs.
+Host 96  is connecting: Interneurons to BGs.
+Host 96  is connecting: BGs to BGs.
+Host 96  connected cells.
+Host 47  is connecting: BGs to Pyramidals.
+Host 147  is connecting: BGs to Pyramidals.
+ is connecting: Pyramidals to BGs.
+Host 34  is connecting: Interneurons to Host 99  is connecting: BGs to Pyramidals.
+Host 99  is connecting: Pyramidals to Interneurons.
+Host 99  is connecting: Interneurons to Interneurons.
+Host 99  is connecting: BGs to Interneurons.
+Host 99  is connecting: Pyramidals to BGs.
+Host 99  is connecting: Interneurons to BGs.
+Host 99  is connecting: BGs to BGs.
+Host 99  connected cells.
+54  is connecting: BGs to BGs.
+Host 54  connected cells.
+Host 128  is connecting: InterneuronHost 11  is connecting: Pyramidals to Interneurons.
+Host 11 83  is connecting: BGs to Interneurons.
+Host 83  is connecting: Pyramidals to BGs.
+Host 83  is connecting: Interneurons to BGs.
+Host 83 Host 48  is connecting: BGs to Pyramidals.
+s to Interneurons.
+30  is connecting: Interneurons to BGs.
+Host Host 117  is connecting: BGs to Pyramidals.
+Host 42  is connecting: Pyramidals to Interneurons.
+Host 42  is connecting: Interneurons to Interneurons.
+Host Host 154  is connecting: Pyramidals to Interneurons.
+Host 33  is connecting: BGs to Pyramidals.
+Host 119  is connecting: BGs to Pyramidals.
+Host 47  is connecting: Pyramidals to Interneurons.
+Host 47  is connecting: Interneurons to Interneurons.
+Host 47  is connecting: BGs to Interneurons.
+Host 158  is connecting: Pyramidals to Interneurons.
+BGs.
+Host 34  is connecting: BGs to BGs.
+Host  is connecting: BGs to BGs.
+Host 83  connected cells.
+42  is connecting: BGs to Interneurons.
+Host 42 Host 120  is connecting: BGs to Pyramidals.
+ is connecting: Interneurons to Interneurons.
+Host 11  is connecting: BGs to Interneurons.
+Host 117  is connecting: Pyramidals to Interneurons.
+Host 47  is connecting: Pyramidals to BGs.
+Host 47  is connecting: Interneurons to BGs.
+Host 122  is connecting: Pyramidals to Interneurons.
+30  is connecting: BGs to BGs.
+Host 30  connected cells.Host 119  is connecting: Pyramidals to Interneurons.
+ is connecting: Pyramidals to BGs.
+Host 42  is connecting: InterneuronHost 140  is connecting: BGs to 34  connected cells.
+Host 82  is connecting: BGs to Pyramidals.
+Host 47  is connecting: BGs to BGs.
+Host 47  connected cells.
+Pyramidals.
+Host 11  is connecting: Pyramidals to BGs.
+Host 92  is connecting: BGs to Pyramidals.
+Host 48  is connecting: Pyramidals to Interneurons.
+Host 48  is connecting: Interneurons to Interneurons.
+Host 147  is connecting: Pyramidals to Interneurons.
+
+Host 116  is connecting: BGs to Pyramidals.
+s to BGs.
+Host 42  is connecting: BGs to BGs.
+Host 42  connected cells.Host 137  is connecting: BGs to Interneurons.Host 11  is connecting: Interneurons to BGs.
+Host 82  is connecting: Pyramidals to Interneurons.
+Host Host 48  is connecting: BGs to Interneurons.
+Host 48  is connecting: Pyramidals to BGs.
+Host 148  is connecting: BGs to Pyramidals.
+Host 11  is connecting: BGs to BGs.
+82  is connecting: Interneurons to Interneurons.
+Host 
+Host 153  is connecting: BGs to Pyramidals.
+Host 11  connected cells.
+Host 92  is connecting: Pyramidals to Interneurons.
+Host 48  is connecting: Interneurons to BGs.
+Host 48  is connecting: BGs to BGs.
+Host 120  is connecting: Pyramidals to Interneurons.
+Host 28  is connecting: BGs to Pyramidals.
+Host 114  is connecting: BGs to Pyramidals.
+Host 48  connected cells.
+
+Host 33  is connecting: Pyramidals to Interneurons.
+Host 33  is connecting: Interneurons to Interneurons.
+Host 33  is connecting: BGs to Interneurons.82  is connecting: BGs to Interneurons.
+Host 76  is connecting: BGs to Pyramidals.
+Host 137  is connecting: Pyramidals to BGs.
+Host 137  is connecting: 
+Host 33  is connecting: Pyramidals to BGs.Host 92  is connecting: Interneurons to Interneurons.
+Host 73  is connecting: BGs to Pyramidals.
+Host 140  is connecting: Pyramidals to Interneurons.
+
+Host 33  is connecting: Interneurons to BGs.
+Host 87  is connecting: BGs to Host 60  is connecting: BGs to Pyramidals.
+Interneurons to BGs.
+Host 137  is connecting: BGs to BGs.
+Host 137  connected cells.
+Host 33  is connecting: BGs to BGs.
+Host Host 92  is connecting: BGs to InterneuronHost 76  is connecting: Pyramidals to Interneurons.
+Host 151  is connecting: Interneurons to Interneurons.
+Host 28  is connecting: PyramidalHost 82  is connecting: Pyramidals to BGs.
+Host 49 Host 128  is connecting: BGs to Interneurons.
+33  connected cells.
+Pyramidals.
+Host 73  is connecting: Pyramidals to Interneurons.
+Host 73  is connecting: Interneurons to Interneurons.
+Host 148  is connecting: Pyramidals to Interneurons.
+s to Interneurons.
+Host 28  is connecting: Interneurons to Interneurons.
+Host s.
+Host Host 76  is connecting: Interneurons to Interneurons.
+Host 76 Host 153  is connecting: Pyramidals to Interneurons.
+28  is connecting: BGs to Interneurons.
+Host Host 82  is connecting: Interneurons to BG is connecting: BGs to Pyramidals.
+Host 127  is connecting: Interneurons to Interneurons.
+28  is connecting: Pyramidals to BGs.
+Host 28  is connecting: Interneurons to 92  is connecting: Pyramidals to BGs.
+Host 60  is connecting: Pyramidals to Interneurons.
+Host 60 Host 128  is connecting: Pyramidals to BGs.
+Host 128  is connecting: Interneurons to BGs.
+BGs.
+Host 28  is connecting: BGs to BGs.
+Host 28 Host 116  is connecting: Host 73  is connecting: BGs to Interneurons.
+Host 73  is connecting: Pyramidals to BGs.
+Host 130  is connecting: Interneurons to Interneurons.
+Host 31  is connecting: BGs to Pyramidals.
+s.
+Host 82  is connecting:  is connecting: BGs to Interneurons.
+Host 76  is connecting: Host 128  is connecting: BGs to BGs.
+Host 128  connected cells.
+Host 22  is connecting: BGs to Pyramidals.
+Host 92  is connecting: Interneurons to BG is connecting: Interneurons to Interneurons.
+Host 60  is connecting: BGs to Interneurons.
+Host 125  is connecting: Interneurons to Interneurons.
+ connected cells.
+Pyramidals to Interneurons.
+Host 73  is connecting: Interneurons to BGs.
+Host 73  is connecting: BGs to BGs.
+Host 126  is connecting: Interneurons to Interneurons.
+Host 23  is connecting: BGs to Pyramidals.
+BGs to BGs.
+Host 82  connected cells.Pyramidals to BGs.
+Host 76  is connecting: Interneurons to BGs.Host 129  is connecting: Interneurons to Interneurons.
+Host 25  is connecting: BGs to Pyramidals.
+s.
+Host 92  is connecting: BGs to BGs.
+Host 44  is connecting: BGs to Pyramidals.
+Host 151  is connecting: BGs to Interneurons.
+Host 13  is connecting: BGs to Pyramidals.
+
+Host 60  is connecting: Pyramidals to BGs.
+Host 60  is connecting: Interneurons to BGs.
+Host Host 155  is connecting: Interneurons to Interneurons.
+Host 31  is connecting: Pyramidals to Interneurons.
+Host 31  is connecting: InterneuronHost 92  connected cells.
+Host 73  connected cells.
+Host 127  is connecting: BGs to Interneurons.
+s to Interneurons.
+Host 31  is connecting: BGs to Interneurons.
+Host 114  is connecting: Pyramidals to Interneurons.
+
+Host 76  is connecting: BGs to BGs.
+Host 76  connected cells.Host 130  is connecting: BGs to Interneurons.
+Host 22  is connecting: Pyramidals to Interneurons.
+Host 22  is connecting: Interneurons to Interneurons.
+Host Host 107  is connecting: BGs to Pyramidals.
+60  is connecting: BGs to BGs.
+Host 60  connected cells.
+Host 151  is connecting: Pyramidals to BGs.
+Host 151  is connecting: Interneurons to BGs.
+Host 151  is connecting: BGs to BGs.
+Host 151  connected cells.Host 31  is connecting: Pyramidals to BGs.
+Host 31  is connecting: Interneurons to BGs.
+Host 87  is connecting: Pyramidals to Interneurons.
+
+Host 127  is connecting: Pyramidals to BGs.
+Host Host 15  is connecting: BGs to Pyramidals.
+Host 100  is connecting: Interneurons to Interneurons.
+Host 44  is connecting: Pyramidals to Interneurons.
+Host 44  is connecting: Interneurons to Interneurons.
+Host 130  is connecting: Pyramidals to BGs.
+Host 130  is connecting: Interneurons to BGs.
+Host 130  is connecting: BGs to BGs.22  is connecting: BGs to Interneurons.
+Host 22  is connecting: Pyramidals to BGs.
+Host 87  is connecting: Interneurons to Interneurons.
+Host 49  is connecting: Pyramidals to Interneurons.
+Host 49  is connecting: Interneurons to Interneurons.
+Host 49  is connecting: BGs to Interneurons.
+Host 135  is connecting: Interneurons to Interneurons.
+Host 23  is connecting: Pyramidals to Interneurons.
+Host 23  is connecting: Interneurons to Interneurons.
+Host 23 Host 87  is connecting: BGs to Interneurons.
+Host 78  is connecting: BGs to Pyramidals.
+
+Host 31  is connecting: BGs to BGs.
+Host 31  connected cells.
+Host 112  is connecting: Interneurons to Interneurons.
+Host 44  is connecting: BGs to Interneurons.
+Host 44  is connecting: Pyramidals to BGs.
+Host 44  is connecting: Interneuron127  is connecting: Interneurons to BGs.
+Host 127  is connecting: BGs to BGs.
+Host 127  connected cells.
+Host 22  is connecting: Interneurons to BGs.
+Host 22  is connecting: BGs to BGs.
+Host 22  connected cells.Host 113  is connecting: Interneurons to Interneurons.
+Host 49  is connecting: Pyramidals to BGs.
+Host 49  is connecting: Interneurons to BGs.
+Host 49  is connecting: 
+Host 130  connected cells.
+ is connecting: BGs to Interneurons.
+Host 23  is connecting: Pyramidals to BGs.
+Host 23  is connecting: Interneurons to BGs.
+Host 23  is connecting: BGs to BGs.
+Host 23  connected cells.
+Host 87  is connecting: Pyramidals to BGs.
+Host Host 69  is connecting: BGs to Pyramidals.Host 125  is connecting: BGs to Interneurons.
+Host 25  is connecting: Pyramidals to Interneurons.
+Host 25  is connecting: Interneurons to Interneurons.
+Host 25  is connecting: BGs to Interneurons.
+Host 25  is connecting: Pyramidals to BGs.
+Host 25  is connecting: Interneurons to BGs.
+Host 25  is connecting: BGs to BGs.
+Host 25  connected cells.
+87  is connecting: Interneurons to BGs.
+Host Host 75  is connecting: BGs to Pyramidals.
+Host 129  is connecting: BGs to Interneurons.
+Host 1  is connecting: BGs to Pyramidals.
+87  is connecting: BGs to BGs.
+Host 87 s to BGs.
+Host 44  is connecting: BGs to BGs.
+Host 44  connected cells.
+Host 146  is connecting: Interneurons to Interneurons.
+Host 4  is connecting: BGs to Pyramidals.
+Host 84  is connecting: BGs to Pyramidals.
+Host 84  is connecting: Pyramidals to Interneurons.
+Host 84  is connecting: Interneurons to Interneurons.
+Host 84  is connecting: BGs to Interneurons.
+Host 84  is connecting: Pyramidals to BGs.
+Host 84  is connecting: Interneurons to BGs.
+Host 84  is connecting: BGs to BGs.
+Host 84  connected cells.
+BGs to BGs.
+Host 49  connected cells.
+Host 139  is connecting: Interneurons to Interneurons.
+Host 7  is connecting: BGs to Pyramidals.
+ connected cells.
+
+Host 141  is connecting: Interneurons to Interneurons.
+Host 13  is connecting: Pyramidals to Interneurons.
+Host 13  is connecting: Interneurons to Interneurons.
+Host 13  is connecting: BGs to Interneurons.
+Host 13  is connecting: Pyramidals to BGs.
+Host 13  is connecting: Interneurons to BGs.
+Host 13  is connecting: BGs to BGs.
+Host 13  connected cells.
+Host 100  is connecting: BGs to Interneurons.
+Host 100  is connecting: Pyramidals to BGs.
+Host 100  is connecting: Interneurons to BGs.
+Host 100  is connecting: BGs to BGs.
+Host 100  connected cells.
+Host 63  is connecting: BGs to Pyramidals.
+Host 155  is connecting: BGs to Interneurons.
+Host 15  is connecting: Pyramidals to Interneurons.
+Host 15  is connecting: Interneurons to Interneurons.
+Host 15  is connecting: BGs to Interneurons.
+Host 15  is connecting: Pyramidals to BGs.
+Host 15  is connecting: Interneurons to BGs.
+Host 15  is connecting: BGs to BGs.
+Host 15  connected cells.
+Host 106  is connecting: BGs to Pyramidals.
+Host 106  is connecting: Pyramidals to Interneurons.
+Host 75  is connecting: Pyramidals to Interneurons.
+Host 75  is connecting: Interneurons to Interneurons.
+Host 75  is connecting: BGHost 125  is connecting: Pyramidals to BGs.
+Host 125  is connecting: Interneurons to BGs.
+Host 125  is connecting: BGs to BGs.
+
+Host 107  is connecting: Pyramidals to Interneurons.
+Host 78  is connecting: Pyramidals to Interneurons.
+Host 78  is connecting: Interneurons to Interneurons.
+Host 78  is connecting: BGs to Interneurons.Host 129  is connecting: Pyramidals to BGs.
+Host 129  is connecting: Interneurons to BGs.
+Host 129  is connecting: BGs to BGs.
+Host 129  connected cells.
+Host 32  is connecting: BGs to Pyramidals.
+Host 112  is connecting: BGs to Interneurons.
+Host 112  is connecting: Pyramidals to BGs.
+Host 112  is connecting: Interneurons to BGs.
+Host 112  is connecting: BGs to BGs.
+Host 112  connected cells.
+s to Interneurons.
+Host 75  is connecting: PyramidalHost 125  connected cells.
+Host 1  is connecting: Pyramidals to Interneurons.
+Host 1  is connecting: Interneurons to Interneurons.
+Host 1  is connecting: BGs to Interneurons.
+Host 1  is connecting: Pyramidals to BGs.
+Host 1  is connecting: Interneurons to BGs.
+Host 1  is connecting: BGs to BGs.
+Host Host 113  is connecting: BGs to Interneurons.
+Host 113  is connecting: Pyramidals to BGs.
+Host 113  is connecting: Interneurons to BGs.
+Host 113  is connecting: BGs to BGs.
+Host 113  connected cells.
+
+Host 78  is connecting: Pyramidals to BGs.
+Host 78  is connecting: Interneurons to BGs.
+Host 155  is connecting: Pyramidals to BGs.
+Host 155  is connecting: Interneurons to BGs.
+Host 155  is connecting: BGs to BGs.
+Host Host 4  is connecting: Pyramidals to Interneurons.
+Host 4  is connecting: Interneurons to Interneurons.
+Host 4  is connecting: BGs to Interneurons.
+Host 4 Host 105  is connecting: Interneurons to InterneuronHost 69  is connecting: Pyramidals to Interneurons.
+Host 69  is connecting: Interneurons to InterneuronHost 126  is connecting: BGs to Interneurons.
+Host 7  is connecting: Pyramidals to Interneurons.
+Host 7  is connecting: Interneurons to Interneurons.
+Host 7  is connecting: BGs to Interneurons.
+s.
+s to BGs.
+Host 75  is connecting: Interneurons to BGs.
+Host 75  is connecting: BGs to BGs.
+Host Host 135  is connecting: BGs to Interneurons.
+Host 32  is connecting: Pyramidals to Interneurons.
+Host 32  is connecting: Interneurons to Interneurons.
+Host 32  is connecting: BGs to Interneurons.
+Host 32  is connecting: Pyramidals to BGs.
+Host 32  is connecting: Host 108  is connecting: Interneurons to Interneurons.
+Host 78  is connecting: BGs to BGs.
+Host 78  connected cells.
+155  connected cells.
+1  connected cells.
+Host 103  is connecting: Interneurons to Interneurons.
+Host 43  is connecting: BGHost 131  is connecting: Interneurons to Interneurons.
+ is connecting: Pyramidals to BGs.
+Host 4  is connecting: Interneurons to BGs.
+Host 4  is connecting: BGs to BGs.
+Host 4  connected cells.
+Host 101  is connecting: Interneurons to Interneurons.
+Host 101  is connecting: BGs to Interneurons.
+Host 101  is connecting: Pyramidals to BGs.
+Host 101  is connecting: Interneurons to BGs.
+Host 101  is connecting: BGs to BGs.
+Host 101  connected cells.
+s.
+Host 69  is connecting: BGs to Interneurons.
+Host 126  is connecting: Pyramidals to BGs.
+Host 7  is connecting: Pyramidals to BGs.
+Host 7  is connecting: Interneurons to BGs.
+Host 7  is connecting: BGs to BGs.
+Host 102  is connecting: Interneurons to Interneurons.
+Host 102  is connecting: BGs to Interneurons.
+Host 102  is connecting: Pyramidals to BGs.
+Host 102  is connecting: Interneurons to BGs.
+Host 102  is connecting: BGs to BGs.
+75  connected cells.
+Host 135  is connecting: Pyramidals to BGs.
+Host 135  is connecting: Interneurons to BGs.
+Host 135  is connecting: BGs to BGs.
+Host 135  connected cells.
+Interneurons to BGs.
+Host 32  is connecting: BGs to BGs.
+Host 32  connected cells.
+Host 103  is connecting: BGs to Interneurons.
+Host 103  is connecting: Pyramidals to BGs.
+Host 103  is connecting: Interneurons to BGs.
+Host 103  is connecting: BGs to BGs.
+Host 103  connected cells.
+s to Pyramidals.
+Host 138  is connecting: Interneurons to Interneurons.
+Host 7  connected cells.
+Host 104  is connecting: Interneurons to Interneurons.
+Host 104  is connecting: BGs to Interneurons.
+Host 104  is connecting: Pyramidals to BGs.
+Host 104  is connecting: Interneurons to BGs.
+Host 104  is connecting: BGs to BGs.
+Host 104  connected cells.
+Host 69  is connecting: Pyramidals to BGs.
+Host 126  is connecting: Interneurons to BGs.
+Host 126  is connecting: BGs to BGs.
+Host Host 17  is connecting: BGs to Pyramidals.
+Host 105  is connecting: BGs to Interneurons.
+Host 105  is connecting: Pyramidals to BGs.
+Host 105  is connecting: Interneurons to BGs.
+Host 105  is connecting: BGs to BGs.
+Host 105  connected cells.
+Host 46  is connecting: BGs to Pyramidals.
+Host 139  is connecting: BGs to Interneurons.
+Host 17  is connecting: Pyramidals to Interneurons.
+Host Host 108  is connecting: BGs to Interneurons.
+Host 108  is connecting: Pyramidals to BGs.
+Host 108  is connecting: Interneurons to BGs.
+Host 108  is connecting: BGs to BGs.
+Host 108  connected cells.
+Host 53  is connecting: BGs to Pyramidals.
+Host 141  is connecting: BGs to Interneurons.
+17  is connecting: Interneurons to Interneurons.
+Host 17  is connecting: BGs to Interneurons.Host 109  is connecting: Interneurons to Interneurons.
+Host 69  is connecting: Interneurons to BGs.
+Host 69  is connecting: BGs to BGs.
+Host 146  is connecting: BGs to Interneurons.
+Host 
+Host 17  is connecting: Pyramidals to Host 115  is connecting: Interneurons to Interneurons.
+Host 63  is connecting: 126  connected cells.
+BGs.
+Host 17  is connecting: Interneurons to BGs.Host 102  connected cells.
+Host 69  connected cells.
+146  is connecting: Pyramidals to BGs.
+Host 146  is connecting: Interneurons to BGs.
+
+Host 17  is connecting: BGs to BGs.
+Host 115  is connecting: BGs to Interneurons.
+Host 79  is connecting: BGs to Pyramidals.Host 139  is connecting: Pyramidals to BGs.
+Host 139  is connecting: Interneurons to BGs.
+Host 139  is connecting: BGs to BGs.
+Host Host 17  connected cells.
+Host 109  is connecting: BGs to Interneurons.
+Host 45  is connecting: BGs to PyramidalHost 141  is connecting: Pyramidals to BGs.
+Host 141  is connecting: Interneurons to BGs.
+Host 141  is connecting: BGs to BGs.
+Host 141  connected cells.
+Host 115  is connecting: Pyramidals to BGs.
+Host 115  is connecting: Interneurons to BGs.
+Host 115 Pyramidals to Interneurons.
+Host 63  is connecting: Interneurons to InterneuronHost 146  is connecting: BGs to BGs.
+Host 146  connected cells.
+Host 109  is connecting: Pyramidals to BGs.
+Host 
+Host 159  is connecting: Interneurons to Interneurons.
+ is connecting: BGs to BGs.
+Host 115  connected cells.
+s.
+139  connected cells.
+109  is connecting: Interneurons to BGs.
+Host 109  is connecting: BGs to BGs.
+Host 109  connected cells.s.
+Host 63  is connecting: BGs to Interneurons.
+Host 131  is connecting: BGs to Interneurons.
+
+Host 63  is connecting: Pyramidals to BGs.
+Host 133  is connecting: Interneurons to Interneurons.
+Host 118  is connecting: Interneurons to Interneurons.
+Host 43  is connecting: Pyramidals to Interneurons.
+Host Host 138  is connecting: BGs to Interneurons.
+Host 110  is connecting: Interneurons to Interneurons.
+Host 46  is connecting: Pyramidals to Interneurons.
+Host 46  is connecting: Interneurons to Host 131  is connecting: Pyramidals to BGs.
+Host 131  is connecting: Interneurons to BGs.
+Host Host 111  is connecting: Interneurons to Interneurons.
+Host 53  is connecting: Pyramidals to Interneurons.
+Host 53  is connecting: Interneurons to Interneurons.
+131  is connecting: BGs to BGs.
+Host 131  connected cells.
+Host 117  is connecting: Interneurons to Interneurons.
+Host 63  is connecting: Interneurons to BGs.
+Host 63  is connecting: BGs to BGs.Host 138  is connecting: Pyramidals to BGs.
+Host 138  is connecting: Interneurons to BGs.
+Host 138  is connecting: BGs to BGs.
+Host 138  connected cells.
+Host 118  is connecting: BGs to Interneurons.
+43  is connecting: Interneurons to Interneurons.
+Host 43  is connecting: BGs to Interneurons.Host 132  is connecting: Interneurons to Interneurons.
+Host 119  is connecting: Interneurons to Interneurons.
+Interneurons.
+Host 46  is connecting: BGs to Interneurons.
+Host 46 Host 121  is connecting: Interneurons to Interneurons.
+Host 118  is connecting: Pyramidals to BGs.
+Host 118  is connecting: Interneurons to BGs.
+Host 53  is connecting: BGs to Interneurons.
+Host 53  is connecting: PyramidalHost 159  is connecting: BGs to Interneurons.
+Host 110  is connecting: BGs to Interneurons.
+
+Host 63  connected cells.
+Host 124  is connecting: Interneurons to Interneurons.
+Host 111  is connecting: BGs to Interneurons.
+Host 
+Host 43  is connecting: Pyramidals to BGHost 143  is connecting: Interneurons to Interneurons.
+Host 118  is connecting: BGs to BGs.
+Host 118  connected cells.
+ is connecting: Pyramidals to BGs.
+Host 46  is connecting: Interneurons to BGs.
+Host Host 159  is connecting: Pyramidals to BGs.
+Host 159  is connecting: Interneurons to BGs.
+Host 159  is connecting: BGHost 110  is connecting: Pyramidals to BGs.
+Host s to BGs.
+Host 53  is connecting: Interneurons to BGs.
+Host Host 133  is connecting: BGs to Interneurons.
+111  is connecting: Pyramidals to BGs.
+Host 111  is connecting: Interneurons to BGs.
+s.
+Host 43  is connecting: Interneurons to BGs.s to BGs.
+Host 159  connected cells.
+110  is connecting: Interneurons to BGs.
+Host 110  is connecting: BGs to BGs.
+46  is connecting: BGs to BGs.
+Host 46  connected cells.
+Host 133  is connecting: Pyramidals to BGs.
+Host 133  is connecting: Interneurons to BGs.
+Host Host 111  is connecting: BGs to BGs.
+Host 111  connected cells.
+53  is connecting: BGs to BGs.
+Host 53  connected cells.
+Host 132  is connecting: BGHost 110  connected cells.
+
+Host 43  is connecting: BGs to BGs.
+133  is connecting: BGs to BGs.
+Host 133  connected cells.
+Host 117  is connecting: BGs to Interneurons.
+Host 79  is connecting: Pyramidals to Interneurons.
+Host 121  is connecting: BGs to Interneurons.
+Host 119  is connecting: BGs to Interneurons.
+Host 43  connected cells.
+s to Interneurons.
+Host 117  is connecting: Pyramidals to BGHost 45  is connecting: Pyramidals to Interneurons.
+Host 45  is connecting: Interneurons to Host 124  is connecting: BGs to Interneurons.
+Host 119  is connecting: Pyramidals to BGs.
+Host 79  is connecting: Interneurons to Interneurons.
+Host Host 121  is connecting: Pyramidals to BGs.
+Host s.
+Host 117  is connecting: Interneurons to BGInterneurons.
+Host 45  is connecting: BGHost 132  is connecting: Pyramidals to BGs.
+Host 132 Host 119  is connecting: Interneurons to BGs.
+79  is connecting: BGs to Interneurons.
+Host 143  is connecting: BGs to Interneurons.
+s.
+Host 117  is connecting: BGs to s to Interneurons.
+121  is connecting: Interneurons to BGs.
+Host 121  is connecting: BGs to BGs.
+Host Host 119  is connecting: BGs to BGHost 79  is connecting: Pyramidals to  is connecting: Interneurons to BGs.
+Host 132  is connecting: BGs to BGs.
+Host 132  connected cells.
+BGs.
+Host 117  connected cells.
+Host 45  is connecting: Pyramidals to BGs.
+121  connected cells.
+s.
+Host 119  connected cells.
+BGs.
+Host 79  is connecting: Host 124  is connecting: Pyramidals to BGs.
+Host 124  is connecting: Interneurons to BGs.
+Host 124  is connecting: BGHost 114  is connecting: Interneurons to Interneurons.
+Host 45  is connecting: Interneurons to BGHost 143  is connecting: Pyramidals to BGs.
+Host 143  is connecting: InterneuronHost 114  is connecting: BGs to Interneurons.
+Interneurons to BGs.
+Host s to BGs.
+Host 124  connected cells.
+Host 107  is connecting: Interneurons to Interneurons.
+s.
+Host 45  is connecting: s to BGs.
+Host 143  is connecting: BGs to BGs.
+Host 143 Host 114  is connecting: Pyramidals to BGs.
+Host 79  is connecting: BGs to BGs.
+ connected cells.
+114  is connecting: Interneurons to BGs.
+Host BGs to BGs.
+Host Host 144  is connecting: Interneurons to Interneurons.
+114  is connecting: BGs to BGs.
+Host 114  connected cells.
+Host 79  connected cells.
+Host 157  is connecting: Interneurons to Interneurons.
+Host 116  is connecting: Interneurons to Interneurons.
+45  connected cells.
+Host 150  is connecting: Host 107  is connecting: BGs to Interneurons.
+Host 65  is connecting: BGs to Pyramidals.
+Host 65  is connecting: Pyramidals to Interneurons.
+Host 65  is connecting: Interneurons to Interneurons.
+Host 65  is connecting: BGs to Interneurons.
+Host 65  is connecting: Pyramidals to BGs.
+Host 65  is connecting: Interneurons to BGs.
+Host 65  is connecting: BGs to BGs.
+Host Interneurons to Interneurons.
+Host 107  is connecting: Pyramidals to BGs.
+Host Host 67  is connecting: BGs to Pyramidals.
+Host 67  is connecting: Pyramidals to Interneurons.
+Host 67  is connecting: Interneurons to Interneurons.
+Host 67  is connecting: BGs to Interneurons.
+Host 67  is connecting: Pyramidals to BGs.
+Host 67  is connecting: Interneurons to BGs.
+Host 67  is connecting: BGs to BGs.
+Host 67  connected cells.
+Host 123  is connecting: Interneurons to Interneurons.
+107  is connecting: Interneurons to BGs.
+Host 107  is connecting: BGHost 52  is connecting: BGs to Pyramidals.
+Host 149  is connecting: Interneurons to Interneurons.
+s to BGs.
+Host 107  connected cells.
+Host 59  is connecting: BGs to Pyramidals.
+Host Host 144  is connecting: BGs to Interneurons.
+Host 116  is connecting: BGs to Interneurons.
+65  connected cells.
+Host 157  is connecting: BGs to Interneurons.
+Host 116  is connecting: Pyramidals to BGHost 66  is connecting: BGs to Pyramidals.
+Host 144  is connecting: Pyramidals to BGs.
+Host s.
+Host 116  is connecting: InterneuronHost 68  is connecting: BGs to Pyramidals.
+Host 68  is connecting: Pyramidals to Interneurons.
+Host 68  is connecting: Interneurons to Interneurons.
+Host 68  is connecting: BGs to Interneurons.
+Host 68  is connecting: Pyramidals to BGs.
+Host 68  is connecting: Interneurons to BGs.
+Host 68  is connecting: BGs to BGs.
+Host 68  connected cells.
+Host 150  is connecting: BGs to Interneurons.
+s to BGs.
+Host Host 72  is connecting: BGs to Pyramidals.
+144  is connecting: Interneurons to BGs.
+Host 144  is connecting: BGs to BGs.
+Host 116  is connecting: BGs to BGs.
+59  is connecting: Pyramidals to Interneurons.
+Host 59  is connecting: Interneurons to Interneurons.
+Host 59  is connecting: BGs to Interneurons.Host 157  is connecting: Pyramidals to BGs.
+Host 157  is connecting: Interneurons to BGs.
+Host 116  connected cells.
+
+Host 59  is connecting: Pyramidals to BGs.
+144  connected cells.
+Host 106  is connecting: Interneurons to Interneurons.
+Host 52  is connecting: Pyramidals to Interneurons.
+Host 157  is connecting: BGs to BGs.
+Host Host 106  is connecting: BGs to Interneurons.
+Host 59  is connecting: Interneurons to BGs.
+Host 59  is connecting: BGs to BGs.
+Host 150  is connecting: Pyramidals to BGs.
+Host 150  is connecting: Interneurons to BGs.
+Host 106  is connecting: Pyramidals to BGs.
+Host 72  is connecting: Pyramidals to Interneurons.
+Host 72  is connecting: Interneurons to Interneurons.
+157  connected cells.
+Host 106  is connecting: Interneurons to BGs.
+Host 106  is connecting: BGs to BGs.
+Host 52  is connecting: Interneurons to Interneurons.
+Host 52  is connecting: BGs to Interneurons.
+Host 123  is connecting: BGs to Interneurons.
+Host 106  connected cells.
+Host 59  connected cells.
+Host 149  is connecting: BGs to Interneurons.
+Host 72  is connecting: BGs to Interneurons.
+Host 72 Host 150  is connecting: BGs to BGs.
+Host 150  connected cells.
+Host 52  is connecting: Pyramidals to BGs.
+Host 123  is connecting: Pyramidals to BGs.
+Host 123  is connecting: Interneurons to BGs.
+Host 123  is connecting: BGs to BGs.
+Host 123  connected cells.
+Host 66  is connecting: Pyramidals to Interneurons.
+Host 66  is connecting: Interneurons to InterneuronHost 149  is connecting: Pyramidals to BGs.
+Host 149  is connecting: Interneurons to BGs.
+Host 149  is connecting: BGs to BGs.
+Host 149  connected cells.
+ is connecting: Pyramidals to BGs.
+Host 72  is connecting: Interneurons to BGs.
+Host Host 136  is connecting: Interneurons to Interneurons.
+Host 52  is connecting: Interneurons to BGs.
+Host 52  is connecting: BGs to BGs.Host 152  is connecting: Interneurons to Interneurons.
+Host 152  is connecting: BGs to Interneurons.
+Host 152  is connecting: Pyramidals to BGs.
+Host 152  is connecting: Interneurons to BGs.
+Host 152  is connecting: BGs to BGs.
+Host 152  connected cells.
+s.
+Host 66  is connecting: BGs to Interneurons.
+Host 66  is connecting: Host 156  is connecting: Interneurons to Interneurons.
+Host 156  is connecting: BGs to Interneurons.72  is connecting: BGs to BGs.
+Host 72  connected cells.
+
+
+Host 52  connected cells.
+Host 156  is connecting: Pyramidals to BGs.
+Host 156  is connecting: Interneurons to BGs.
+Host 156 Pyramidals to BGs.
+Host 66  is connecting: Interneurons to BGs.
+Host 66  is connecting: BGs to Host 145  is connecting: Interneurons to Interneurons.
+BGs.
+Host 66  connected cells.
+ is connecting: BGs to BGs.
+Host 156  connected cells.
+Host 51  is connecting: BGs to Pyramidals.
+Host 142  is connecting: Interneurons to Interneurons.
+Host 57  is connecting: BGs to Host 134  is connecting: InterneuronHost 61  is connecting: BGs to Pyramidals.
+s to Interneurons.
+Host 77  is connecting: BGs to Pyramidals.
+Host 136  is connecting: BGs to Interneurons.
+Pyramidals.
+Host 145  is connecting: BGs to Interneurons.
+Host 70  is connecting: BGs to Pyramidals.
+Host 136  is connecting: Pyramidals to BGs.
+Host 55  is connecting: BGs to Pyramidals.
+Host 145  is connecting: Pyramidals to BGs.
+Host Host 62  is connecting: BGs to Pyramidals.
+Host 136  is connecting: Interneurons to BGs.
+Host Host 71  is connecting: BGs to Pyramidals.
+145  is connecting: Interneurons to BGs.
+Host 145  is connecting: Host 51  is connecting: Pyramidals to Interneurons.
+Host 51  is connecting: Interneurons to Interneurons.
+Host 51  is connecting: BGs to Interneurons.
+Host 51  is connecting: Pyramidals to BGHost 134  is connecting: BGs to Interneurons.
+Host 57  is connecting: Pyramidals to Interneurons.
+Host 57  is connecting: Interneurons to Interneurons.
+Host 57  is connecting: BGs to Interneurons.
+Host 57  is connecting: 136  is connecting: BGs to BGs.
+Host 136  connected cells.
+Host 61  is connecting: Pyramidals to Interneurons.
+Host 61  is connecting: Interneurons to Interneurons.
+Host 61  is connecting: BGs to Interneurons.
+BGs to BGs.
+Host 145  connected cells.
+Host 77  is connecting: Pyramidals to Interneurons.
+Host 77  is connecting: Interneurons to Interneurons.
+Host 77  is connecting: BGs to Interneurons.
+Host 77  is connecting: Pyramidals to BGs.
+Host 142  is connecting: BGs to Interneurons.
+s.
+Host 51  is connecting: Interneurons to BGs.
+Host 51  is connecting: BGs to BGs.
+Host 51 Host 134  is connecting: Pyramidals to BGs.
+Host Host 55  is connecting: Pyramidals to Interneurons.
+Host 55  is connecting: Interneurons to Interneurons.
+Host 134  is connecting: Interneurons to BGs.
+Host 134  is connecting: BGs to BGs.
+Host Pyramidals to BGs.
+Host 57  is connecting: Interneurons to BGs.
+Host 57  is connecting: BGs to BGs.
+Host 57  connected cells.
+Host 142  is connecting: Pyramidals to BGs.
+Host 142  is connecting: Interneurons to BGs.
+Host 142  is connecting: BGs to BGs.
+Host Host 61  is connecting: Pyramidals to BGs.
+Host 61  is connecting: Interneurons to BGs.
+Host 61 Host 147  is connecting: Interneurons to Interneurons.
+Host 70  is connecting: Pyramidals to Interneurons.
+Host 70  is connecting: Interneurons to Interneurons.
+Host 70  is connecting: BGs to Interneurons.
+Host 70  is connecting: Pyramidals to BGs.
+Host 134  connected cells.
+Host 77  is connecting: Interneurons to BGs.
+Host 77  is connecting: BGs to BGs.
+Host 77  connected cells.
+142  connected cells.
+ connected cells.
+Host 120  is connecting: Interneurons to Interneurons.
+55  is connecting: BGs to Interneurons.
+Host 55  is connecting: Pyramidals to BGs.
+Host 55  is connecting: Interneurons to BGs.
+Host 154  is connecting: Interneurons to Interneurons.
+ is connecting: BGs to BGs.
+Host 61  connected cells.
+Host 158  is connecting: Interneurons to Interneurons.
+Host 62  is connecting: Pyramidals to Interneurons.
+Host 62  is connecting: Interneurons to Interneurons.Host 140  is connecting: Interneurons to Interneurons.
+70  is connecting: Interneurons to BGs.
+Host 70  is connecting: BGs to BGs.
+Host 70  connected cells.
+Host 153  is connecting: InterneuronHost 55  is connecting: BGs to BGs.
+Host 55  connected cells.
+Host 122  is connecting: Interneurons to Interneurons.
+
+Host 62  is connecting: BGs to Interneurons.
+Host 62  is connecting: PyramidalHost 148  is connecting: Interneurons to Interneurons.
+s to BGs.
+Host 62  is connecting: Interneurons to BGs.
+s to Interneurons.
+Host 71  is connecting: Pyramidals to Interneurons.
+Host 71  is connecting: Interneurons to InterneuronHost 147  is connecting: BGs to Interneurons.
+Host 62  is connecting: BGs to BGs.
+Host 62  connected cells.
+Host 120  is connecting: BGs to Interneurons.
+s.
+Host 71  is connecting: BGs to Interneurons.
+Host 147  is connecting: Pyramidals to BGs.
+Host 147  is connecting: Interneurons to BGs.
+Host 147  is connecting: Host 71  is connecting: Pyramidals to BGHost 154  is connecting: BGs to Interneurons.
+s.
+Host 71  is connecting: Interneurons to BGs.
+Host 120  is connecting: Pyramidals to BGs.
+Host 120  is connecting: Interneurons to BGs.Host 71  is connecting: BGs to BGs.
+Host Host 140  is connecting: BGs to Interneurons.
+71  connected cells.
+BGs to BGs.
+Host 147  connected cells.
+Host 158  is connecting: BGs to Interneurons.
+Host 158  is connecting: Pyramidals to BGs.
+
+Host 120  is connecting: BGs to BGs.
+Host 120  connected cells.
+Host 140  is connecting: Pyramidals to BGs.
+Host 140  is connecting: Interneurons to BGs.
+Host 140  is connecting: BGs to BGs.
+Host 140 Host 153  is connecting: BGs to Interneurons.
+Host 154  is connecting: Pyramidals to BGs.
+Host 154  is connecting: Interneurons to BGs.
+Host 154  is connecting: BGs to BGs.
+Host 154  connected cells.
+Host 158  is connecting: Interneurons to BGs.
+Host 158  is connecting: BGs to BGs.
+Host 158  connected cells.
+ connected cells.
+Host 148  is connecting: BGs to Interneurons.
+Host 148  is connecting: Pyramidals to BGs.
+Host 148  is connecting: Interneurons to BGs.
+Host 148  is connecting: Host 153  is connecting: Pyramidals to BGs.
+Host 153  is connecting: Interneurons to BGs.
+Host 153  is connecting: BGs to BGs.
+Host BGs to BGs.
+Host 148  connected cells.
+153  connected cells.
+Host 122  is connecting: BGs to Interneurons.
+Host 122  is connecting: Pyramidals to BGs.
+Host 122  is connecting: Interneurons to BGs.
+Host 122  is connecting: BGs to BGs.
+Host 122  connected cells.
+Host 177  is connecting: Pyramidals to Pyramidals.
+Host 198  is connecting: Pyramidals to Pyramidals.
+Host 163  is connecting: Pyramidals to Pyramidals.
+Host 186  is connecting: Pyramidals to Pyramidals.
+Host 184  is connecting: Pyramidals to Pyramidals.
+Host 172  is connecting: Pyramidals to Pyramidals.
+Host 178  is connecting: Pyramidals to Pyramidals.
+Host 179  is connecting: Pyramidals to Pyramidals.
+Host 162  is connecting: Pyramidals to Pyramidals.
+Host 165  is connecting: Pyramidals to Pyramidals.
+Host 174  is connecting: Pyramidals to Pyramidals.
+Host 192  is connecting: Pyramidals to Pyramidals.
+Host 196  is connecting: Pyramidals to Pyramidals.
+Host 197  is connecting: Pyramidals to Pyramidals.
+Host 199  is connecting: Pyramidals to Pyramidals.
+Host 166  is connecting: Pyramidals to Pyramidals.
+Host 175  is connecting: Pyramidals to Pyramidals.
+Host 183  is connecting: Pyramidals to Pyramidals.
+Host 161  is connecting: Pyramidals to Pyramidals.
+Host 185  is connecting: Pyramidals to Pyramidals.
+Host 194  is connecting: Pyramidals to Pyramidals.
+Host 188 Host 160  is connecting: Pyramidals to Pyramidals.
+ is connecting: Pyramidals to Pyramidals.
+Host 168  is connecting: Pyramidals to Pyramidals.
+Host 169  is connecting: Pyramidals to Pyramidals.
+Host 173  is connecting: Pyramidals to Pyramidals.
+Host 180  is connecting: Pyramidals to Pyramidals.
+Host 190  is connecting: Pyramidals to Pyramidals.
+Host 195  is connecting: Pyramidals to Pyramidals.
+Host 164  is connecting: Pyramidals to Pyramidals.
+Host 163  is connecting: Interneurons to Pyramidals.
+Host 177  is connecting: Interneurons to Pyramidals.
+Host 184  is connecting: Interneurons to Pyramidals.
+Host 186  is connecting: Interneurons to Pyramidals.
+Host 198  is connecting: Interneurons to Pyramidals.
+Host 167  is connecting: Pyramidals to Pyramidals.
+Host 170  is connecting: Pyramidals to Pyramidals.
+Host 178  is connecting: Interneurons to Pyramidals.
+Host 191  is connecting: Pyramidals to Pyramidals.
+Host 197  is connecting: Interneurons to Pyramidals.
+Host 199  is connecting: Interneurons to Pyramidals.
+Host 162  is connecting: Interneurons to Pyramidals.
+Host 165  is connecting: Interneurons to Pyramidals.
+Host 172  is connecting: Interneurons to Pyramidals.
+Host 174  is connecting: Interneurons to Pyramidals.
+Host 192  is connecting: Interneurons to Pyramidals.
+Host 196  is connecting: Interneurons to Pyramidals.
+Host 175  is connecting: Interneurons to Pyramidals.
+Host 166  is connecting: InterneuronHost 179  is connecting: Interneurons to Pyramidals.
+s to Pyramidals.
+Host 183  is connecting: Interneurons to Pyramidals.
+Host 194  is connecting: Interneurons to Pyramidals.
+Host 171  is connecting: Pyramidals to PyramidalHost 176  is connecting: Pyramidals to Pyramidals.
+Host 189  is connecting: Pyramidals to Pyramidals.
+Host 189  is connecting: Interneurons to Pyramidals.
+Host 193  is connecting: Pyramidals to Pyramidals.
+Host 193  is connecting: Interneurons to Pyramidals.
+Host 160  is connecting: Interneurons to Pyramidals.
+Host 160  is connecting: BGs to Pyramidals.
+Host 160  is connecting: Pyramidals to Interneurons.
+Host 161  is connecting: Interneurons to Pyramidals.
+Host 161  is connecting: BGs to Pyramidals.
+Host 162  is connecting: BGs to Pyramidals.
+Host 162  is connecting: Pyramidals to Interneurons.
+Host 163  is connecting: BGs to Pyramidals.
+Host 163  is connecting: Pyramidals to Interneurons.
+Host 164  is connecting: Interneurons to Pyramidals.
+Host 165  is connecting: BGs to Pyramidals.
+Host 165  is connecting: Pyramidals to Interneurons.
+Host 166  is connecting: BGs to Pyramidals.
+Host 166  is connecting: Pyramidals to Interneurons.
+Host 167  is connecting: Interneurons to Pyramidals.
+Host 168  is connecting: Interneurons to Pyramidals.
+Host 168  is connecting: BGs to Pyramidals.
+Host 168  is connecting: Pyramidals to Interneurons.
+Host 169  is connecting: Interneurons to Pyramidals.
+Host 169  is connecting: BGs to Pyramidals.
+Host 169  is connecting: Pyramidals to Interneurons.
+Host 170  is connecting: Interneurons to Pyramidals.
+s.
+Host 171  is connecting: Interneurons to Pyramidals.
+Host 172  is connecting: BGs to Pyramidals.
+Host 172  is connecting: Pyramidals to Interneurons.
+Host 173  is connecting: Interneurons to Pyramidals.
+Host 173  is connecting: BGs to Pyramidals.
+Host 173  is connecting: Pyramidals to Interneurons.
+Host 174  is connecting: BGs to Pyramidals.
+Host 174  is connecting: Pyramidals to Interneurons.
+Host 175  is connecting: BGs to Pyramidals.
+Host 175  is connecting: Pyramidals to Interneurons.
+Host 176  is connecting: Interneurons to Pyramidals.
+Host 177  is connecting: BGs to Pyramidals.
+Host 177  is connecting: Pyramidals to Interneurons.
+Host 178  is connecting: BGs to Pyramidals.
+Host 178  is connecting: Pyramidals to Interneurons.
+Host 180  is connecting: Interneurons to Pyramidals.
+Host 180  is connecting: BGs to Pyramidals.
+Host 180  is connecting: Pyramidals to Interneurons.
+Host 181  is connecting: Pyramidals to Pyramidals.
+Host 181  is connecting: Interneurons to Pyramidals.
+Host 182  is connecting: Pyramidals to Pyramidals.
+Host 183  is connecting: BGs to Pyramidals.
+Host 183  is connecting: Pyramidals to Interneurons.
+Host 184  is connecting: BGs to Pyramidals.
+Host 184  is connecting: Pyramidals to Interneurons.
+Host 185  is connecting: Interneurons to Pyramidals.
+Host 185  is connecting: BGs to Pyramidals.
+Host 185  is connecting: Pyramidals to Interneurons.
+Host 186  is connecting: BGs to Pyramidals.
+Host 186  is connecting: Pyramidals to Interneurons.
+Host 187  is connecting: Pyramidals to Pyramidals.
+Host 187  is connecting: Interneurons to Pyramidals.
+Host 188  is connecting: Interneurons to Pyramidals.
+Host 190  is connecting: Interneurons to Pyramidals.
+Host 190  is connecting: BGs to Pyramidals.
+Host 190  is connecting: Pyramidals to Interneurons.
+Host 191  is connecting: Interneurons to Pyramidals.
+Host 191  is connecting: BGs to Pyramidals.
+Host 191  is connecting: Pyramidals to Interneurons.
+Host 192  is connecting: BGs to Pyramidals.
+Host 192  is connecting: Pyramidals to Interneurons.
+Host 194  is connecting: BGs to Pyramidals.
+Host 194  is connecting: Pyramidals to Interneurons.
+Host 195  is connecting: Interneurons to Pyramidals.
+Host 195  is connecting: BGs to Pyramidals.
+Host 195  is connecting: Pyramidals to Interneurons.
+Host 196  is connecting: BGs to Pyramidals.
+Host 196  is connecting: Pyramidals to Interneurons.
+Host 197  is connecting: BGs to Pyramidals.
+Host 197  is connecting: Pyramidals to Interneurons.
+Host 198  is connecting: BGs to Pyramidals.
+Host 198  is connecting: Pyramidals to Interneurons.
+Host 199  is connecting: BGs to Pyramidals.
+Host 199  is connecting: Pyramidals to Interneurons.
+Host 161  is connecting: Pyramidals to Interneurons.
+Host 179  is connecting: BGs to Pyramidals.
+Host 182  is connecting: Interneurons to Pyramidals.
+Host 179  is connecting: Pyramidals to Interneurons.
+Host 188  is connecting: BGs to Pyramidals.
+Host 188  is connecting: Pyramidals to Interneurons.
+Host 164  is connecting: BGs to Pyramidals.
+Host 164  is connecting: Pyramidals to Interneurons.
+Host 167  is connecting: BGs to Pyramidals.
+Host 170  is connecting: BGs to Pyramidals.
+Host 167  is connecting: Pyramidals to Interneurons.
+Host 170  is connecting: Pyramidals to Interneurons.
+Host 177  is connecting: Interneurons to Interneurons.
+Host 178  is connecting: Interneurons to Interneurons.
+Host 165  is connecting: Interneurons to Interneurons.
+Host 176  is connecting: BGs to Pyramidals.
+Host 197  is connecting: Interneurons to Interneurons.
+Host 162  is connecting: Interneurons to Interneurons.
+Host 171  is connecting: BGs to Pyramidals.
+Host 189  is connecting: BGs to Pyramidals.
+Host 192  is connecting: Interneurons to Interneurons.
+Host 193  is connecting: BGs to Pyramidals.
+Host 196  is connecting: Interneurons to Interneurons.
+Host 163  is connecting: Interneurons to Interneurons.
+Host 166  is connecting: Interneurons to Interneurons.
+Host 175  is connecting: Interneurons to Interneurons.
+Host 199  is connecting: Interneurons to Interneurons.
+Host 171  is connecting: Pyramidals to InterneuronHost 177  is connecting: BGs to Interneurons.
+Host 178  is connecting: BGs to Interneurons.
+Host 193  is connecting: Pyramidals to Interneurons.
+s.
+Host 176  is connecting: Pyramidals to Interneurons.
+Host 177  is connecting: Pyramidals to BGs.
+Host 177  is connecting: Interneurons to BGs.
+Host 189  is connecting: Pyramidals to Interneurons.
+Host 162  is connecting: BGs to Interneurons.
+Host 165  is connecting: BGs to Interneurons.
+Host 177  is connecting: BGs to BGs.
+Host 177  connected cells.
+Host 178  is connecting: Pyramidals to BGs.
+Host 178  is connecting: Interneurons to BGs.
+Host 178  is connecting: BGs to BGs.
+Host 178  connected cells.
+Host 192  is connecting: BGs to Interneurons.
+Host 196  is connecting: BGs to Interneurons.
+Host 197  is connecting: BGs to Interneurons.
+Host 197  is connecting: Pyramidals to BGs.
+Host 197  is connecting: Host 162  is connecting: Pyramidals to BGs.
+Host 165  is connecting: Pyramidals to BGs.
+Host 165  is connecting: Interneurons to BGs.
+Host 165  is connecting: BGs to BGs.
+Host Host 192  is connecting: Pyramidals to BGs.
+Host 192  is connecting: Interneurons to BGs.Host 196  is connecting: Pyramidals to BGs.
+Host 196  is connecting: Interneurons to BGInterneurons to BGs.
+Host 197  is connecting: BGs to BGs.
+Host 197  connected cells.
+Host 162  is connecting: Interneurons to BGs.
+Host 162  is connecting: BGs to BGs.
+Host 162 165  connected cells.
+
+Host 192  is connecting: BGs to BGs.
+Host 192  connected cells.
+s.
+Host 196  is connecting: BGs to BGs.
+Host 196  connected cells.
+Host 199  is connecting: BGs to Interneurons.
+Host Host 160  is connecting: Interneurons to Interneuron connected cells.
+Host 166  is connecting: BGs to Interneurons.
+Host Host 175  is connecting: BGs to Interneurons.
+199  is connecting: Pyramidals to BGs.
+Host 199  is connecting: Interneurons to BGs.
+Host 199  is connecting: BGs to BGs.
+Host s.
+166  is connecting: Pyramidals to BGs.
+Host 166  is connecting: Interneurons to BGs.
+Host 166  is connecting: BGs to BGs.
+Host 175  is connecting: Pyramidals to BGs.
+Host 175  is connecting: Interneurons to BGs.
+Host 175 199  connected cells.
+Host 166  connected cells.
+ is connecting: BGs to BGs.
+Host 175  connected cells.
+Host 169  is connecting: Interneurons to Interneurons.
+Host 163  is connecting: BGs to Interneurons.
+Host 180  is connecting: Interneurons to Interneurons.
+Host 184  is connecting: Interneurons to Interneurons.
+Host 187  is connecting: BGs to Pyramidals.Host 163  is connecting: Pyramidals to Host 173  is connecting: Interneurons to Interneurons.
+
+Host 190  is connecting: Interneurons to Interneurons.
+Host 160  is connecting: BGs to BGs.
+Host 163  is connecting: Interneurons to BGs.
+Host 163  is connecting: BGs to Host 186  is connecting: Interneurons to Interneurons.
+Interneurons.
+BGs.
+Host 163  connected cells.
+Host 160  is connecting: PyramidalHost 172  is connecting: Interneurons to Interneurons.
+s to BGs.
+Host 160  is connecting: Interneurons to BGs.
+Host 160  is connecting: BGs to BGs.
+Host Host 187  is connecting: Pyramidals to Interneurons.
+160  connected cells.
+Host 169  is connecting: BGs to Interneurons.
+Host 180  is connecting: BGs to Interneurons.
+Host 169  is connecting: Pyramidals to BGs.
+Host 169  is connecting: Interneurons to BGs.
+Host 169  is connecting: BGs to BGs.
+Host 173  is connecting: BGs to Interneurons.
+Host 180  is connecting: Pyramidals to BGs.
+Host 180  is connecting: Interneurons to BGs.
+Host 180 Host 190  is connecting: BGs to Interneurons.
+Host 169  connected cells.
+ is connecting: BGs to BGs.
+Host 180  connected cells.
+Host 173  is connecting: Pyramidals to BGs.
+Host Host 190  is connecting: Pyramidals to BGs.
+Host 190  is connecting: Interneurons to BGs.
+173  is connecting: Interneurons to BGs.
+Host 173  is connecting: BGs to BGs.
+Host Host 183  is connecting: Interneurons to Interneurons.
+Host 184  is connecting: BGs to Interneurons.
+Host 190  is connecting: BGs to BGs.
+Host 190  connected cells.
+173  connected cells.
+Host 184  is connecting: Pyramidals to BGs.
+Host 184  is connecting: Interneurons to BGHost 186  is connecting: BGs to Interneurons.
+s.
+Host 184  is connecting: BGs to BGs.
+Host 184  connected cells.
+Host 172  is connecting: BGs to Interneurons.
+Host 186  is connecting: Pyramidals to BGs.
+Host 186  is connecting: Interneurons to BGs.
+Host 186  is connecting: BGHost 183  is connecting: BGs to Interneurons.
+s to BGs.
+Host 186  connected cells.
+Host 172  is connecting: Host 194  is connecting: Interneurons to Pyramidals to BGs.
+Host 172  is connecting: Interneurons to BGInterneurons.
+s.
+Host 172  is connecting: BGs to BGs.
+Host 172  connected cells.
+Host 183  is connecting: Pyramidals to BGs.
+Host 183  is connecting: Interneurons to BGs.
+Host 183  is connecting: BGs to BGs.
+Host 183  connected cells.
+Host 185  is connecting: Interneurons to Interneurons.
+Host 181  is connecting: BGs to Pyramidals.
+Host 168  is connecting: Interneurons to Interneurons.
+Host 194  is connecting: BGs to Interneurons.
+Host 194  is connecting: Pyramidals to BGs.
+Host 194 Host 195  is connecting: Interneurons to Interneurons.
+Host 198  is connecting: Interneurons to Interneurons.
+ is connecting: Interneurons to BGs.
+Host 194  is connecting: BGs to BGs.
+Host 194  connected cells.
+Host 174  is connecting: Interneurons to Interneurons.
+Host 181  is connecting: Pyramidals to Interneurons.
+Host 185  is connecting: BGs to Interneurons.
+Host 185  is connecting: Pyramidals to BGs.
+Host 185  is connecting: Interneurons to BGs.
+Host 185  is connecting: BGs to BGs.
+Host 185  connected cells.
+Host 198  is connecting: BGs to Interneurons.
+Host 198  is connecting: Pyramidals to BGs.
+Host 198  is connecting: Interneurons to BGs.
+Host 198  is connecting: BGs to BGs.
+Host 198  connected cells.
+Host 195  is connecting: BGs to Interneurons.
+Host 168  is connecting: BGs to Interneurons.
+Host 174  is connecting: BGs to Interneurons.
+Host 195  is connecting: Pyramidals to BGs.
+Host 195  is connecting: Interneurons to Host 168  is connecting: Pyramidals to BGs.
+Host 168  is connecting: Interneurons to BGs.
+Host 168  is connecting: BGs to BGs.
+Host Host 174  is connecting: Pyramidals to BGs.
+Host 174  is connecting: Interneurons to BGs.
+Host 174  is connecting: BGs to BGs.
+Host 174  connected cells.
+Host 182  is connecting: BGs to Pyramidals.
+BGs.
+Host 195  is connecting: BGs to BGs.
+Host 195  connected cells.
+168  connected cells.
+Host 182  is connecting: Pyramidals to Interneurons.
+Host 164  is connecting: Interneurons to Interneurons.
+Host 161  is connecting: Interneurons to Interneurons.
+Host 167  is connecting: Interneurons to Interneurons.
+Host 170  is connecting: Interneurons to Interneurons.
+Host 191  is connecting: Interneurons to Interneurons.
+Host 164  is connecting: BGs to Interneurons.
+Host 167  is connecting: BGs to Interneurons.
+Host 170  is connecting: BGs to Interneurons.
+Host 164  is connecting: Pyramidals to BGs.
+Host 164  is connecting: Interneurons to BGs.
+Host 164 Host 167  is connecting: Pyramidals to BGs.
+Host 167  is connecting: Interneurons to BGs.
+Host 167  is connecting: BGs to BGs.
+Host 171  is connecting: Interneurons to Interneurons.
+Host 193  is connecting: Interneurons to Interneurons.
+ is connecting: BGs to BGs.
+Host 164  connected cells.
+Host 167  connected cells.
+Host 170  is connecting: Pyramidals to BGs.
+Host 170  is connecting: Interneurons to BGs.
+Host 170  is connecting: BGs to BGs.
+Host 170  connected cells.
+Host 161 Host 179  is connecting: Interneurons to Interneurons.
+ is connecting: BGs to Interneurons.
+Host 161  is connecting: Pyramidals to BGs.
+Host 161  is connecting: Interneurons to BGs.
+Host 161  is connecting: BGs to BGs.
+Host Host 189  is connecting: Interneurons to Interneurons.
+Host 191  is connecting: BGs to Interneurons.
+161  connected cells.
+Host 171  is connecting: BGs to Interneurons.
+Host 171  is connecting: Pyramidals to BGs.
+Host 171  is connecting: Interneurons to BGs.
+Host Host 193  is connecting: BGs to Interneurons.
+Host 193  is connecting: Pyramidals to BGs.
+Host 193  is connecting: Interneurons to BGs.
+Host 193  is connecting: BGs to BGs.
+Host 171  is connecting: BGs to BGs.
+Host 171  connected cells.
+Host 179  is connecting: BGs to Interneurons.
+Host 191  is connecting: Pyramidals to BGs.
+Host 191  is connecting: Interneurons to BGs.
+Host 191  is connecting: BGs to BGs.
+Host 191  connected cells.
+193  connected cells.
+Host 176  is connecting: Interneurons to Interneurons.
+Host 179  is connecting: Pyramidals to BGs.
+Host 179  is connecting: Interneurons to BGs.
+Host 179  is connecting: BGs to BGs.
+Host 179  connected cells.
+Host 188  is connecting: Interneurons to Interneurons.
+Host 189  is connecting: BGs to Interneurons.
+Host 189  is connecting: Pyramidals to BGs.
+Host 189  is connecting: Interneurons to BGs.
+Host 189  is connecting: BGs to BGs.
+Host 189  connected cells.
+Host 176  is connecting: BGs to Interneurons.
+Host 188  is connecting: BGs to Interneurons.
+Host 188  is connecting: Host 176  is connecting: Pyramidals to BGs.
+Host 176  is connecting: Interneurons to BGs.
+Pyramidals to BGs.
+Host 188  is connecting: Interneurons to BGs.
+Host 188  is connecting: Host 176  is connecting: BGs to BGs.
+Host BGs to BGs.
+Host 188  connected cells.
+176  connected cells.
+Host 187  is connecting: Interneurons to Interneurons.
+Host 187  is connecting: BGs to Interneurons.
+Host 187  is connecting: Pyramidals to BGs.
+Host 187  is connecting: Interneurons to BGs.
+Host 187  is connecting: BGs to BGs.
+Host 187  connected cells.
+Host 181  is connecting: Interneurons to Interneurons.
+Host 181  is connecting: BGs to Interneurons.
+Host 181  is connecting: Pyramidals to BGs.
+Host 181  is connecting: Interneurons to BGs.
+Host 181  is connecting: BGs to BGs.
+Host 181  connected cells.
+Host 182  is connecting: Interneurons to Interneurons.
+Host 182  is connecting: BGs to Interneurons.
+Host 182  is connecting: Pyramidals to BGs.
+Host 182  is connecting: Interneurons to BGs.
+Host 182  is connecting: BGs to BGs.
+Host 182  connected cells.
+Host 0  is connecting: Pyramidals to Pyramidals.
+sh: topcmd.sh: No such file or directory
+Host 0  is connecting: Interneurons to Pyramidals.
+sh: topcmd.sh: No such file or directory
+Host 0  is connecting: BGs to Pyramidals.
+sh: topcmd.sh: No such file or directory
+Host 0  is connecting: Pyramidals to Interneurons.
+Host 0  is connecting: Interneurons to Interneurons.
+Host 0  is connecting: BGs to Interneurons.
+Host 0  is connecting: Pyramidals to BGs.
+Host 0  is connecting: Interneurons to BGs.
+Host 0  is connecting: BGs to BGs.
+Host 0  connected cells.
+
+TIME HOST 0: 2.21 seconds (connected cells)
+************
+-490 
+-480 
+-470 
+-460 
+-490 
+-480 
+-470 
+-460 
+-490 
+-480 
+-470 
+-460 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-490 
+-480 
+-450 
+-440 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-490 
+-480 
+-470 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-470 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-490 
+-480 
+-470 
+-490 
+-480 
+-490 
+-480 
+-470 
+-460 
+-490 
+-480 
+-430 
+-490 
+-450 
+-440 
+-490 
+-480 
+-470 
+-460 
+-450 
+-490 
+-480 
+-470 
+-450 
+-440 
+-490 
+-430 
+-420 
+-490 
+-480 
+-470 
+-460 
+-490 
+-490 
+-490 
+-490 
+-480 
+-480 
+-450 
+-370 
+-470 
+-480 
+-430 
+-340 
+-330 
+-410 
+-460 
+-460 
+-400 
+-470 
+-490 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-490 
+-360 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-440 
+-460 
+-450 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-420 
+-460 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-440 
+-320 
+-310 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-430 
+-450 
+-440 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-450 
+-480 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-470 
+-480 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-480 
+-480 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-460 
+-490 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-420 
+-470 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-430 
+-350 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-400 
+-450 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-450 
+-470 
+-490 
+-480 
+-470 
+-460 
+-460 
+-390 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-480 
+-490 
+-490 
+-480 
+-470 
+-490 
+-480 
+-330 
+-320 
+-430 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-490 
+-460 
+-490 
+-480 
+-410 
+-440 
+-490 
+-480 
+-470 
+-460 
+-450 
+-420 
+-300 
+-290 
+-490 
+-480 
+-470 
+-440 
+-430 
+-370 
+-470 
+-380 
+-380 
+-370 
+-450 
+-470 
+-400 
+-390 -420 
+-470 
+-360 
+-390 
+-340 
+-270 
+-260 
+-250 
+-460 
+-440 
+-400 
+-390 
+-380 
+-470 
+-470 
+-300 
+-290 
+-280 
+-420 
+-420 
+-340 
+-330 
+-320 
+-480 
+-470 
+-340 
+-330 
+-320 
+-410 
+-450 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-450 
+-430 
+-490 
+-480 
+-470 
+-460 
+-480 
+-460 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-280 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-490 
+-480 
+-470 
+-440 
+-460 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-400 
+-480 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-380 
+-460 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-450 
+-440 
+-330 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-420 
+-460 
+-430 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-460 
+-450 
+-440 
+-410 
+-270 
+-310 
+-300 
+-400 
+-390 
+-380 -410 
+-370 
+-360 
+-410 
+-370 
+-470 
+-460 
+-460 
+-430 
+-420 
+-450 
+-490 
+-450 
+-440 
+-450 
+-360 
+-460 
+-450 
+-440 
+-360 
+-430 
+-420 
+-410 
+-420 
+
+-380 
+-470 
+-460 
+-450 
+-350 
+-440 
+-260 
+-240 
+-230 
+-220 -470 
+-460 
+-450 
+-400 
+-370 
+-360 
+-390 
+-380 
+-460 
+-400 
+-390 
+-400 
+-440 
+-400 
+-390 
+
+-370 
+-320 
+-270 
+-260 
+-400 
+-420 
+-380 
+-370 
+-360 
+-370 
+-360 
+-360 
+-310 
+-300 
+-430 
+-490 
+-310 
+-300 
+-490 
+-430 
+-460 
+-450 
+-450 
+-440 
+-410 
+-390 
+-450 
+-250 
+-490 
+-480 
+-490 
+-440 
+-410 
+-400 
+-490 
+-480 
+-470 
+-350 
+-340 
+-490 
+-490 
+-440 
+-400 
+-390 
+-380 -390 
+-450 
+-400 
+-390 
+-430 
+-480 
+
+-370 
+-450 
+-350 
+-430 
+-410 
+-350 
+-440 
+-430 
+-240 
+-340 
+-370 
+-360 
+-310 
+
+-210 
+-390 
+-380 
+-380 
+-350 
+-340 
+-360 
+-350 
+-340 
+-350 
+-250 
+-240 
+-390 
+-450 
+-290 
+-280 
+-350 
+-340 
+-420 
+-410 
+-410 
+-480 
+-450 
+-440 
+-420 
+-490 
+-410 
+-400 
+-480 
+-470 
+-420 
+-330 
+-320 
+-310 
+-430 
+-490 
+-440 
+-430 
+-440 
+-490 
+-430 
+-420 
+-410 
+-430 
+-420 
+-400 
+-290 
+-280 
+-440 
+-430 
+-440 
+-330 
+-320 
+-480 
+-430 
+-460 
+-470 
+-460 
+-480 
+-430 
+-480 
+-470 
+-490 
+-440 
+-430 
+-490 
+-400 
+-370 
+-360 
+-420 
+-410 
+-230 
+-200 
+-190 
+-420 
+-410 
+-400 
+-370 
+-380 
+-380 
+-370 
+-460 
+-380 
+-330 
+-320 
+-410 
+-350 
+-340 
+-400 
+-390 
+-490 
+-290 
+-280 
+-270 
+-410 
+-400 
+-300 
+-440 
+-430 
+-420 
+-420 
+-410 
+-480 
+-380 
+-370 
+-360 
+-430 
+-420 
+-220 
+-390 
+-380 
+-380 
+-370 
+-360 
+-440 
+-400 
+-420 
+-410 
+-400 
+-420 
+-450 
+-490 
+-480 
+-470 
+-470 
+-490 
+-480 
+-480 
+-340 
+-490 
+-480 
+-410 
+-340 
+-360 
+-350 
+-340 
+-330 
+-480 
+-330 
+-400 
+-390 
+-380 
+-330 
+-320 
+-390 
+-380 
+-340 
+-230 
+-220 
+-210 
+-350 
+-340 
+-330 
+-440 
+-490 
+-370 
+-360 
+-410 
+-270 
+-260 
+-330 
+-320 
+-310 
+-300 
+-290 
+-450 
+-260 
+-310 
+-300 
+-400 
+-390 
+-400 
+-460 
+-450 
+-440 
+-430 
+-470 
+-390 
+-380 
+-350 
+-340 
+-460 
+-410 
+-410 
+-400 
+-390 
+-380 
+-480 
+-300 
+-290 
+-280 
+-470 
+-460 
+-470 
+-470 
+-450 
+-440 
+-430 
+-420 
+-480 
+-470 
+-390 
+-490 
+-480 
+-400 
+-270 
+-460 
+-450 
+-290 
+-310 
+-490 
+-470 
+-460 
+-420 
+-490 
+-480 
+-470 
+-460 
+-470 
+-420 
+-480 
+-470 
+-390 
+-380 
+-330 
+-490 
+-430 
+-180 
+-170 
+-390 
+-210 
+-200 
+-310 
+-370 
+-360 
+-350 
+-370 
+-490 
+-330 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-370 
+-320 
+-430 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-480 
+-350 
+-380 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-330 
+-280 
+-490 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-250 
+-360 
+-460 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-250 
+-290 
+-490 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-430 
+-380 
+-370 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-350 
+-390 
+-380 
+-190 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-420 
+-420 
+-340 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-370 
+-400 
+-390 
+-430 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-380 
+-410 
+-400 
+-400 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-260 
+-330 
+-320 
+-450 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-300 
+-290 
+-390 
+-380 
+-370 
+-470 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-410 
+-470 
+-460 
+-460 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-460 
+-470 
+-390 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-470 
+-280 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-350 
+-340 
+-440 
+-430 
+-450 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-320 
+-480 
+-460 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-200 
+-190 
+-320 
+-310 
+-300 
+-420 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-320 
+-310 
+-480 
+-440 
+-350 
+-240 
+-230 
+-220 
+-360 
+-350 
+-370 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-240 
+-230 
+-220 
+-480 
+-470 
+-460 
+-360 
+-390 
+-310 
+-300 
+-450 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-370 
+-360 
+-340 
+-440 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-400 
+-390 
+-380 
+-270 
+-260 
+-360 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-270 
+-260 
+-250 
+-350 
+-370 
+-490 
+-480 
+-470 
+-460 
+-460 
+-450 
+-280 
+-180 
+-330 
+-410 
+-370 
+-330 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-360 
+-350 
+-410 
+-320 
+-400 
+-370 
+-360 
+-370 
+-360 
+-420 
+-490 
+-480 
+-470 
+-460 
+-450 
+-250 
+-450 
+-390 
+-490 
+-280 
+-270 
+-410 
+-400 
+-360 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-440 
+-450 
+-440 
+-260 
+-250 
+-410 
+-470 
+-460 
+-220 
+-210 
+-400 
+-390 
+-450 
+-440 
+-450 
+-360 
+-450 
+-460 
+-440 
+-370 
+-320 
+-490 
+-480 
+-310 
+-300 
+-320 
+-470 
+-380 
+-290 
+-310 
+-380 
+-370 
+-270 
+-450 
+-160 
+-150 
+-140 
+-340 
+-330 
+-450 
+-360 
+-350 
+-300 
+-290 
+-280 
+-460 
+-450 
+-440 
+-350 
+-320 
+-310 
+-360 
+-250 
+-240 
+-170 
+-360 
+-350 
+-360 
+-340 
+-320 
+-270 
+-180 
+-170 
+-270 
+-260 
+-420 
+-160 
+-150 
+-470 
+-370 
+-360 
+-350 
+-340 
+-490 
+-480 
+-470 
+-400 
+-390 
+-480 
+-180 
+-170 
+-160 
+-380 
+-380 
+-370 
+-430 
+-340 
+-420 
+-310 
+-300 
+-290 
+-430 
+-270 
+-370 
+-360 
+-350 
+-340 
+-360 
+-350 
+-340 
+-330 
+-390 
+-380 
+-410 
+-260 
+-350 
+-460 
+-380 
+-320 
+-240 
+-460 
+-450 
+-430 
+-300 
+-260 
+-490 
+-260 
+-390 
+-430 
+-490 
+-420 
+-440 
+-400 
+-290 
+-280 
+-270 
+-440 
+-480 
+-310 
+-460 
+-340 
+-330 
+-330 
+-320 
+-160 
+-260 
+-130 
+-430 
+-310 
+-140 
+-350 
+-290 
+-280 
+-310 
+-240 
+-350 
+-330 
+-430 
+-200 
+-460 
+-230 
+-220 
+-340 
+-290 
+-300 
+-290 
+-330 
+-450 
+-430 
+-210 
+-200 
+-250 
+-450 
+-150 
+-210 
+-200 
+-360 
+-350 
+-440 
+-350 
+-410 
+-380 
+-420 
+-300 
+-350 
+-390 
+-380 
+-370 
+-410 
+-360 
+-280 
+-490 
+-130 
+-240 
+-230 
+-350 
+-340 
+-330 
+-490 
+-360 
+-320 
+-440 
+-430 
+-350 
+-340 
+-400 
+-370 
+-150 
+-280 
+-340 
+-440 
+-430 
+-410 
+-310 
+-340 
+-450 
+-370 
+-490 
+-380 
+-370 
+-360 
+-460 
+-450 
+-330 
+-330 
+-120 
+-110 
+-100 
+-420 
+-410 
+-470 
+-140 
+-270 
+-260 
+-250 
+-470 
+-460 
+-410 
+-420 
+-160 
+-150 
+-140 
+-130 
+-430 
+-420 
+-410 
+-430 
+-490 
+-460 
+-450 
+-440 
+-450 
+-440 
+-330 
+-330 
+-350 
+-340 
+-330 
+-480 
+-300 
+-190 
+-440 
+-430 
+-480 
+-410 
+-490 
+-390 
+-490 
+-420 
+-340 
+-330 
+-320 
+-360 
+-430 
+-470 
+-330 
+-320 
+-310 
+-310 
+-300 
+-470 
+-440 
+-230 
+-220 
+-420 
+-410 
+-340 
+-250 
+-240 
+-230 
+-270 
+-360 
+-320 
+-420 
+-320 
+-250 
+-380 
+-490 
+-210 
+-400 
+-490 
+-390 
+-320 
+-140 
+-230 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-440 
+-430 
+-240 
+-290 
+-280 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-310 
+-300 
+-350 
+-300 
+-120 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-300 
+-370 
+-320 
+-490 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-320 
+-310 
+-270 
+-440 
+-480 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-300 
+-290 
+-330 
+-320 
+-400 
+-180 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-240 
+-360 
+-480 
+-260 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-340 
+-480 
+-400 
+-340 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-340 
+-470 
+-320 
+-250 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-450 
+-260 
+-340 
+-480 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-280 
+-270 
+-260 -450 
+-360 
+-290 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-190 
+-180 
+-170 
+-410 
+-420 
+-290 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-190 
+-180 
+-170 
+-260 
+-440 
+-410 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-370 
+-360 
+-340 
+-410 
+-250 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-400 
+-360 
+-480 
+-130 
+-120 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-340 
+-330 
+-370 
+-420 
+-480 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-220 
+-210 
+-200 
+-320 
+-310 
+-330 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-310 
+-300 
+-290 
+-350 
+-130 
+-350 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-310 
+-420 
+-280 
+-270 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-210 
+-440 
+-400 
+-300 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-220 
+-400 
+-310 
+-400 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-410 
+-400 
+-390 
+-420 
+-110 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-480 
+-250 
+-390 
+-320 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-350 
+-350 
+-460 
+-170 
+-290 
+-290 
+-350 
+-470 
+-330 
+-310 
+-490 
+-280 
+-330 
+-200 
+-240 
+-400 
+-120 
+-230 
+-390 
+-470 
+-440 
+-360 
+-330 
+-330 
+
+-260 
+-120 
+-330 
+-160 
+-310 
+-290 
+-320 
+-430 
+-420 
+-420 
+-400 
+-480 
+-320 
+-430 
+-350 
+-220 
+-320 
+-280 
+-400 
+-270 
+-190 
+-400 
+-430 
+-370 
+-300 
+-250 
+-460 
+-460 
+-380 
+-190 
+-380 
+-310 
+-340 
+-310 
+-410 
+-430 
+-300 
+-340 
+-300 
+-100 
+-230 
+-350 
+-390 
+-110 
+-160 
+-250 
+-270 
+-470 
+-390 
+-310 
+-300 
+-160 
+-210 
+-340 
+-410 
+-460 
+-310 
+-440 
+-380 
+-390 
+-420 
+-440 
+-340 
+-240 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-110 
+-390 
+-470 
+-330 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-150 
+-450 
+-230 
+-240 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-180 
+-470 
+-320 
+-270 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-280 
+-470 
+-110 
+-460 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-380 
+-480 
+-410 
+-250 
+-110 
+-100 
+-300 
+-240 
+-290 
+-280 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-440 
+-430 
+-320 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-220 
+-270 
+-420 
+-290 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-250 
+-390 
+-370 
+-390 
+-100 
+-150 
+-180 
+-470 
+-100 
+-130 
+-120 
+-110 
+-100 
+-330 
+-220 
+-370 
+-480 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-420 
+-330 
+-290 
+-380 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-290 
+-350 
+-260 
+-340 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-280 
+-360 
+-390 
+-450 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-410 
+-240 
+-340 
+-460 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-310 
+-300 
+-390 
+-310 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-200 
+-300 
+-450 
+-150 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-200 
+-410 
+-480 
+-260 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-290 
+-380 
+-400 
+-320 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-350 
+-460 
+-100 
+-320 
+-490 
+-480 
+-470 
+-460 
+-300 
+-230 
+-280 
+-450 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-170 
+-340 
+-390 
+-210 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-280 
+-260 
+-280 
+-260 
+-490 
+-480 
+-470 
+-470 
+-380 
+-400 
+-260 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-280 
+-240 
+-450 
+-310 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-490 
+-300 
+-360 
+-470 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-170 
+-330 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-100 
+-300 
+-460 
+-370 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-430 
+-210 
+-220 
+-450 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-330 
+-360 
+-300 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-140 
+-340 
+-280 
+-140 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-400 
+-340 
+-310 
+-440 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-320 
+-290 
+-380 
+-450 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-320 
+-290 
+-250 
+-240 
+-320 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-400 
+-410 
+-330 
+-420 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-270 
+-330 
+-320 
+-380 
+-230 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-290 
+-400 
+-390 
+-440 
+-270 
+-190 
+-430 
+-400 
+-230 
+-460 
+-370 
+-380 
+-270 
+-240 
+-290 
+-320 
+-370 
+-420 
+-310 
+-140 
+-380 
+-420 
+-410 
+-280 
+-160 
+-290 
+-250 
+-350 
+-270 
+-420 
+-130 
+-370 
+-350 
+-380 
+-260 
+-130 
+-230 
+-270 
+-360 
+-210 
+-160 
+-160 
+-270 
+-130 
+-280 
+-410 
+-320 
+-380 
+-430 
+-300 
+-270 
+-350 
+-390 
+-250 
+-300 
+-190 
+-230 
+-220 
+-440 
+-470 
+-250 
+-280 
+-430 
+-320 
+-300 
+-300 
+-200 
+-440 
+-460 
+-440 
+-240 
+-300 
+-360 
+-470 
+-330 
+-430 
+-370 
+-460 
+-210 
+-310 
+-330 
+-180 
+-450 
+-300 
+-310 
+-390 
+-390 
+-460 
+-230 
+-430 
+-420 
+-240 
+-470 
+-380 
+-490 
+-280 
+-280 
+-220 
+-210 
+-320 
+-200 
+-450 
+-260 
+-430 
+-260 
+-250 -250 
+-210 
+-280 
+-330 
+-370 
+-250 
+-410 
+-310 
+-240 
+-400 
+-420 
+-150 
+-410 
+-360 
+-440 
+-350 
+-320 
+-280 
+-290 
+-340 
+-350 
+-250 
+-270 
+-150 
+-450 
+-440 
+-210 
+-120 
+-290 
+-340 
+-330 
+-290 
+-210 
+-150 
+-200 
+-190 
+-380 
+-300 
+-250 
+-260 
+-320 
+-260 
+-250 
+-460 
+-270 
+-460 
+-330 
+-370 
+-430 
+-280 
+-270 
+-330 
+-310 
+-120 
+-420 
+-480 
+-280 
+-390 
+-310 
+-430 
+-420 
+-280 
+-270 
+
+-240 
+-290 
+-120 
+-310 
+-410 
+-300 
+-290 
+-340 
+-390 
+-380 
+-220 
+-430 
+-190 
+-420 
+-330 
+-410 
+-240 
+-180 
+-370 
+-310 
+-270 
+-450 
+-170 
+-350 
+-460 
+-340 
+-260 
+-310 
+-220 
+-200 
+-220 
+-210 
+-310 
+-140 
+-290 
+-370 
+-130 
+-380 
+-320 
+-220 
+-420 
+-410 
+-290 
+-210 
+-260 
+-230 
+-140 
+-270 
+-270 
+-370 
+-410 
+-160 
+-250 
+-400 
+-240 
+-260 
+-490 
+-390 
+-300 
+-360 
+-480 
+-200 
+-360 
+-420 
+-430 
+-290 
+-290 
+-300 
+-350 
+-450 
+-110 
+-230 
+-270 
+-410 
+-440 
+-450 
+-270 
+-110 
+-200 
+-370 
+-460 
+-420 
+-110 
+-420 
+-210 
+-410 
+-410 
+-370 
+-320 
+-370 
+-420 
+-410 
+-320 
+-140 
+-230 
+-390 
+-190 
+-230 
+-250 
+-340 
+-370 
+-100 
+-380 
+-270 
+-210 
+-320 
+-290 
+-130 
+-180 
+-280 
+-300 
+-300 
+-250 
+-230 
+-130 
+-190 
+-320 
+-310 
+-400 
+-180 
+-320 
+-240 
+-480 
+-160 
+-310 
+-240 
+-240 
+-440 
+-370 
+-340 
+-280 
+-400 
+-390 
+-240 
+-260 
+-200 
+-360 
+-300 
+-200 
+-360 
+-260 
+-300 
+-260 
+-270 
+-130 
+-380 
+-230 
+-230 
+-220 
+-400 
+-100 
+-360 
+-350 
+-300 
+-410 
+-100 
+-340 
+-430 
+-340 
+-420 
+-240 
+-450 
+-310 
+-330 
+-320 
+-200 
+-170 
+-440 
+-360 
+-430 
+-200 
+-290 
+-450 
+-200 
+-280 
+-240 
+-260 
+-460 
+-380 
+-290 
+-280 
+-280 
+-220 
+-210 
+-400 
+-400 
+-280 
+-450 
+-330 
+-310 
+-470 
+-220 
+-400 
+-120 
+-450 
+-280 
+-120 
+-270 
+-280 
+-230 
+-180 
+-420 
+-260 
+-310 
+-250 
+-220 
+-240 
+-260 
+-310 
+-300 -220 
+-230 
+-200 
+-170 
+-320 
+-380 
+-210 
+-470 
+-410 
+-190 
+-360 
+-400 
+-440 
+-240 
+-260 
+-250 
+-290 
+-250 
+-150 
+-260 
+-250 
+-430 
+-250 
+-400 
+-470 
+-290 
+-280 
+-180 
+-210 
+-120 
+-360 
+-410 
+-270 
+-360 
+-260 
+-330 
+-430 
+-360 
+-450 
+-210 
+-250 
+-190 
+-180 
+-290 
+-390 
+-110 
+-150 
+-490 
+-340 
+-400 
+-280 
+-120 
+-310 
+-300 
+-280 
+-220 
+-230 
+-320 
+-420 
+-230 
+-410 
+-380 
+-200 
+-440 
+-380 
+-400 
+-300 
+-270 
+-300 
+-290 
+-310 
+-300 
+-110 
+-350 
+-290 
+-190 
+-280 
+-170 
+-220 
+-310 
+-370 
+-220 
+-300 
+-190 
+-460 
+-230 
+-350 
+
+-360 
+-290 
+-460 
+-160 
+-330 
+-210 
+-310 
+-430 
+-360 
+-390 
+-420 
+-220 
+-300 
+-250 
+-370 
+-260 
+-210 
+-400 
+-350 
+-410 
+-350 
+-270 
+-410 
+-240 
+-350 
+-350 
+-440 
+-230 
+-390 
+-330 
+-320 
+-290 
+-380 
+-190 
+-160 
+-400 
+-280 
+-170 
+-260 
+-140 
+-480 
+-440 
+-270 
+-390 
+-270 
+-410 
+-170 
+-370 
+-200 
+-110 
+-200 
+-190 
+-290 
+-240 
+-190 
+-230 
+-310 
+-300 
+-210 
+-330 
+-190 
+-350 
+-190 
+-180 
+-300 
+-230 
+-250 
+-100 
+-240 
+-420 
+-220 
+-220 
+-270 
+-280 
+-350 
+-100 
+-440 
+-160 
+-150 -370 
+-280 
+-270 
+-250 
+-300 
+-200 
+-390 
+-270 
+-400 
+-290 
+-390 
+-270 
+-450 
+-270 
+-310 
+-370 
+-210 
+-410 
+-150 
+-180 
+-170 
+-160 -420 
+-210 
+-440 
+-390 
+-240 
+-230 
+-340 
+-200 
+-190 
+-180 
+-260 
+-240 
+-230 
+-330 
+-200 
+-180 
+-250 
+-270 
+-260 
+-280 
+-240 
+-430 
+-340 
+-430 
+-280 
+-200 
+-360 
+-230 
+-340 
+-170 
+-370 
+-210 
+-200 
+-130 
+-420 
+-350 
+-450 
+-190 
+-460 
+-440 
+-410 
+-360 
+-110 
+-210 
+-430 
+-430 
+-390 
+-390 
+-320 
+-440 
+-200 
+-280 
+-270 
+-100 
+-450 
+-250 
+-280 
+-210 
+-210 
+-170 
+-160 
+-270 
+-290 
+-140 
+-220 
+-470 
+-460 
+-190 
+-440 
+-250 
+-240 
+-400 
+-360 
+-260 
+-400 
+-370 
+-300 
+-340 
+-300 
+-390 
+-240 
+-180 
+-270 
+-220 
+-300 
+-290 
+-290 
+-160 
+-230 
+-260 
+-290 
+-180 
+-350 
+-430 
+-260 
+-120 
+-260 
+-320 
+-360 
+-430 
+-340 
+-260 
+-410 
+-380 
+-420 
+-260 
+
+-270 
+-440 
+-180 
+-140 
+-290 
+-430 
+-160 
+-180 
+-330 
+-290 
+-270 
+-280 
+-220 
+-350 
+-280 
+-270 -330 
+-200 
+-190 
+-220 
+-260 
+-300 
+-340 
+-350 
+-180 
+-220 
+-210 
+-320 
+-160 
+-190 
+-250 
+-340 
+
+-150 
+-230 
+-320 
+-380 
+-230 
+-220 
+-180 
+-280 
+-270 
+-240 
+-200 
+-190 
+-380 
+-410 
+-410 
+-290 
+-150 
+-360 
+-350 
+-190 
+-260 
+-390 
+-110 
+-400 
+-240 
+-340 
+-400 
+-430 
+-400 
+-260 
+-270 
+-400 
+-250 
+-310 
+-300 
+-360 
+-350 
+-170 
+-250 
+-390 
+-380 
+-370 
+-420 
+-240 
+-430 
+-260 
+-260 
+-190 
+-240 
+-440 
+-260 
+-200 
+-380 
+-130 
+-450 
+-150 
+-250 
+-130 
+-390 
+-290 
+-350 
+-190 
+-250 
+-200 
+-170 
+-160 
+-330 
+-340 
+-250 
+-320 
+-310 
+-280 
+-260 
+-270 
+-420 
+-210 
+-170 
+-150 
+-220 
+-160 
+-380 
+-250 
+-180 
+-180 
+-170 
+-100 
+-140 
+-340 
+-230 
+-350 
+-360 
+
+-170 
+-270 
+-100 
+-380 
+-220 
+-310 
+-190 
+-260 
+-230 
+-210 
+-400 
+-430 
+-200 
+-450 
+-250 
+-240 
+-420 
+-430 
+-390 
+-120 
+-420 
+-320 
+-290 
+-380 
+-280 
+-390 
+-220 
+-180 
+-290 
+-280 
+-330 
+-320 -340 
+-210 
+-410 
+-490 
+-430 
+-400 
+-330 
+-410 
+-310 
+-420 
+-250 
+-380 
+-180 
+-250 
+-150 
+-140 
+-420 
+-260 
+-280 
+-200 
+-440 
+-250 
+-340 
+-380 
+-200 
+-390 
+-230 
+-150 
+-390 
+-220 
+-270 
+-330 
+-240 
+-150 
+-180 
+-160 
+-140 
+-270 
+-170 
+-140 
+-250 
+-250 
+-210 
+-170 
+-330 
+-130 
+-160 
+-400 
+-210 
+-240 
+-280 
+-400 
+-250 
+-210 
+-340 
+-280 
+-170 
+-330 
+-170 
+-370 
+-260 
+-300 
+-260 
+-170 
+-330 
+-290 
+-340 
+-420 
+-240 
+-190 
+-310 
+-320 
+-360 
+-370 
+-420 
+-140 
+-240 
+-170 
+-230 
+-230 
+-210 
+-250 
+-170 
+-240 
+-110 
+-370 
+-140 
+-310 
+-240 
+-300 
+-340 
+-240 
+-250 
+-390 
+-190 
+-390 
+-310 
+-330 
+-400 
+-170 
+
+-130 
+-420 
+-410 
+-230 
+-410 
+-350 
+-250 
+-370 
+-380 
+-290 
+-280 
+-370 
+-190 
+-120 
+-480 
+-380 
+-160 
+-180 
+-140 
+-190 
+-430 
+-220 
+-320 
+-160 
+-210 
+-150 
+-330 
+-260 
+-340 
+-240 
+-130 
+-240 
+-220 
+-380 
+-220 
+-200 
+-150 
+-260 
+-370 
+-230 
+-230 
+-390 
+-180 
+-280 
+-270 
+-410 
+-410 
+-140 
+-390 
+-350 
+-420 
+-410 
+-230 
+-160 
+-370 
+-430 
+-210 
+-200 
+-250 
+-270 
+-130 
+-230 
+-200 
+-190 
+-440 
+-280 
+-230 
+-240 
+-230 
+-290 
+-140 
+-120 
+-420 
+-230 
+-300 
+-260 
+-330 
+-350 
+-400 
+-180 
+-150 
+-290 
+-160 
+-130 
+-130 
+-240 
+-310 
+-310 
+-150 
+-100 
+-240 
+-390 
+-370 
+-220 
+-240 
+-120 
+-240 
+-160 
+-270 
+-160 
+-270 
+-390 
+-320 
+-370 
+-470 
+-250 
+-130 
+-320 
+-380 
+-180 
+-280 
+-300 
+-410 
+-380 
+-220 
+-190 
+-150 
+-260 
+-160 
+-320 
+-330 
+-320 
+-280 
+-160 
+-330 
+-410 
+-230 
+-240 
+-200 
+-180 
+-420 
+-140 
+-410 
+-200 
+-360 
+-420 
+-330 
+-130 
+-160 
+-200 
+-380 
+-220 
+-150 
+-230 
+-410 
+-270 
+-220 
+-300 
+-360 
+-220 
+-300 
+-210 
+-300 
+-380 
+-210 
+-200 
+-110 
+-230 
+-120 
+-280 
+-360 
+-340 
+-390 
+-400 
+-170 
+-220 
+-360 
+-250 
+-110 
+-320 
+-380 
+-130 
+-310 
+-220 
+-370 
+-310 
+-280 
+-340 
+-220 
+-150 
+-270 
+-400 
+-240 
+-140 
+-460 
+-120 
+-290 
+-220 
+-360 
+-210 
+-130 
+-140 
+-170 
+-370 
+-340 
+-250 
+-200 
+-250 
+-330 
+-260 
+-140 
+-320 
+-190 
+-240 
+-260 
+-110 
+-300 
+-250 
+-180 
+-230 
+-120 
+-210 
+-170 
+-370 
+-220 
+-180 
+-380 
+-400 
+-360 
+-270 
+-320 
+-230 
+-180 
+-270 
+-160 
+-400 
+-400 
+-290 
+-390 
+-360 
+-370 
+-120 
+-150 
+-110 
+-290 
+-410 
+-210 
+-210 
+-150 
+-230 
+-270 
+-100 
+-220 
+-130 
+-170 
+-230 
+-220 
+-410 
+-210 
+-190 
+-240 
+-320 
+-300 
+-260 
+-120 
+-380 
+-380 
+-120 
+-360 
+-430 
+-400 
+-130 
+-270 
+-370 
+-140 
+-410 
+-200 
+-140 
+-210 
+-200 
+-420 
+-310 
+-190 
+-210 
+-450 
+-490 
+-320 
+-360 
+-360 
+-200 
+-120 
+-120 
+-110 
+-210 
+-100 
+-170 
+-230 
+-380 
+-310 
+-150 
+-260 
+-260 
+-200 
+-190 
+-400 
+-150 
+-150 
+-270 
+-200 
+-330 
+-390 
+-400 
+-190 
+-210 
+-200 
+-210 
+-190 
+-310 
+-210 
+-330 
+-250 
+-150 
+-210 
+-260 
+-350 
+-130 
+-120 
+-110 
+-320 
+-410 
+-270 
+-260 
+-280 
+-220 
+-350 
+-110 
+-310 
+-240 
+-180 
+-360 
+-400 
+-290 
+-280 
+-180 
+-350 
+-310 
+-370 
+-220 
+-210 
+-240 
+-350 
+-130 
+-240 
+-370 
+-290 
+-100 
+-180 
+-130 
+-390 
+-380 
+-370 
+-160 
+-100 
+-110 
+-100 
+-230 
+-350 
+-330 
+-110 
+-490 
+-480 
+-240 
+-320 
+-250 
+-170 
+-190 
+-180 
+-290 
+-190 
+-250 
+-300 
+-280 
+-270 
+-390 
+-170 
+-440 
+-110 
+-120 
+-110 
+-230 
+-230 
+-190 
+-260 
+-190 
+-180 
+-110 
+-170 
+-190 
+-230 
+-190 
+-180 
+-170 
+-200 
+-250 
+-290 
+-310 
+-200 
+-360 
+-140 
+-200 
+-310 
+-160 
+-350 
+-110 
+-310 
+-100 
+-270 
+-260 
+-350 
+-400 
+-250 
+-170 
+-200 
+-220 
+-490 
+-300 
+-140 
+-200 
+-210 
+-390 
+-370 
+-200 
+-340 
+-220 
+-350 
+-180 
+-170 
+-200 
+-380 
+-120 
+-370 
+-370 
+-160 
+-140 
+-280 
+-250 
+-390 
+-320 
+-100 
+-420 
+-360 
+-380 
+-120 
+-250 
+-160 
+-100 
+-490 
+-480 
+-180 
+-350 
+-430 
+-260 
+-260 
+-190 
+-360 
+-240 
+-100 
+-100 
+-300 
+-140 
+-130 
+-230 
+-300 
+-400 
+-140 
+-150 
+-120 
+-300 
+-280 
+-180 
+-170 
+-220 
+-190 
+-380 
+-140 
+-180 
+-180 
+-320 
+-240 
+-210 
+-110 
+-160 
+-340 
+-260 
+-160 
+-390 
+-400 
+-270 
+-260 
+-340 
+-300 
+-220 
+-160 
+-350 
+-190 
+-200 
+-250 
+-360 
+-220 
+-190 
+-350 
+-220 
+-200 
+-310 
+-360 
+-310 
+-260 
+-380 
+-100 
+-330 
+-300 
+-100 
+-360 
+-230 
+-380 
+-180 
+-300 
+-470 
+-460 
+-130 
+-340 
+-340 
+-370 
+-490 
+-230 
+-190 
+-320 
+-290 
+-490 
+-230 
+-310 
+-240 
+-390 
+-170 
+-160 
+-390 
+-180 
+-240 
+-480 
+-170 
+-270 
+-350 
+-230 
+-380 
+-300 
+-190 
+-340 
+-120 
+-360 
+-180 
+-250 
+-320 
+-100 
+-190 
+-240 
+-160 
+-150 
+-170 
+-390 
+-290 
+-280 
+-220 
+-420 
+-240 
+-260 
+-180 
+-160 
+-210 
+-400 
+-360 
+-370 
+-250 
+-160 
+-410 
+-190 
+-220 
+-370 
+-140 
+-220 
+-370 
+-160 
+-130 
+-100 
+-110 
+-250 
+-110 
+-240 
+-340 
+-250 
+-290 
+-150 
+-340 
+-210 
+-280 
+-170 
+-190 
+-350 
+-200 
+-150 
+-310 
+-150 
+-180 
+-270 
+-290 
+-330 
+-490 
+-180 
+-220 
+-370 
+-150 
+-300 
+-310 
+-110 
+-210 
+-350 
+-370 
+-140 
+-170 
+-170 
+-450 
+-170 
+-350 
+-410 
+-180 
+-480 
+-240 
+-130 
+-410 
+-480 
+-480 
+-170 
+-130 
+-160 
+-250 
+-490 
+-290 
+-170 
+-290 
+-210 
+-150 
+-260 
+-130 
+-490 
+-340 
+-160 
+-180 
+-200 
+-300 
+-390 
+-290 
+-150 
+-330 
+-290 
+-360 
+-170 
+-120 
+-180 
+-190 
+-280 
+-230 
+-380 
+-370 
+-340 
+-230 
+-140 
+-390 
+-330 
+-150 
+-350 
+-350 
+-490 
+-170 
+-130 
+-390 
+-470 
+-250 
+-170 
+-150 
+-360 
+-240 
+-290 
+-300 
+-310 
+-210 
+-290 
+-360 
+-300 
+-380 
+-100 
+-280 
+-210 
+-130 
+-230 
+-210 
+-250 
+-230 
+-340 
+-230 
+-240 
+-180 
+-250 
+-330 
+-210 
+-250 
+-370 
+-100 
+-170 
+-100 
+-140 
+-440 
+-140 
+-210 
+-330 
+-350 
+-140 
+-230 
+-220 
+-150 
+-400 
+-200 
+-280 
+-340 
+-240 
+-200 
+-170 
+-220 
+-220 
+-360 
+-150 
+-280 
+-350 
+-220 
+-230 
+-160 
+-360 
+-130 
+-270 
+-330 
+-280 
+-220 
+-340 
+-160 
+-150 
+-340 
+-140 
+-380 
+-360 
+-360 
+-290 
+-300 
+-390 
+-430 
+-210 
+-120 
+-370 
+-400 
+-470 
+-220 
+-120 
+-280 
+-470 
+-470 
+-480 
+-170 
+-140 
+-160 
+-230 
+-240 
+-340 
+-330 
+-350 
+-150 
+-280 
+-120 
+-200 
+-130 
+-160 
+-150 
+-120 
+-180 
+-270 
+-160 
+-170 
+-160 
+-150 
+-240 
+-300 
+-160 
+-120 
+-190 
+-200 
+-320 
+-140 
+-190 
+-480 
+-200 
+-270 
+-110 
+-320 
+-400 
+-240 
+-240 
+-180 
+-160 
+-220 
+-270 
+-170 
+-140 
+-160 
+-220 
+-380 
+-460 
+-280 
+-280 
+-330 
+-380 
+-480 
+-490 
+-360 
+-390 
+-380 
+-200 
+-130 
+-270 
+-110 
+-140 
+-130 
+-230 
+-280 
+-350 
+-320 
+-200 
+-190 
+-180 
+-190 
+-120 
+-220 
+-270 
+-260 
+-260 
+-240 
+-340 
+-240 
+-350 
+-290 
+-330 
+-420 
+-210 
+-110 
+-190 
+-160 
+-460 
+-210 
+-290 
+-490 
+-480 
+-270 
+-460 
+-210 
+-160 
+-120 
+-110 
+-350 
+-120 
+-140 
+-100 
+-320 
+-210 
+-140 
+-200 
+-200 
+-130 
+-470 
+-280 
+-380 
+-140 
+-130 
+-340 
+-150 
+-480 
+-160 
+-190 
+-340 
+-210 
+-230 
+-220 
+-140 
+-120 
+-260 
+-490 
+-330 
+-180 
+-340 
+-340 
+-160 
+-320 
+-370 
+-190 
+-110 
+-330 
+-230 
+-250 
+-150 
+-360 
+-130 
+-320 
+-270 
+-150 
+-350 
+-260 
+-330 
+-120 
+-260 
+-220 
+-350 
+-150 
+-290 
+-380 
+-270 
+-210 
+-150 
+-270 
+-260 
+-150 
+-370 
+-330 
+-120 
+-330 
+-490 
+-260 
+-110 
+-390 
+-180 
+-230 
+-340 
+-110 
+-210 
+-350 
+-160 
+-200 
+-350 
+-210 
+-200 
+-330 
+-140 
+-150 
+-120 
+-370 
+-450 
+-130 
+-110 
+-170 
+-370 
+-410 
+-200 
+-180 
+-280 
+-390 
+-450 
+-170 
+-310 
+-470 
+-460 
+-450 
+-130 
+-310 
+-100 
+-230 
+-470 
+-130 
+-250 
+-360 
+-190 
+-110 
+-270 
+-150 
+-170 
+-230 
+-130 
+-470 
+-190 
+-130 
+-220 
+-490 
+-220 
+-130 
+-470 
+-260 
+-140 
+-150 
+-320 
+-320 
+-110 
+-290 
+-150 
+-310 
+-360 
+-380 
+-310 
+-120 
+-220 
+-180 
+-320 
+-490 
+-100 
+-140 
+-310 
+-180 
+-200 
+-120 
+-140 
+-110 
+-190 
+-100 
+-250 
+-340 
+-110 
+-230 
+-400 
+-490 
+-100 
+-160 
+-170 
+-100 
+-190 
+-150 
+-460 
+-140 
+-210 
+-480 
+-210 
+-180 
+-140 
+-270 
+-210 
+-310 
+-120 
+-250 
+-270 
+-210 
+-320 
+-170 
+-340 
+-250 
+-230 
+-240 
+-350 
+-250 
+-220 
+-200 
+-130 
+-110 
+-190 
+-330 
+-200 
+-130 
+-240 
+-460 
+-150 
+-190 
+-320 
+-280 
+-310 
+-350 
+-370 
+-300 
+-200 
+-330 
+-340 
+-470 
+-100 
+-200 
+-100 
+-440 
+-240 
+-100 
+-150 
+-320 
+-120 
+-480 
+-340 
+-170 
+-370 
+-260 
+-330 
+-140 
+-450 
+-330 
+-140 
+-180 
+-100 
+-260 
+-220 
+-480 
+-320 
+-170 
+-100 
+-170 
+-130 
+-250 
+-300 
+-260 
+-180 
+-480 
+-110 
+-230 
+-100 
+-180 
+-190 
+-340 
+-120 
+-110 
+-210 
+-330 
+-200 
+-140 
+-460 
+-160 
+-320 
+-360 
+-310 
+-380 
+-130 
+-390 
+-200 
+-300 
+-100 
+-240 
+-440 
+-190 
+-140 
+-270 
+-340 
+-440 
+-130 
+-180 
+-490 
+-180 
+-460 
+-140 
+-200 
+-350 
+-360 
+-200 
+-190 
+-480 
+-210 
+-160 
+-300 
+-110 
+-120 
+-300 
+-310 
+-320 
+-480 
+-140 
+-310 
+-340 
+-160 
+-280 
+-110 
+-120 
+-140 
+-220 
+-300 
+-160 
+-120 
+-440 
+-150 
+-240 
+-120 
+-220 
+-300 
+-220 
+-210 
+-260 
+-330 
+-330 
+-250 
+-140 
+-460 
+-280 
+-100 
+-130 
+-430 
+-190 
+-310 
+-130 
+-120 
+-380 
+-230 
+-210 
+-170 
+-230 
+-260 
+-320 
+-290 
+-160 
+-370 
+-180 
+-170 
+-330 
+-230 
+-240 
+-430 
+-100 
+-270 
+-430 
+-360 
+-430 
+-130 
+-130 
+-270 
+-370 
+-100 
+-470 
+-160 
+-190 
+-380 
+-120 
+-100 
+-290 
+-190 
+-450 
+-470 
+-470 
+-110 
+-160 
+-290 
+-320 
+-470 
+-130 
+-250 
+-210 
+-310 
+-200 
+-110 
+-250 
+-170 
+-330 
+-220 
+-110 
+-370 
+-200 
+-370 
+-190 
+-200 
+-260 
+-310 
+-180 
+-190 
+-320 
+-320 
+-330 
+-250 
+-350 
+-170 
+-450 
+-170 
+-130 
+-360 
+-190 
+-320 
+-320 
+-260 
+-460 
+-300 
+-120 
+-350 
+-230 
+-180 
+-290 
+-420 
+-450 
+-200 
+-220 
+-200 
+-290 
+-280 
+-320 
+-460 
+-290 
+-480 
+-150 
+-130 
+-160 
+-300 
+-340 
+-170 
+-340 
+-310 
+-190 
+-150 
+-210 
+-420 
+-150 
+-260 
+-300 
+-140 
+-450 
+-240 
+-130 
+-310 
+-210 
+-470 
+-330 
+-100 
+-110 
+-240 
+-170 
+-180 
+-100 
+-150 
+-120 
+-360 
+-190 
+-300 
+-410 
+-110 
+-420 
+-210 
+-280 
+-260 
+-220 
+-420 
+-310 
+-120 
+-160 
+-330 
+-170 
+-180 
+-320 
+-150 
+-230 
+-470 
+-120 
+-250 
+-180 
+-360 
+-110 
+-120 
+-120 
+-180 
+-160 
+-270 
+-110 
+-150 
+-220 
+-310 
+-290 
+-130 
+-280 
+-240 
+-130 
+-460 
+-150 
+-100 
+-240 
+-360 
+-220 
+-110 
+-240 
+-310 
+-350 
+-190 
+-250 
+-160 
+-360 
+-360 
+-120 
+-450 
+-180 
+-300 
+-370 
+-320 
+-170 
+-290 
+-100 
+-440 
+-250 
+-450 
+-280 
+-250 
+-270 
+-160 
+-140 
+-190 
+-440 
+-100 
+-300 
+-300 
+-280 
+-400 
+-340 
+-410 
+-460 
+-290 
+-280 
+-140 
+-350 
+-460 
+-310 
+-470 
+-210 
+-410 
+-190 
+-180 
+-330 
+-150 
+-410 
+-210 
+-120 
+-140 
+-200 
+-160 
+-180 
+-110 
+-290 
+-160 
+-250 
+-180 
+-290 
+-290 
+-160 
+-100 
+-170 
+-230 
+-250 
+-190 
+-310 
+-340 
+-270 
+-170 
+-120 
+-440 
+-350 
+-310 
+-170 
+-110 
+-240 
+-450 
+-110 
+-140 
+-300 
+-120 
+-160 
+-140 
+-390 
+-320 
+-460 
+-200 
+-270 
+-150 
+-220 
+-450 
+-110 
+-220 
+-140 
+-310 
+-210 
+-110 
+-110 
+-210 
+-440 
+-180 
+-440 
+-170 
+-300 
+-260 
+-310 
+-120 
+-300 
+-280 
+-200 
+-110 
+-300 
+-170 
+-430 
+-300 
+-330 
+-140 
+-280 
+-350 
+-130 
+-310 
+-230 
+-270 
+-240 
+-200 
+-340 
+-320 
+-180 
+-380 
+-110 
+-150 
+-180 
+-270 
+-230 
+-230 
+-260 
+-170 
+-280 
+-230 
+-140 
+-280 
+-100 
+-150 
+-270 
+-250 
+-150 
+-130 
+-100 
+-270 
+-200 
+-290 
+-100 
+-280 
+-370 
+-320 
+-400 
+-240 
+-160 
+-460 
+-330 
+-400 
+-440 
+-210 
+-240 
+-240 
+-400 
+-150 
+-100 
+-320 
+-190 
+-460 
+-190 
+-100 
+-130 
+-120 
+-330 
+-290 
+-260 
+-160 
+-150 
+-140 
+-100 
+-300 
+-160 
+-150 
+-240 
+-430 
+-130 
+-280 
+-180 
+-170 
+-120 
+-260 
+-130 
+-100 
+-100 
+-340 
+-150 
+-140 
+-190 
+-240 
+-440 
+-200 
+-130 
+-100 
+-440 
+-450 
+-290 
+-260 
+-350 
+-200 
+-140 
+-140 
+-200 
+-210 
+-300 
+-450 
+-160 
+-290 
+-350 
+-280 
+-100 
+-270 
+-360 
+-130 
+-300 
+-420 
+-260 
+-420 
+-340 
+-390 
+-180 
+-170 
+-340 
+-350 
+-230 
+-200 
+-260 
+-260 
+-360 
+-110 
+-110 
+-270 
+-220 
+-430 
+-140 
+-110 
+-140 
+-220 
+-230 
+-300 
+-170 
+-270 
+-250 
+-290 
+-320 
+-130 
+-190 
+-230 
+-490 
+-320 
+-170 
+-250 
+-230 
+-190 
+-390 
+-160 
+-130 
+-120 
+-110 
+-100 
+-150 
+-220 
+-390 
+-330 
+-280 
+-270 
+-260 
+-150 
+-290 
+-430 
+-430 
+-290 
+-280 
+-270 
+-190 
+-190 
+-130 
+-130 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-310 
+-450 
+-180 
+-120 
+-110 
+-100 
+-350 
+-300 
+-160 
+-280 
+-250 
+-240 
+-230 
+-450 
+-320 
+-270 
+-160 
+-240 
+-230 
+-310 
+-430 
+-290 
+-410 
+-130 
+-120 
+-110 
+-130 
+-220 
+-380 
+-100 
+-150 
+-140 
+-130 
+-120 
+-180 
+-310 
+-290 
+-260 
+-250 
+-240 
+-120 
+-110 
+-120 
+-220 
+-250 
+-240 
+-230 
+-270 
+-140 
+-450 
+-310 
+-160 
+-150 
+-140 
+-220 
+-480 
+-250 
+-230 
+-250 
+-280 
+-140 
+-270 
+-170 
+-260 
+-250 
+-240 
+-410 
+-170 
+-430 
+-490 
+-260 
+-250 
+-240 
+-330 
+-180 
+-130 
+-270 
+-120 
+-140 
+-180 
+-190 
+-170 
+-240 
+-240 
+-230 
+-310 
+-380 
+-120 
+-250 
+-180 
+-200 
+-380 
+-400 
+-260 
+-340 
+-330 
+-120 
+-110 
+-230 
+-330 
+-110 
+-250 
+-330 
+-230 
+-430 
+-220 
+-210 
+-340 
+-290 
+-440 
+-220 
+-210 
+-350 
+-300 
+-440 
+-230 
+-120 
+-420 
+-420 
+-480 
+-230 
+-110 
+-210 
+-110 
+-170 
+-100 
+-140 
+-100 
+-220 
+-190 
+-100 
+-220 
+-470 
+-100 
+-100 
+-120 
+-110 
+-280 
+-440 
+-160 
+-230 
+-440 
+-170 
+-120 
+-120 
+-220 
+-300 
+-340 
+-180 
+-160 
+-130 
+-270 
+-300 
+-150 
+-210 
+-230 
+-110 
+-190 
+-290 
+-150 
+-240 
+-260 
+-340 
+-310 
+-320 
+-250 
+-220 
+-290 
+-260 
+-420 
+-210 
+-170 
+-310 
+-280 
+-110 
+-220 
+-320 
+-280 
+-370 
+-160 
+-220 
+-210 
+-460 
+-370 
+-260 
+-110 
+-210 
+-180 
+-370 
+-150 
+-220 
+-130 
+-210 
+-440 
+-390 
+-210 
+-310 
+-420 
+-240 
+-280 
+-120 
+-400 
+-200 
+-260 
+-300 
+-230 
+-220 
+-210 
+-320 
+-170 
+-420 
+-220 
+-240 
+-230 
+-220 
+-130 
+-130 
+-290 
+-160 
+-200 
+-190 
+-160 
+-130 
+-100 
+-100 
+-210 
+-200 
+-190 
+-100 
+-160 
+-220 
+-470 
+-100 
+-240 
+-100 
+-220 
+-380 
+-210 
+-200 
+-200 
+-170 
+-110 
+-150 
+-200 
+-190 
+-200 
+-160 
+-140 
+-250 
+-110 
+-100 
+-260 
+-300 
+-280 
+-460 
+-220 
+-210 
+-200 
+-110 
+-320 
+-250 
+-150 
+-210 
+-200 
+-190 
+-100 
+-490 
+-270 
+-110 
+-210 
+-200 
+-190 
+-200 
+-450 
+-360 
+-150 
+-180 
+-210 
+-490 
+-280 
+-310 
+-190 
+-300 
+-180 
+-360 
+-320 
+-180 
+-430 
+-300 
+-360 
+-420 
+-180 
+-290 
+-330 
+-210 
+-430 
+-190 
+-100 
+-340 
+-410 
+-430 
+-180 
+-250 
+-410 
+-170 
+-370 
+-200 
+-200 
+-190 
+-410 
+-160 
+-210 
+-120 
+-270 
+-430 
+-180 
+-180 
+-120 
+-440 
+-280 
+-270 
+-170 
+-490 
+-170 
+-300 
+-200 
+-180 
+-190 
+-200 
+-270 
+-290 
+-170 
+-150 
+-270 
+-100 
+-140 
+-180 
+-290 
+-150 
+-130 
+-210 
+-170 
+-390 
+-290 
+-350 
+-150 
+-190 
+-310 
+-280 
+-350 
+-410 
+-200 
+-230 
+-180 
+-350 
+-140 
+-170 
+-250 
+-160 
+-430 
+-450 
+-170 
+-100 
+-120 
+-230 
+-240 
+-180 
+-170 
+-180 
+-120 
+-250 
+-140 
+-190 
+-180 
+-190 
+-150 
+-160 
+-360 
+-160 
+-150 
+-190 
+-330 
+-240 
+-440 
+-160 
+-150 
+-200 
+-430 
+-260 
+-140 
+-170 
+-160 
+-280 
+-160 
+-400 
+-140 
+-160 
+-150 
+-140 
+-290 
+-260 
+-200 
+-170 
+-160 
+-170 
+-170 
+-210 
+-300 
+-160 
+-150 
+-420 
+-330 
+-210 
+-310 
+-160 
+-150 
+-280 
+-410 
+-270 
+-410 
+-140 
+-110 
+-170 
+-400 
+-420 
+-160 
+-240 
+-480 
+-200 
+-130 
+-170 
+-270 
+-140 
+-120 
+-420 
+-140 
+-190 
+-290 
+-340 
+-230 
+-140 
+-110 
+-310 
+-340 
+-350 
+-140 
+-480 
+-420 
+-340 
+-150 
+-150 
+-240 
+-480 
+-230 
+-170 
+-140 
+-300 
+-160 
+-250 
+-260 
+-150 
+-160 
+-260 
+-250 
+-100 
+-130 
+-130 
+-150 
+-150 
+-190 
+-150 
+-220 
+-110 
+-420 
+-280 
+-160 
+-380 
+-110 
+-270 
+-130 
+-140 
+-260 
+-160 
+-290 
+-140 
+-130 
+-180 
+-140 
+-240 
+-400 
+-130 
+-180 
+-190 
+-420 
+-430 
+-420 
+-130 
+-190 
+-320 
+-220 
+-220 
+-130 
+-150 
+-330 
+-240 
+-130 
+-140 
+-180 
+-400 
+-390 
+-340 
+-120 
+-100 
+-410 
+-110 
+-120 
+-140 
+-100 
+-150 
+-330 
+-330 
+-130 
+-250 
+-260 
+-220 
+-410 
+-120 
+-470 
+-130 
+-240 
+-130 
+-120 
+-120 
+-320 
+-330 
+-130 
+-120 
+-410 
+-280 
+-330 
+-180 
+-120 
+-270 
+-160 
+-140 
+-120 
+-130 
+-230 
+-270 
+-390 
+-190 
+-150 
+-230 
+-150 
+-190 
+-290 
+-110 
+-290 
+-470 
+-200 
+-390 
+-130 
+-140 
+-280 
+-200 
+-300 
+-120 
+-240 
+-400 
+-260 
+-400 
+-110 
+-210 
+-470 
+-230 
+-410 
+-110 
+-370 
+-120 
+-410 
+-110 
+-110 
+-110 
+-280 
+-100 
+-410 
+-140 
+-170 
+-320 
+-260 
+-210 
+-100 
+-170 
+-300 
+-280 
+-120 
+-110 
+-130 
+-400 
+-320 
+-140 
+-120 
+-180 
+-140 
+-210 
+-160 
+-120 
+-230 
+-250 
+-230 
+-250 
+-110 
+-170 
+-140 
+-220 
+-270 
+-100 
+-460 
+-100 
+-320 
+-130 
+-100 
+-220 
+-390 
+-320 
+-400 
+-100 
+-120 
+-100 
+-380 
+-320 
+-130 
+-400 
+-150 
+-130 
+-100 
+-100 
+-260 
+-130 
+-410 
+-200 
+-110 
+-220 
+-140 
+-210 
+-390 
+-110 
+-220 
+-180 
+-230 
+-120 
+-100 
+-360 
+-270 
+-310 
+-120 
+-120 
+-100 
+-150 
+-140 
+-210 
+-170 
+-100 
+-200 
+-130 
+-120 -380 
+-180 
+-100 
+-280 
+-460 
+-190 
+-310 
+-110 
+-110 
+-380 
+-190 
+-110 
+-100 
+-210 
+-250 
+-250 
+-380 
+-160 
+-110 
+-100 
+-250 
+-400 
+-450 
+-310 
+-270 
+-110 
+-160 
+-260 
+-310 
+-130 
+-160 
+-490 
+-310 
+-150 
+-210 
+-270 
+-180 
+-280 
+-170 
+-310 
+-400 
+-290 
+-100 
+-320 
+-200 
+-390 
+-200 
+-390 
+-220 
+-400 
+-390 
+
+-200 
+-380 
+-250 
+-240 
+-370 
+-300 
+-210 
+-130 
+-120 
+-240 
+-350 
+-370 
+-300 
+-260 
+-270 
+-140 
+-300 
+-120 
+-190 
+-120 
+-300 
+-190 
+-200 
+-460 
+-400 
+-370 
+-440 
+-170 
+-200 
+-110 
+-190 
+-270 
+-220 
+-110 
+-150 
+-480 
+-240 
+-160 
+-150 
+-290 
+-260 
+-170 
+-160 
+-390 
+-190 
+-290 
+-150 
+-110 
+-210 
+-270 
+-180 
+-450 
+-190 
+-370 
+-360 
+-380 
+-130 
+-370 
+-280 
+-240 
+-240 
+-390 
+-380 
+-200 
+-260 
+-180 
+-390 
+-170 
+-130 
+-180 
+-390 
+-140 
+-310 
+-240 
+-360 
+-350 
+-190 
+-250 
+-490 
+-180 
+-170 
+-340 
+-260 
+-170 
+-100 
+-260 
+-360 
+-110 
+-280 
+-270 
+-430 
+-300 
+-290 
+-120 
+-180 
+-470 
+-490 
+-140 
+-160 
+-300 
+-180 
+-230 
+-140 
+-310 
+-290 
+-100 
+-140 
+-100 
+-290 
+-100 
+-150 
+-120 
+-360 
+-150 
+-180 
+-350 
+-230 
+-250 
+-150 
+-130 
+-250 
+-100 
+-370 
+-110 
+-180 
+-160 
+-130 
+-450 
+-200 
+-110 
+-230 
+-160 
+-480 
+-340 
+-190 
+-260 
+-170 
+-260 
+-420 
+-380 
+-390 
+-380 
+-330 
+-230 
+-190 
+-110 
+-250 
+-120 
+-210 
+-130 
+-170 
+-120 
+-100 
+-160 
+-140 
+-460 
+-280 
+-260 
+-140 
+-250 
+-490 
+-270 
+-130 
+-280 
+-360 
+-370 
+-130 
+-440 
+-380 
+-380 
+-410 
+-340 
+-280 
+-330 
+-130 
+-250 
+-280 
+-220 
+-120 
+-300 
+-170 
+-240 
+-170 
+-380 
+-170 
+-100 
+-490 
+-110 
+-220 
+-250 
+-360 
+-100 
+-230 
+-140 
+-120 
+-230 
+-240 
+-150 
+-110 
+-240 
+-490 
+-350 
+-220 
+-330 
+-160 
+-150 
+-120 
+-450 
+-480 
+-320 
+-160 
+-120 
+-470 
+-240 
+-320 
+-150 
+-170 
+-250 
+-240 
+-240 
+-190 
+-260 
+-180 
+-440 
+-160 
+-360 
+-400 
+-290 
+-350 
+-370 
+-130 
+-110 
+-480 
+-310 
+-480 
+-470 
+-290 
+-270 
+-140 
+-120 
+-110 
+-300 
+-480 
+-230 
+-160 
+-220 
+-460 
+-100 
+-100 
+-320 
+-150 
+-120 
+-350 
+-110 
+-270 
+-210 
+-210 
+-250 
+-270 
+-130 
+-310 
+-370 
+-380 
+-230 
+-230 
+-430 
+-180 
+-140 
+-460 
+-440 
+-200 
+-340 
+-150 
+-270 
+-210 
+-300 
+-110 
+-100 
+-230 
+-220 
+-110 
+-310 
+-160 
+-130 
+-150 
+-110 
+-180 
+-370 
+-120 
+-140 
+-470 
+-290 
+-100 
+-220 
+-350 
+-360 
+-390 
+-240 
+-370 
+-210 
+-450 
+-100 
+-160 
+-110 
+-440 
+-290 
+-160 
+-130 
+-340 
+-230 
+-220 
+-240 
+-200 
+-230 
+-450 
+-250 
+-300 
+-370 
+-140 
+-350 
+-220 
+-210 
+-470 
+-200 
+-140 
+-100 
+-150 
+-220 
+-140 
+-430 
+-340 
+-120 
+-100 
+-430 
+-420 
+-470 
+-120 
+-100 
+-420 
+-260 
+-280 
+-170 
+-300 
+-460 
+-450 
+-330 
+-110 
+-280 
+-260 
+-200 
+-380 
+-240 
+-260 
+-270 
+-430 
+-220 
+-360 
+-360 
+-130 
+-260 
+-200 
+-110 
+-330 
+-280 
+-440 
+-120 
+-190 
+-290 
+-220 
+-350 
+-290 
+-360 
+-150 
+-100 
+-210 
+-200 
+-170 
+-230 
+-160 
+-100 
+-130 
+-120 
+-240 
+-100 
+-420 
+-460 
+-450 
+-340 
+-130 
+-130 
+-340 
+-190 
+-370 
+-210 
+-370 
+-210 
+-420 
+-220 
+-150 
+-260 
+-120 
+-360 
+-150 
+-190 
+-410 
+-410 
+-170 
+-110 
+-360 
+-290 
+-190 
+-320 
+-320 
+-230 
+-330 
+-100 
+-180 
+-280 
+-210 
+-250 
+-280 
+-410 
+-460 
+-110 
+-200 
+-270 
+-430 
+-420 
+-350 
+-150 
+-280 
+-140 
+-340 
+-120 
+-230 
+-160 
+-240 
+-400 
+-210 
+-440 
+-430 
+-180 
+-110 
+-250 
+-250 
+-240 
+-220 
+-490 
+-120 
+-490 
+-230 
+-350 
+-400 
+-250 
+-240 
+-330 
+-170 
+-270 
+-490 
+-180 
+-140 
+-280 
+-140 
+-200 
+-390 
+-350 
+-350 
+-310 
+-310 
+-190 
+-320 
+-100 
+-270 
+-410 
+-190 
+-230 
+-190 
+-200 
+-210 
+-100 
+-110 
+-210 
+-250 
+-170 
+-100 
+-400 
+-110 
+-100 
+-340 
+-380 
+-350 
+-440 
+-430 
+-330 
+-480 
+-270 
+-360 
+-220 
+-340 
+-200 
+-160 
+-210 
+-300 
+-220 
+-180 
+-300 
+-160 
+-270 
+-410 
+-220 
+-260 
+-390 
+-130 
+-320 
+-130 
+-490 
+-150 
+-210 
+-100 
+-110 
+-420 
+-170 
+-180 
+-260 
+-230 
+-190 
+-370 
+-240 
+-230 
+-160 
+-330 
+-180 
+-340 
+-320 
+-360 
+-260 
+-140 
+-200 
+-490 
+-400 
+-140 
+-200 
+-190 
+-470 
+-220 
+-180 
+-290 
+-280 
+-290 
+-390 
+-200 
+-210 
+-200 
+-150 
+-190 
+-450 
+-310 
+-300 
+-120 
+-200 
+-200 
+-330 
+-320 
+-250 
+-190 
+-480 
+-310 
+-300 
+-170 
+-260 
+-330 
+-190 
+-180 
+-170 
+-160 
+-350 
+-270 
+-130 
+-150 
+-140 
+-130 
+-320 
+-340 
+-310 
+-160 
+-150 
+-480 
+-250 
+-400 
+-180 
+-170 
+-460 
+-380 
+-240 
+-150 
+-280 
+-340 
+-410 
+-180 
+-140 
+-100 
+-220 
+-120 
+-240 
+-170 
+-420 
+-270 
+-160 
+-480 
+-220 
+-190 
+-110 
+-390 
+-480 
+-290 
+-340 
+-210 
+-330 
+-140 
+-310 
+-260 
+-120 
+-290 
+-470 
+-240 
+-140 
+-140 
+-460 
+-250 
+-490 
+-310 
+-330 
+-180 
+-170 
+-170 
+-450 
+-230 
+-390 
+-260 
+-270 
+-380 
+-190 
+-180 
+-130 
+-180 
+-400 
+-280 
+-230 
+-210 
+-210 
+-280 
+-150 
+-190 
+-410 
+-130 
+-120 
+-100 
+-370 
+-210 
+-110 
+-100 
+-300 
+-250 
+-350 
+-130 
+-450 
+-440 
+-260 
+-150 
+-160 
+-320 
+-310 
+-330 
+-170 
+-300 
+-290 
+-330 
+-300 
+-110 
+-260 
+-160 
+-320 
+-150 
+-220 
+-230 
+-130 
+-100 
+-140 
+-380 
+-190 
+-270 
+-430 
+-470 
+-440 
+-250 
+-300 
+-360 
+-400 
+-160 
+-440 
+-430 
+-420 
+-170 
+-470 
+-170 
+-250 
+-240 
+-230 
+-370 
+-120 
+-270 
+-120 
+-110 
+-100 
+-240 
+-320 
+-290 
+-210 
+-200 
+-200 
+-130 
+-120 
+-130 
+-120 
+-250 
+-380 
+-140 
+-280 
+-270 
+-260 
+-220 
+-110 
+-260 
+-420 
+-410 
+-400 
+-390 
+-380 
+-220 
+-130 
+-240 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-170 
+-230 
+-150 
+-140 
+-130 
+-120 -370 
+-180 
+-390 
+-230 
+-220 
+-210 
+-190 
+-200 
+-200 
+-160 
+-150 
+-140 
+-130 
+-110 
+-320 
+-200 
+-260 
+-250 
+-240 
+-230 
+-360 
+-150 
+-470 
+-280 
+-270 
+-260 
+-250 
+-230 
+-460 
+-290 
+-250 
+-240 
+-230 
+-220 
+-250 
+-370 
+-160 
+-110 
+-100 
+-410 
+-350 
+-180 
+-130 
+-120 
+-110 
+-100 
+-220 
+-160 
+-480 
+
+-220 
+-240 
+-390 
+-200 
+-350 
+-250 
+-370 
+-210 
+-210 
+-360 
+-380 
+-220 
+-340 
+-210 
+-190 
+-120 
+-180 
+-320 
+-190 
+-110 
+-100 
+-210 
+-340 
+-190 
+-240 
+-230 
+-140 
+-240 
+-210 
+-240 
+-160 
+-200 
+-400 
+-200 
+-100 
+-110 
+-200 
+-190 
+-120 
+-210 -330 
+-160 
+-310 
+-100 
+-190 
+-170 
+-310 
+-180 
+-230 
+-340 
+-150 
+-230 
+-200 
+-140 
+-430 
+
+-170 
+-360 
+-360 
+-190 
+-320 
+-150 
+-170 
+-100 -390 
+-380 
+-450 
+-370 
+-170 
+-190 
+-180 
+-350 
+-380 
+
+-160 
+-150 
+-190 
+-460 
+-220 
+-220 
+-210 
+-310 
+-120 
+-180 -310 
+-300 
+-290 
+-190 
+-120 
+-200 
+-180 
+-170 
+-160 
+-150 
+-230 
+-280 
+
+-200 
+-240 
+-180 
+-160 -170 
+-330 
+-220 
+
+-280 
+-200 
+-180 
+-210 
+-140 
+-310 
+-180 
+-190 -370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-230 
+-460 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-140 
+-110 
+
+-140 
+-130 
+-120 
+-110 
+-100 
+-130 
+-350 
+-200 -190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-350 
+-110 
+-150 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-220 
+-360 
+
+-130 
+-120 
+-110 
+-100 
+-180 
+-370 
+-160 -310 
+-440 
+-300 
+
+-120 
+-150 
+-470 
+-180 -150 
+-180 
+-170 
+-140 
+-140 
+-160 
+-170 
+
+-110 
+-340 
+-140 
+-190 -300 
+-320 
+-160 
+
+-130 
+-300 
+-360 
+-150 -120 
+-170 
+-330 
+-130 
+-100 
+-180 
+-130 
+
+-290 
+-220 
+-150 
+-170 -110 
+-230 
+-270 
+-120 
+-100 
+-130 
+-350 
+
+-280 
+-190 
+-300 
+-180 
+-270 
+-260 
+-120 
+-420 
+-140 
+-250 
+-340 
+-340 
+-160 
+-240 
+-310 
+-160 
+-170 -230 
+-300 
+-450 
+-110 -220 
+-430 
+-160 
+
+-210 
+-220 
+-290 
+-130 
+-200 
+-330 
+-110 
+
+-100 
+-190 
+-160 
+-110 
+-150 
+-140 
+-180 
+-140 
+-170 
+-160 
+-150 
+-170 
+-210 
+-100 
+-120 
+-110 
+-160 
+-150 
+-210 
+-130 
+-120 
+-110 
+-150 
+-170 
+-350 
+-140 
+-130 
+-120 
+-140 
+-300 
+-450 
+-100 
+-130 
+-290 
+-100 
+-100 
+-120 
+-330 
+-260 
+-110 -110 
+-120 
+-330 
+
+-100 
+-150 
+-340 
+-100 -210 
+-150 
+
+-220 
+-150 
+-110 
+-130 
+-170 
+-150 
+-180 
+-460 
+-420 
+-340 
+-290 
+-280 
+-320 
+-330 
+-320 
+-140 
+-130 
+-140 
+-210 
+-290 
+-140 
+-320 
+-290 
+-120 
+-140 
+-140 
+-280 
+-410 
+-200 
+-320 
+-160 
+-440 
+-280 
+-100 
+-110 
+-250 
+-100 
+-160 
+-410 
+-330 
+-310 
+-100 
+-130 
+-200 
+-170 
+-440 
+-200 
+-120 
+-210 
+-140 
+-310 
+-310 
+-160 
+-320 
+-200 
+-130 
+-270 
+-450 
+-270 
+-130 
+-120 
+-270 
+-130 
+-320 
+-280 
+-310 
+-120 
+-240 
+-300 
+-300 
+-260 
+-190 
+-400 
+-120 
+-190 
+-430 
+-100 
+-280 
+-300 
+-310 
+-150 
+-110 
+-160 
+-130 
+-190 
+-400 
+-200 
+-440 
+-260 
+-310 
+-110 
+-120 
+-290 
+-260 
+-110 
+-110 
+-150 
+-150 
+-190 
+-130 
+-120 
+-300 
+-250 
+-110 
+-100 
+-430 
+-390 
+-230 
+-240 
+-290 
+-270 
+-180 
+-290 
+-300 
+-280 
+-110 
+-250 
+-430 
+-180 
+-290 
+-140 
+-100 
+-150 
+-250 
+-180 
+-390 
+-190 
+-420 
+-230 
+-270 
+-100 
+-300 
+-180 
+-100 
+-110 
+-120 
+-270 
+-100 
+-140 
+-120 
+-380 
+-290 
+-240 
+-100 
+-280 
+-220 
+-220 
+-140 
+-260 
+-280 
+-260 
+-170 
+-140 
+-420 
+-170 
+-280 
+-170 
+-280 
+-180 
+-240 
+-130 
+-110 
+-100 
+-270 
+-210 
+-420 
+-230 
+-210 
+-370 
+-380 
+-170 
+-270 
+-270 
+-270 
+-250 
+-410 
+-130 
+-260 
+-200 
+-290 
+-250 
+-110 
+-220 
+-160 
+-260 
+-410 
+-360 
+-260 
+-240 
+-230 
+-410 
+-160 
+-230 
+-120 
+-130 
+-120 
+-100 
+-160 
+-260 
+-190 
+-200 
+-130 
+-120 
+-260 
+-160 
+-250 
+-170 
+-400 
+-210 
+-370 
+-350 
+-400 
+-240 
+-400 
+-250 
+-250 
+-220 
+-150 
+-150 
+-250 
+-160 
+-220 
+-110 
+-240 
+-200 
+-390 
+-150 
+-280 
+-150 
+-100 
+-210 
+-250 
+-110 
+-190 
+-180 
+-120 
+-240 
+-390 
+-340 
+-240 
+-110 
+-140 
+-190 
+-230 
+-140 
+-380 
+-150 
+-210 
+-230 
+-360 
+-200 
+-390 
+-100 
+-240 
+-140 
+-240 
+-170 
+-230 
+-140 
+-180 
+-330 
+-380 
+-180 
+-220 
+-230 
+-370 
+-190 
+-270 
+-100 
+-130 
+-100 
+-220 
+-160 
+-200 
+-130 
+-110 
+-140 
+-230 
+-180 
+-210 
+-130 
+-360 
+-220 
+-170 
+-170 
+-350 
+-220 
+-380 
+-320 
+-230 
+-130 
+-370 
+-170 
+-210 
+-150 
+-200 
+-160 
+-350 
+-210 
+-190 
+-310 
+-120 
+-120 
+-220 
+-130 
+-260 
+-160 
+-160 
+-120 
+-100 
+-210 
+-360 
+-120 
+-200 
+-140 
+-340 
+-150 
+-190 
+-200 
+-370 
+-300 
+-220 
+-150 
+-340 
+-130 
+-180 
+-110 
+-210 
+-120 
+-110 
+-110 
+-180 
+-200 
+-150 
+-140 
+-350 
+-140 
+-190 
+-120 
+-250 
+-190 
+-330 
+-290 
+-170 
+-110 
+-200 
+-110 
+-100 
+-130 
+-170 
+-100 
+-360 
+-100 
+-210 
+-110 
+-330 
+-130 
+-140 
+-180 
+-340 
+-280 
+-180 
+-100 
+-160 
+-190 
+-320 
+-120 
+-190 
+-100 
+-160 
+-120 
+-240 
+-100 
+-130 
+-170 
+-150 
+-270 
+-170 
+-110 
+-350 
+-110 
+-200 
+-100 
+-320 
+-180 
+-330 
+-160 
+-310 
+-260 
+-150 
+-100 
+-180 
+-150 
+-140 
+-140 
+-250 
+-240 
+-160 
+-170 
+-160 
+-320 
+-130 
+-120 
+-230 
+-340 
+-120 
+-110 
+-190 
+-220 
+-210 
+-300 
+-150 
+-140 
+-230 
+-100 
+-310 
+-200 
+-170 
+-130 
+-130 
+-190 
+-150 
+-180 
+-140 
+-120 
+-310 
+-170 
+-120 
+-110 
+-290 
+-160 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-110 
+-100 
+-300 
+-180 
+-130 
+-220 
+-300 
+-110 
+-140 
+-330 
+-100 
+-150 
+-100 
+-280 
+-130 
+-120 
+-290 
+-210 
+-290 
+-140 
+-320 
+-170 
+-270 
+-120 
+-280 
+-110 
+-260 
+-130 
+-110 
+-310 
+-200 
+-280 
+-270 
+-160 
+-250 
+-100 
+-120 
+-100 
+-260 
+-240 
+-110 
+-300 
+-190 
+-270 
+-150 
+-230 
+-250 
+-100 
+-220 
+-260 
+-290 
+-140 
+-180 
+-240 
+-210 
+-230 
+-200 
+-250 
+-280 
+-130 
+-170 
+-190 
+-220 
+-180 
+-240 
+-270 
+-120 
+-160 
+-170 
+-210 
+-230 
+-260 
+-110 
+-160 
+-150 
+-200 
+-150 
+-220 
+-190 
+-250 
+-100 
+-140 
+-130 
+-180 
+-140 
+-210 
+-240 
+-120 
+-170 
+-110 
+-130 
+-200 
+-230 
+-100 
+-160 
+-190 
+-220 
+-120 
+-150 
+-180 
+-210 
+-110 
+-140 
+-170 
+-200 
+-100 
+-130 
+-160 
+-190 
+-120 
+-150 
+-180 
+-110 
+-140 
+-170 
+-100 
+-130 
+-160 
+-120 
+-150 
+-110 
+-140 
+-100 
+-130 
+-120 
+-110 
+-100 
+100 ms interval at t=100 ms was 2.92 s
+100 ms interval at t=200 ms was 2.46 s
+100 ms interval at t=300 ms was 2.45 s
+100 ms interval at t=400 ms was 2.43 s
+100 ms interval at t=500 ms was 2.41 s
+100 ms interval at t=600 ms was 2.41 s
+100 ms interval at t=700 ms was 2.42 s
+100 ms interval at t=800 ms was 2.42 s
+100 ms interval at t=900 ms was 2.4 s
+100 ms interval at t=1000 ms was 2.38 s
+
+TIME HOST 0: 24.64 seconds (ran simulation)
+************
+load_balance = 0.990
+exchange_time = 0.99 ms
+****
+TIME SUMMARY for host 0
+set up in 1.95 seconds
+created cells in 0.31 seconds
+connected cells in 2.21 seconds
+ran simulation in 24.64 seconds
+wrote results in 15.41 seconds
+TOTAL TIME   = 45.24 seconds
+ALLOTTED TIME = 14400 seconds
+************
+This run is called: testrun_33
+************

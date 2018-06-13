@@ -1,0 +1,8 @@
+6
+Pyramidal Pyramidal 0.00200 18.200000 1.000000
+Pyramidal Interneuron 0.00400 253.000000 1.000000
+Interneuron Pyramidal 0.00500 50.600000 1.000000
+Interneuron Interneuron 0.001000 21.600000 1.000000
+BG Pyramidal 0.00250 1.000000 1.000000
+BG Interneuron 0.000010 1.000000 1.000000
+

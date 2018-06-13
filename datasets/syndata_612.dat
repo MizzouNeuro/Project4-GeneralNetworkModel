@@ -1,0 +1,7 @@
+6
+Interneuron Pyramidal MyExp2Sid soma_list distance(x)>-1 distance(x)<10000 0.9 2.4 0.0   
+Pyramidal Pyramidal MyExp2Sid soma_list distance(x)>-1 distance(x)<10000 0.2 7.0 0.0   
+Pyramidal Interneuron MyExp2Sid soma_list distance(x)>-1 distance(x)<10000 0.13 3.8 -80.0   
+Interneuron Interneuron MyExp2Sid soma_list distance(x)>-1 distance(x)<10000 0.13 3.8 -80.0   
+Pyramidal BG MyExp2Sid soma_list distance(x)>-1 distance(x)<10000 2.0 6.3 0.0   
+Interneuron BG MyExp2Sid soma_list distance(x)>-1 distance(x)<10000 2.0 6.3 0.0   

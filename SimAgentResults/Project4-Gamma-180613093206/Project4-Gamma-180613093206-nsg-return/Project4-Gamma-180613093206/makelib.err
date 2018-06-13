@@ -1,0 +1,213 @@
+ls: cannot access mod_nsgportal/*.inc: No such file or directory
+Translating BG_ALL.mod into BG_ALL.c
+Notice: scop_random is not thread safe
+Warning: dt undefined. (declared within VERBATIM?)
+Translating Chn_Pyr.mod into Chn_Pyr.c
+Notice: scop_random is not thread safe
+Warning: dt undefined. (declared within VERBATIM?)
+WARNING: Dimensions may be wrong for READ ica with POINT_PROCESS
+WARNING: Dimensions may be wrong for READ ica with POINT_PROCESS
+WARNING: Dimensions may be wrong for READ ica with POINT_PROCESS
+WARNING: Dimensions may be wrong for READ ica with POINT_PROCESS
+WARNING: Dimensions may be wrong for READ ica with POINT_PROCESS
+Translating ExpGABAab.mod into ExpGABAab.c
+Notice: Assignment to the GLOBAL variable, "totalb", is not thread safe
+Notice: Assignment to the GLOBAL variable, "totala", is not thread safe
+Translating ITN_Pyr.mod into ITN_Pyr.c
+Notice: scop_random is not thread safe
+Warning: dt undefined. (declared within VERBATIM?)
+WARNING: Dimensions may be wrong for READ ica with POINT_PROCESS
+WARNING: Dimensions may be wrong for READ ica with POINT_PROCESS
+WARNING: Dimensions may be wrong for READ ica with POINT_PROCESS
+WARNING: Dimensions may be wrong for READ ica with POINT_PROCESS
+WARNING: Dimensions may be wrong for READ ica with POINT_PROCESS
+Translating MyExp2Sid.mod into MyExp2Sid.c
+Notice: Assignment to the GLOBAL variable, "total", is not thread safe
+Translating MyExp2Sidnw.mod into MyExp2Sidnw.c
+Notice: Assignment to the GLOBAL variable, "total", is not thread safe
+Translating Pyr_ITN.mod into Pyr_ITN.c
+Notice: scop_random is not thread safe
+Warning: dt undefined. (declared within VERBATIM?)
+Translating SIN.mod into SIN.c
+Thread Safe
+Translating bg2pyr.mod into bg2pyr.c
+Thread Safe
+Translating ca.mod into ca.c
+Notice: VERBATIM blocks are not thread safe
+Notice: This mechanism cannot be used with CVODE
+Notice: Assignment to the GLOBAL variable, "tadj", is not thread safe
+Translating cadyn.mod into cadyn.c
+Thread Safe
+Translating cal2.mod into cal2.c
+Notice: Assignment to the GLOBAL variable, "minf", is not thread safe
+Notice: Assignment to the GLOBAL variable, "tau", is not thread safe
+Translating capool.mod into capool.c
+WARNING: xx (a STATE) is assigned a value in a DERIVATIVE block.
+ Multistep integrators (such as Runge) may not work correctly.
+Thread Safe
+Translating ch_CavL.mod into ch_CavL.c
+Notice: VERBATIM blocks are not thread safe
+Translating ch_CavN.mod into ch_CavN.c
+Notice: VERBATIM blocks are not thread safe
+Notice: This mechanism cannot be used with CVODE
+Translating ch_HCN.mod into ch_HCN.c
+Notice: VERBATIM blocks are not thread safe
+Translating ch_HCNolm.mod into ch_HCNolm.c
+Notice: Assignment to the GLOBAL variable, "rexp", is not thread safe
+Notice: Assignment to the GLOBAL variable, "rinf", is not thread safe
+Notice: Assignment to the GLOBAL variable, "tau_r", is not thread safe
+Translating ch_HCNp.mod into ch_HCNp.c
+Notice: Assignment to the GLOBAL variable, "linf", is not thread safe
+Notice: Assignment to the GLOBAL variable, "taul", is not thread safe
+Translating ch_KCaS.mod into ch_KCaS.c
+Notice: VERBATIM blocks are not thread safe
+Notice: This mechanism cannot be used with CVODE
+Translating ch_Kdrfast.mod into ch_Kdrfast.c
+Notice: VERBATIM blocks are not thread safe
+Notice: This mechanism cannot be used with CVODE
+Translating ch_Kdrfastngf.mod into ch_Kdrfastngf.c
+Notice: VERBATIM blocks are not thread safe
+Notice: This mechanism cannot be used with CVODE
+Translating ch_Kdrp.mod into ch_Kdrp.c
+Notice: Assignment to the GLOBAL variable, "ninf", is not thread safe
+Notice: Assignment to the GLOBAL variable, "taun", is not thread safe
+Translating ch_Kdrslow.mod into ch_Kdrslow.c
+Notice: VERBATIM blocks are not thread safe
+Notice: This mechanism cannot be used with CVODE
+Translating ch_KvA.mod into ch_KvA.c
+Notice: VERBATIM blocks are not thread safe
+Translating ch_KvAdistp.mod into ch_KvAdistp.c
+Notice: Assignment to the GLOBAL variable, "linf", is not thread safe
+Notice: Assignment to the GLOBAL variable, "ninf", is not thread safe
+Notice: Assignment to the GLOBAL variable, "taun", is not thread safe
+Notice: Assignment to the GLOBAL variable, "taul", is not thread safe
+Translating ch_KvAngf.mod into ch_KvAngf.c
+Notice: VERBATIM blocks are not thread safe
+Translating ch_KvAolm.mod into ch_KvAolm.c
+Notice: Assignment to the GLOBAL variable, "aexp", is not thread safe
+Notice: Assignment to the GLOBAL variable, "ainf", is not thread safe
+Notice: Assignment to the GLOBAL variable, "bexp", is not thread safe
+Notice: Assignment to the GLOBAL variable, "binf", is not thread safe
+Notice: Assignment to the GLOBAL variable, "tau_b", is not thread safe
+Translating ch_KvAproxp.mod into ch_KvAproxp.c
+Notice: Assignment to the GLOBAL variable, "linf", is not thread safe
+Notice: Assignment to the GLOBAL variable, "ninf", is not thread safe
+Notice: Assignment to the GLOBAL variable, "taun", is not thread safe
+Notice: Assignment to the GLOBAL variable, "taul", is not thread safe
+Translating ch_KvCaB.mod into ch_KvCaB.c
+Notice: VERBATIM blocks are not thread safe
+Translating ch_KvGroup.mod into ch_KvGroup.c
+Notice: VERBATIM blocks are not thread safe
+Notice: This mechanism cannot be used with CVODE
+Translating ch_KvM.mod into ch_KvM.c
+Thread Safe
+Translating ch_Nav.mod into ch_Nav.c
+Notice: VERBATIM blocks are not thread safe
+Notice: This mechanism cannot be used with CVODE
+Translating ch_Navaxonp.mod into ch_Navaxonp.c
+Notice: Assignment to the GLOBAL variable, "htau", is not thread safe
+Notice: Assignment to the GLOBAL variable, "hinf", is not thread safe
+Notice: Assignment to the GLOBAL variable, "mtau", is not thread safe
+Notice: Assignment to the GLOBAL variable, "minf", is not thread safe
+Translating ch_Navbis.mod into ch_Navbis.c
+Notice: VERBATIM blocks are not thread safe
+Notice: This mechanism cannot be used with CVODE
+Translating ch_Navcck.mod into ch_Navcck.c
+Notice: VERBATIM blocks are not thread safe
+Notice: This mechanism cannot be used with CVODE
+Translating ch_Navngf.mod into ch_Navngf.c
+Notice: This mechanism cannot be used with CVODE
+Thread Safe
+Translating ch_Navp.mod into ch_Navp.c
+Notice: Assignment to the GLOBAL variable, "htau", is not thread safe
+Notice: Assignment to the GLOBAL variable, "hinf", is not thread safe
+Notice: Assignment to the GLOBAL variable, "mtau", is not thread safe
+Notice: Assignment to the GLOBAL variable, "minf", is not thread safe
+Notice: Assignment to the GLOBAL variable, "sinf", is not thread safe
+Notice: Assignment to the GLOBAL variable, "taus", is not thread safe
+Translating ch_leak.mod into ch_leak.c
+Notice: VERBATIM blocks are not thread safe
+Translating currentclamp.mod into currentclamp.c
+Thread Safe
+Translating fastconn.mod into fastconn.c
+Notice: VERBATIM blocks are not thread safe
+Translating function_TMonitor.mod into function_TMonitor.c
+Thread Safe
+Translating h.mod into h.c
+Thread Safe
+Translating iconc_Ca.mod into iconc_Ca.c
+Notice: VERBATIM blocks are not thread safe
+Translating im.mod into im.c
+Thread Safe
+Translating kaprox.mod into kaprox.c
+Thread Safe
+Translating kca.mod into kca.c
+Notice: VERBATIM blocks are not thread safe
+Notice: This mechanism cannot be used with CVODE
+Notice: Assignment to the GLOBAL variable, "tadj", is not thread safe
+Translating kdrca1.mod into kdrca1.c
+Thread Safe
+Translating kdrinter.mod into kdrinter.c
+Thread Safe
+Translating km.mod into km.c
+Notice: VERBATIM blocks are not thread safe
+Notice: This mechanism cannot be used with CVODE
+Notice: Assignment to the GLOBAL variable, "tadj", is not thread safe
+Translating kv.mod into kv.c
+Notice: VERBATIM blocks are not thread safe
+Notice: This mechanism cannot be used with CVODE
+Notice: Assignment to the GLOBAL variable, "tadj", is not thread safe
+Translating leak.mod into leak.c
+Thread Safe
+Translating leakinter.mod into leakinter.c
+Thread Safe
+Translating mynetstim.mod into mynetstim.c
+Thread Safe
+Translating na12.mod into na12.c
+Notice: VERBATIM blocks are not thread safe
+Notice: This mechanism cannot be used with CVODE
+Notice: Assignment to the GLOBAL variable, "tadj", is not thread safe
+Translating na16.mod into na16.c
+Notice: VERBATIM blocks are not thread safe
+Notice: This mechanism cannot be used with CVODE
+Notice: Assignment to the GLOBAL variable, "tadj", is not thread safe
+Translating na3.mod into na3.c
+Notice: Assignment to the GLOBAL variable, "htau", is not thread safe
+Notice: Assignment to the GLOBAL variable, "hinf", is not thread safe
+Notice: Assignment to the GLOBAL variable, "mtau", is not thread safe
+Notice: Assignment to the GLOBAL variable, "minf", is not thread safe
+Notice: Assignment to the GLOBAL variable, "sinf", is not thread safe
+Notice: Assignment to the GLOBAL variable, "taus", is not thread safe
+Translating na3DA.mod into na3DA.c
+Notice: Assignment to the GLOBAL variable, "htau", is not thread safe
+Notice: Assignment to the GLOBAL variable, "hinf", is not thread safe
+Notice: Assignment to the GLOBAL variable, "mtau", is not thread safe
+Notice: Assignment to the GLOBAL variable, "minf", is not thread safe
+Notice: Assignment to the GLOBAL variable, "sinf", is not thread safe
+Notice: Assignment to the GLOBAL variable, "taus", is not thread safe
+Translating nainter.mod into nainter.c
+Thread Safe
+Translating nap.mod into nap.c
+Thread Safe
+Translating nat.mod into nat.c
+Thread Safe
+Translating positionfcns.mod into positionfcns.c
+Translating repeatconn.mod into repeatconn.c
+Notice: VERBATIM blocks are not thread safe
+Translating sahp.mod into sahp.c
+Thread Safe
+Translating sgate.mod into sgate.c
+Thread Safe
+sgate.c: In function 'erand_SGate':
+sgate.c:62:21: warning: passing argument 1 of 'nrn_random_pick' from incompatible pointer type
+ #define _p_donotuse _ppvar[2]._pval
+                     ^
+sgate.c:281:31: note: in expansion of macro '_p_donotuse'
+     _lerand = nrn_random_pick(_p_donotuse);
+                               ^
+sgate.c:268:8: note: expected 'void **' but argument is of type 'double *'
+ double nrn_random_pick(void* r);
+        ^
+Translating xtra.mod into xtra.c
+Notice: Use of POINTER is not thread safe.
+Notice: Assignment to the GLOBAL variable, "lfp", is not thread safe

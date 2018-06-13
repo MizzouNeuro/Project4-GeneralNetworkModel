@@ -1,0 +1,43 @@
+{load_file("nrngui.hoc")}
+{load_file("graphic_library_la_all_in_one.hoc")}
+{load_file("class_pyrtypec.hoc")}
+
+objref numCellTypes,cellType // This is to stop the error using pyrtypec
+// main.hoc
+tstop = 300
+objref CellA // declare neuron object
+CellA = new pyrtypec() // build neuron from template
+
+// for stimulating it using current injection
+/*
+objref ccl
+CellA.axon ccl = new IClamp(.5)
+ccl.del = 100
+ccl.dur = 400
+ccl.amp = -.06
+*/
+
+objref Chn2PyrSyn, Chn2PyrNC, stim
+CellA.axon Chn2PyrSyn = new MyExp2Sid(0.34) //Synapse at distal AIS (0.34)
+Chn2PyrSyn.tau1 = 1.0
+Chn2PyrSyn.tau2 = 5.0
+Chn2PyrSyn.e = 0.0
+
+
+// Make netstim to provide one spike
+stim = new NetStim()
+stim.interval = 4 //(ms)
+stim.number = 10
+stim.start = 100 //(ms)
+stim.noise = 0
+
+
+
+Chn2PyrNC = new NetCon(stim, Chn2PyrSyn)
+Chn2PyrNC.weight = .0003 //With MyExp2Sid, NC weight of 1 is a peak conductance of 1.
+
+
+
+
+allInOneBoxCurrentsSoma("CellA", "soma")
+allInOneBoxSpiking("CellA", CellA, stim)
